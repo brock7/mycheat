@@ -2581,7 +2581,7 @@ msgid "Wow,I never imagined people would use MyCheat up to today"
 msgstr ""
 
 #: mainunit.strhappybirthday
-msgid "Let's sing Happy Birthday for Dark Byte today!"
+msgid "Let's sing Happy Birthday for Brock today!"
 msgstr ""
 
 #: mainunit.strhideall
@@ -4094,7 +4094,7 @@ msgid "MyCheat 6.4"
 msgstr ""
 
 #: tabout.label1.caption
-msgid "Made by: Dark Byte"
+msgid "Made by: Brock"
 msgstr ""
 
 #: tabout.label10.caption

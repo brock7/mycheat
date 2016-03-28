@@ -1015,7 +1015,7 @@ resourcestring
   strUnhideAll = 'will bring all windows back';
   rsBringsCheatEngineToFront = 'brings MyCheat to front';
 
-  strhappybirthday = 'Let''s sing Happy Birthday for Dark Byte today!';
+  strhappybirthday = 'Let''s sing Happy Birthday for Brock today!';
   strXMess = 'Merry christmas and happy new year';
   strNewyear = 'And what are your good intentions for this year? ;-)';
   strfuture = 'Wow,I never imagined people would use MyCheat up to today';
@@ -6796,7 +6796,7 @@ begin
 
   //  animatewindow(mainform.Handle,10000,AW_CENTER);
   //mainform.repaint;
-  fronttext := 'brings Cheat engine to front';
+  fronttext := 'brings MyCheat to front';
 
   if dontrunshow then
     exit;

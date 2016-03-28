@@ -2134,7 +2134,7 @@ begin
 
       if not fileexists(driverloc) then
       begin
-        messagebox(0,'You are missing the driver. Try reinstalling cheat engine, and try to disable your anti-virus before doing so.','Driver error',MB_ICONERROR or mb_ok);
+        messagebox(0,'You are missing the driver. Try reinstalling MyCheat, and try to disable your anti-virus before doing so.','Driver error',MB_ICONERROR or mb_ok);
         hDevice:=INVALID_HANDLE_VALUE;
         exit;
       end;

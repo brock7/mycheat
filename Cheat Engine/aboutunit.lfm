@@ -33,7 +33,7 @@ object About: TAbout
       Height = 13
       Top = 0
       Width = 94
-      Caption = 'Made by: Dark Byte'
+      Caption = 'Made by: Brock'
       ParentColor = False
     end
     object Label2: TLabel
