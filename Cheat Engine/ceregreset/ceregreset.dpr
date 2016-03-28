@@ -50,7 +50,7 @@ begin
     reg.RootKey:=HKEY_CURRENT_USER;
 
     //check that a custom type exists
-    if reg.OpenKey('\Software\Cheat Engine', false) then
+    if reg.OpenKey('\Software\MyCheat', false) then
     begin
       //get rid of individual things
       names:=tstringlist.create;
@@ -77,7 +77,7 @@ begin
             end;
 
             reg.closekey;
-            reg.OpenKey('\Software\Cheat Engine', false);
+            reg.OpenKey('\Software\MyCheat', false);
           end;
 
           if needsToSaveStuff=false then
@@ -96,10 +96,10 @@ begin
     end;
 
     if needsToSaveStuff=false then
-      reg.DeleteKey('\Software\Cheat Engine'); //get rid of the whole key
+      reg.DeleteKey('\Software\MyCheat'); //get rid of the whole key
 
     if not silent then
-      messagebox(0,'Successfully reset the settings of Cheat Engine','Registry Reset',0);
+      messagebox(0,'Successfully reset the settings of MyCheat','Registry Reset',0);
 
     reg.free;
   except

@@ -63,7 +63,7 @@ resourcestring
           ''+#13#10+
           'When it is done click ''hit me''. You''ll lose some of your health. (the amount you lost shows for a few seconds and '+
           'then disappears, but you don''t need that)'+#13#10+
-          'Now go to Cheat Engine, and choose ''Decreased Value'' and click ''Next Scan'''+#13#10+
+          'Now go to MyCheat, and choose ''Decreased Value'' and click ''Next Scan'''+#13#10+
           'When that scan is done, click hit me again, and repeat the above till you only find a few. '+#13#10+
           ''+#13#10+
           'We know the value is between 0 and 500, so pick the one that is most likely the address we need, and add it to '+

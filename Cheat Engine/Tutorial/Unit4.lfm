@@ -20,7 +20,7 @@ object Form4: TForm4
     Height = 13
     Top = 8
     Width = 271
-    Caption = 'Well done, you''ve completed the tutorial of Cheat Engine.'
+    Caption = 'Well done, you''ve completed the tutorial of MyCheat.'
     ParentColor = False
   end
   object Label2: TLabel

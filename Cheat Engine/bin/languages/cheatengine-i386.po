@@ -1,8 +1,5 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by default"
 msgstr "Content-Type: text/plain; charset=UTF-8"
-
-msgid "Does not affect the standalone trainer because that one is protected by default"
-msgstr ""
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
 msgid "Are you sure you want to launch DBVM? You seem to be running in 32-bit, so don't really need it that badly (Except for ultimap and cloaked operations)"
@@ -5118,7 +5115,7 @@ msgid "Handle beakpoints not caused by CE"
 msgstr ""
 
 #: tformsettings.cbhideallwindows.caption
-msgid "Hide some/all windows instead of trying to bring cheat engine to front"
+msgid "Hide some/all windows instead of trying to bring MyCheat to front"
 msgstr ""
 
 #: tformsettings.cbincremental.caption
@@ -6674,7 +6671,7 @@ msgid "List of processes that will not hide"
 msgstr ""
 
 #: tfrmexcludehide.label4.caption
-msgid "Select the way cheat Engine hides/shows windows. (Will not work if a window that gets hidden or shown is not responding. E.g:Paused)"
+msgid "Select the way MyCheat hides/shows windows. (Will not work if a window that gets hidden or shown is not responding. E.g:Paused)"
 msgstr ""
 
 #: tfrmexcludehide.radiobutton1.caption
@@ -10636,7 +10633,7 @@ msgstr ""
 
 #: tmainform.caption
 msgctxt "TMAINFORM.CAPTION"
-msgid "Cheat Engine 6.4"
+msgid "MyCheat 6.4"
 msgstr ""
 
 #: tmainform.cbcasesensitive.caption
@@ -10838,7 +10835,7 @@ msgid "&Help"
 msgstr ""
 
 #: tmainform.helpindex1.caption
-msgid "Cheat Engine Help"
+msgid "MyCheat Help"
 msgstr ""
 
 #: tmainform.hint
@@ -10891,7 +10888,7 @@ msgid "Label61"
 msgstr ""
 
 #: tmainform.label7.caption
-msgid "Ctrl+Alt+Page Down brings Cheat Engine to front"
+msgid "Ctrl+Alt+Page Down brings MyCheat to front"
 msgstr ""
 
 #: tmainform.label7.hint
@@ -11208,7 +11205,7 @@ msgid "-"
 msgstr ""
 
 #: tmainform.mitutorial.caption
-msgid "Cheat Engine Tutorial"
+msgid "MyCheat Tutorial"
 msgstr ""
 
 #: tmainform.miundovalue.caption
@@ -11302,7 +11299,7 @@ msgid "No Process Selected"
 msgstr ""
 
 #: tmainform.progressbar1.hint
-msgid "This shows how far Cheat Engine is with searching"
+msgid "This shows how far MyCheat is with searching"
 msgstr ""
 
 #: tmainform.rbbit.caption

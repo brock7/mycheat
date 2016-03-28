@@ -268,7 +268,7 @@ object formSettings: TformSettings
           Width = 429
           Height = 21
           Caption = 
-            'Hide some/all windows instead of trying to bring cheat engine to' +
+            'Hide some/all windows instead of trying to bring MyCheat to' +
             ' front'
           Checked = True
           State = cbChecked
@@ -1229,7 +1229,7 @@ object formSettings: TformSettings
   end
   object OpenDialog1: TOpenDialog
     DefaultExt = 'DLL'
-    Filter = 'Cheat Engine Plugins (*.dll)|*.dll'
+    Filter = 'MyCheat Plugins (*.dll)|*.dll'
     Left = 52
     Top = 264
   end

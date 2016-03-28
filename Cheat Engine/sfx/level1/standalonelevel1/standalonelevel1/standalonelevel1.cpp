@@ -155,7 +155,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 
 				  if (!correctversion)
 				  {
-					  MessageBoxA(0,"Please update your Cheat Engine version to Cheat Engine 6.3 or later\n", "Launch Error",MB_OK | MB_ICONERROR);
+					  MessageBoxA(0,"Please update your MyCheat version to MyCheat 6.3 or later\n", "Launch Error",MB_OK | MB_ICONERROR);
 				  }
 				  else
 				  {
@@ -173,7 +173,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 
 					  if (CreateProcessA(CEPath, Commandline, NULL, NULL, FALSE, NULL, NULL, tempdir, &StartupInfo, &ProcessInformation))
 					  {						  
-						  //Because Cheat Engine deletes files with name CET_TRAINER.CETRAINER it can be used to determine when ce is finished with it			  
+						  //Because MyCheat deletes files with name CET_TRAINER.CETRAINER it can be used to determine when ce is finished with it			  
 						  //Wait 30 seconds max for ce to delete the file
 						  i=30;
 						  while (i && (stat(Archive, &status) == 0))
@@ -196,7 +196,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 				  if ((int)ShellExecuteA(0, "open", Archive, Parameter, NULL, SW_SHOW)>32)
 				  {
 		  
-					  //because cheat engine deletes files with name cet_trainer.cetrainer it can be used to determine when ce is finished with it			  
+					  //because MyCheat deletes files with name cet_trainer.cetrainer it can be used to determine when ce is finished with it			  
 					  //wait 30 seconds max for ce to delete the file (if ce takes long to even start opening the file, get a faster system)
 					  i=30;
 					  while (i && (stat(Archive, &status) == 0))
@@ -211,7 +211,7 @@ int APIENTRY WinMain(HINSTANCE hInstance,
 				  {
 					  
 					  char errorstring[255];
-					  sprintf_s(errorstring, 254,"Your system must have Cheat Engine installed to be able to use this trainer\nwww.cheatengine.org\n(%x)", STATUS);
+					  sprintf_s(errorstring, 254,"Your system must have MyCheat installed to be able to use this trainer\nwww.cheatengine.org\n(%x)", STATUS);
 					  MessageBoxA(0,errorstring,"Launch Error",MB_OK | MB_ICONERROR);
 				  }
 			  }

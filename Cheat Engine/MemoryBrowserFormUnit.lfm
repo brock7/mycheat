@@ -1264,7 +1264,7 @@ object MemoryBrowser: TMemoryBrowser
   end
   object OpenMemory: TOpenDialog
     DefaultExt = '.CEM'
-    Filter = 'Cheat Engine Memory file|*.CEM|All Files (*.*)|*.*'
+    Filter = 'MyCheat Memory file|*.CEM|All Files (*.*)|*.*'
     FilterIndex = 0
     left = 152
     top = 80

@@ -42,11 +42,11 @@ resourcestring
   rsFirstStepTooHardBetterGiveUpNow =
     'First step too hard? Better give up now!';
 
-  rsTutorial1='Welcome to the Cheat Engine Tutorial. (v3.2)'+#13#10+
+  rsTutorial1='Welcome to the MyCheat Tutorial. (v3.2)'+#13#10+
               ''+#13#10+
-              'This tutorial will try to explain the basics of cheating on games, and getting you more familiar with Cheat Engine.'+#13#10+
+              'This tutorial will try to explain the basics of cheating on games, and getting you more familiar with MyCheat.'+#13#10+
               ''+#13#10+
-              'First open Cheat Engine if it hasn''t been opened yet.'+#13#10+
+              'First open MyCheat if it hasn''t been opened yet.'+#13#10+
               'Then click on the ''open process'' icon. (top left icon, with the computer on it)'+#13#10+
               ''+#13#10+
               'When the process window is open find this tutorial. The process name is probably ''tutorial.exe'' unless you'+
@@ -81,7 +81,7 @@ begin
 //GOD!!! THOSE STUPID RETARDED SHITHEADS NEVER MAKE IT PAST THIS STEP!!!!!!
 //Thats why it's out....
 
-{  //search for cheat engine
+{  //search for MyCheat
   SNAPHandle:=CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS,0);
   If SnapHandle>0 then
   begin
@@ -96,7 +96,7 @@ begin
       while (i>0) and (FullProcessname[i-1]<>'\') do dec(i);
       processname:=copy(FullProcessName,i,length(FullProcessname)-i+1);
 
-      if (uppercase(processname)='CHEAT ENGINE SERVER.EXE') or (uppercase(processname)='CESERVER.EXE') or (uppercase(processname)='CHEATENGINE.EXE') or (uppercase(processname)='CHEAT ENGINE.EXE') then
+      if (uppercase(processname)='MyCheat SERVER.EXE') or (uppercase(processname)='CESERVER.EXE') or (uppercase(processname)='CHEATENGINE.EXE') or (uppercase(processname)='MyCheat.EXE') then
       begin
         button1.Enabled:=true;
         timer1.enableD:=false;
