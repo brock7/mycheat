@@ -190,11 +190,11 @@ resourcestring
   strCantLoadFilepatcher='The file patcher can''t be loaded by MyCheat!';
   strNotACETrainer='This is not a trainer made by MyCheat (If it is a trainer at all!)';
   strUnknownTrainerVersion='This version of MyCheat doesn''t know how to read this trainer! Trainerversion=';
-  strCantLoadProtectedfile='This trainer is protected from being opened by CE. Now go away!!!';
+  strCantLoadProtectedfile='This trainer is protected from being opened by MC. Now go away!!!';
   rsThisTableContainsALuaScriptDoYouWantToRunIt = 'This table contains a lua script. Do you want to run it?';
   rsErrorExecutingThisTableSLuaScript = 'Error executing this table''s lua script: %s';
   rsTheRegionAtWasPartiallyOrCompletlyUnreadable = 'The region at %s was partially or completely unreadable';
-  rsTheVersionOfIsIncompatibleWithThisCEVersion = 'The version of %s is incompatible with this CE version';
+  rsTheVersionOfIsIncompatibleWithThisCEVersion = 'The version of %s is incompatible with this MC version';
   rsDoesnTContainNeededInformationWhereToPlaceTheMemor = '%s doesn''t contain needed information where to place the memory';
   rsThisIsNotAValidCheatTable = 'This is not a valid cheat table';
   rsThisIsNotAValidXmlFile = 'This is not a valid xml file';

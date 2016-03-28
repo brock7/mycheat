@@ -6,7 +6,7 @@
     <General>
       <MainUnit Value="0"/>
       <AutoCreateForms Value="False"/>
-      <Title Value="Cheat Engine 6.4"/>
+      <Title Value="MyCheat 6.4"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
       <XPManifest>
@@ -24,10 +24,10 @@
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="6"/>
       <MinorVersionNr Value="4"/>
-      <BuildNr Value="4086"/>
+      <BuildNr Value="4087"/>
       <Language Value=""/>
       <CharSet Value=""/>
-      <StringTable CompanyName="Cheat Engine" FileDescription="Cheat Engine" ProductVersion="6.4"/>
+      <StringTable CompanyName="MyCheat" FileDescription="MyCheat" ProductVersion="6.4"/>
     </VersionInfo>
     <BuildModes Count="5" Active="debug-nomt">
       <Item1 Name="Release 32-Bit" Default="True"/>

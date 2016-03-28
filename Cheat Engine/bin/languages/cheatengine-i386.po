@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or not"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -3257,7 +3257,7 @@ msgid "The region at %s was partially or completely unreadable"
 msgstr ""
 
 #: opensave.rstheversionofisincompatiblewiththisceversion
-msgid "The version of %s is incompatible with this CE version"
+msgid "The version of %s is incompatible with this MC version"
 msgstr ""
 
 #: opensave.rsthisisnotavalidcheattable
@@ -3286,7 +3286,7 @@ msgid "The file patcher can't be loaded by MyCheat!"
 msgstr ""
 
 #: opensave.strcantloadprotectedfile
-msgid "This trainer is protected from being opened by CE. Now go away!!!"
+msgid "This trainer is protected from being opened by MC. Now go away!!!"
 msgstr ""
 
 #: opensave.strcorrupticon
@@ -10633,7 +10633,7 @@ msgstr ""
 
 #: tmainform.caption
 msgctxt "TMAINFORM.CAPTION"
-msgid "Cheat Engine 6.4"
+msgid "MyCheat 6.4"
 msgstr ""
 
 #: tmainform.cbcasesensitive.caption
@@ -10835,7 +10835,7 @@ msgid "&Help"
 msgstr ""
 
 #: tmainform.helpindex1.caption
-msgid "Cheat Engine Help"
+msgid "MyCheat Help"
 msgstr ""
 
 #: tmainform.hint
@@ -10888,7 +10888,7 @@ msgid "Label61"
 msgstr ""
 
 #: tmainform.label7.caption
-msgid "Ctrl+Alt+Page Down brings Cheat Engine to front"
+msgid "Ctrl+Alt+Page Down brings MyCheat to front"
 msgstr ""
 
 #: tmainform.label7.hint
@@ -11205,7 +11205,7 @@ msgid "-"
 msgstr ""
 
 #: tmainform.mitutorial.caption
-msgid "Cheat Engine Tutorial"
+msgid "MyCheat Tutorial"
 msgstr ""
 
 #: tmainform.miundovalue.caption
@@ -11299,7 +11299,7 @@ msgid "No Process Selected"
 msgstr ""
 
 #: tmainform.progressbar1.hint
-msgid "This shows how far Cheat Engine is with searching"
+msgid "This shows how far MyCheat is with searching"
 msgstr ""
 
 #: tmainform.rbbit.caption
