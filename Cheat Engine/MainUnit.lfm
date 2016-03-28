@@ -9,7 +9,7 @@ object MainForm: TMainForm
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
   AllowDropFiles = True
-  Caption = 'MyCheat 6.4'
+  Caption = '......'
   ClientHeight = 534
   ClientWidth = 597
   Font.Height = -11
@@ -61,11 +61,11 @@ object MainForm: TMainForm
     ClientWidth = 597
     TabOrder = 1
     object Label7: TLabel
-      Left = 192
+      Left = 203
       Height = 13
       Hint = 'Click here to change the hotkey'
       Top = 3
-      Width = 229
+      Width = 207
       Alignment = taCenter
       Anchors = [akBottom]
       Caption = 'Ctrl+Alt+Page Down brings MyCheat to front'

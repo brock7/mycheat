@@ -130,7 +130,7 @@ begin
     reg:=Tregistry.Create;
     try
       Reg.RootKey := HKEY_CURRENT_USER;
-      if Reg.OpenKey('\Software\Cheat Engine',false) then
+      if Reg.OpenKey('\Software\MyCheat',false) then
       begin
 
         with formsettings do
@@ -255,8 +255,8 @@ begin
             slowdowndelta:=1;
 
 
-          if reg.ValueExists('Show Cheat Engine Hotkey') then
-            reg.ReadBinaryData('Show Cheat Engine Hotkey',temphotkeylist[0][0],10) else  mainform.label7.Caption:='';
+          if reg.ValueExists('Show MyCheat Hotkey') then
+            reg.ReadBinaryData('Show MyCheat Hotkey',temphotkeylist[0][0],10) else  mainform.label7.Caption:='';
 
           if reg.ValueExists('Pause process Hotkey') then
             reg.ReadBinaryData('Pause process Hotkey',temphotkeylist[1][0],10);
@@ -643,7 +643,7 @@ begin
 
       {$ifndef net}
       formsettings.lvtools.Clear;
-      if Reg.OpenKey('\Software\Cheat Engine\Tools',false) then
+      if Reg.OpenKey('\Software\MyCheat\Tools',false) then
       begin
         names:=TStringList.create;
         try
@@ -680,7 +680,7 @@ begin
 
 
 
-      if Reg.OpenKey('\Software\Cheat Engine\Plugins'{$ifdef cpu64}+'64'{$else}+'32'{$endif},false) then
+      if Reg.OpenKey('\Software\MyCheat\Plugins'{$ifdef cpu64}+'64'{$else}+'32'{$endif},false) then
       begin
         names:=TStringList.create;
         try

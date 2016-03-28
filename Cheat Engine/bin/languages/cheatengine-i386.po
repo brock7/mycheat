@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or not"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -2740,7 +2740,7 @@ msgstr ""
 
 #: mainunit2.cename
 msgctxt "mainunit2.cename"
-msgid "MyCheat 6.4"
+msgid "......"
 msgstr ""
 
 #: mainunit2.rsenabledisablespeedhack
@@ -10633,7 +10633,7 @@ msgstr ""
 
 #: tmainform.caption
 msgctxt "TMAINFORM.CAPTION"
-msgid "MyCheat 6.4"
+msgid "......"
 msgstr ""
 
 #: tmainform.cbcasesensitive.caption

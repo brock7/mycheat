@@ -6796,7 +6796,7 @@ begin
 
   //  animatewindow(mainform.Handle,10000,AW_CENTER);
   //mainform.repaint;
-  fronttext := 'brings Cheat engine to front';
+  fronttext := 'brings MyCheat to front';
 
   if dontrunshow then
     exit;
