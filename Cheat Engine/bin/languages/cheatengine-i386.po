@@ -1,7 +1,7 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or not"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-msgid "Don't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by default"
 msgstr ""
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -4084,16 +4084,16 @@ msgid "Donate"
 msgstr ""
 
 #: tabout.button2.hint
-msgid "If you like Cheat Engine and want to contribute something to the development, just send a donation using Paypal."
+msgid "If you like MyCheat and want to contribute something to the development, just send a donation using Paypal."
 msgstr ""
 
 #: tabout.caption
-msgid "About Cheat Engine"
+msgid "About MyCheat"
 msgstr ""
 
 #: tabout.groupbox1.caption
 msgctxt "tabout.groupbox1.caption"
-msgid "Cheat Engine 6.4"
+msgid "MyCheat 6.4"
 msgstr ""
 
 #: tabout.label1.caption
@@ -5012,7 +5012,7 @@ msgid "Find what writes to the address pointed at by this pointer"
 msgstr ""
 
 #: tformpointerorpointee.caption
-msgid "Cheat Engine Pointer"
+msgid "MyCheat Pointer"
 msgstr ""
 
 #: tformpointerorpointee.label1.caption
@@ -5074,7 +5074,7 @@ msgid "Delete"
 msgstr ""
 
 #: tformsettings.caption
-msgid "Cheat Engine settings"
+msgid "MyCheat settings"
 msgstr ""
 
 #: tformsettings.cballincludescustomtype.caption
@@ -5098,7 +5098,7 @@ msgid "Ability to step through kernel code"
 msgstr ""
 
 #: tformsettings.cbcenteronpopup.caption
-msgid "Center Cheat Engine when bringing to front"
+msgid "Center MyCheat when bringing to front"
 msgstr ""
 
 #: tformsettings.cbdontusetempdir.caption
@@ -5274,7 +5274,7 @@ msgid "1024"
 msgstr ""
 
 #: tformsettings.editfreezeinterval.hint
-msgid "The number of milliseconds that Cheat Engine will wait before resetting the frozen addresses to their original value."
+msgid "The number of milliseconds that MyCheat will wait before resetting the frozen addresses to their original value."
 msgstr ""
 
 #: tformsettings.editfreezeinterval.text
@@ -5284,7 +5284,7 @@ msgstr ""
 
 #: tformsettings.editupdatefoundinterval.hint
 msgctxt "TFORMSETTINGS.EDITUPDATEFOUNDINTERVAL.HINT"
-msgid "The number of milliseconds that Cheat Engine will wait before refreshing the list of addresses"
+msgid "The number of milliseconds that MyCheat will wait before refreshing the list of addresses"
 msgstr ""
 
 #: tformsettings.editupdatefoundinterval.text
@@ -5294,7 +5294,7 @@ msgstr ""
 
 #: tformsettings.editupdateinterval.hint
 msgctxt "tformsettings.editupdateinterval.hint"
-msgid "The number of milliseconds that Cheat Engine will wait before refreshing the list of addresses"
+msgid "The number of milliseconds that MyCheat will wait before refreshing the list of addresses"
 msgstr ""
 
 #: tformsettings.editupdateinterval.text
@@ -5726,7 +5726,7 @@ msgid "Tab Width"
 msgstr ""
 
 #: tfrmadconfig.caption
-msgid "Support Cheat Engine"
+msgid "Support MyCheat"
 msgstr ""
 
 #: tfrmadconfig.cbcanclose.caption
@@ -5759,7 +5759,7 @@ msgid "Extra url"
 msgstr ""
 
 #: tfrmadconfig.label1.caption
-msgid "Thank you for supporting Cheat Engine. And to thank you for that I'll let you share in the generated traffic"
+msgid "Thank you for supporting MyCheat. And to thank you for that I'll let you share in the generated traffic"
 msgstr ""
 
 #: tfrmadconfig.label2.caption
@@ -6723,7 +6723,7 @@ msgid "Gigantic"
 msgstr ""
 
 #: tfrmexetrainergenerator.cbgigantic.hint
-msgid "Puts the Cheat Engine executable, dll's and other requirements into the trainer"
+msgid "Puts the MyCheat executable, dll's and other requirements into the trainer"
 msgstr ""
 
 #: tfrmexetrainergenerator.cbkerneldebug.caption
@@ -6739,7 +6739,7 @@ msgid "Tiny"
 msgstr ""
 
 #: tfrmexetrainergenerator.cbtiny.hint
-msgid "Only put the trainer data in the trainer. The user must have Cheat Engine installed to run this trainer"
+msgid "Only put the trainer data in the trainer. The user must have MyCheat installed to run this trainer"
 msgstr ""
 
 #: tfrmexetrainergenerator.cbvehdebug.caption
@@ -8542,7 +8542,7 @@ msgid "Save memoryregion"
 msgstr ""
 
 #: tfrmsavememoryregion.dontinclude.caption
-msgid "Don't include Cheat Engine header in file"
+msgid "Don't include MyCheat header in file"
 msgstr ""
 
 #: tfrmsavememoryregion.label1.caption
@@ -10158,7 +10158,7 @@ msgid "Protect trainer from editing/reading"
 msgstr ""
 
 #: tfrmtrainergenerator.cbprotect.hint
-msgid "Will encrypt the generated cetrainer file and when Cheat Engine loads this file back it will destroy the main form preventing the user from doing anything with it."
+msgid "Will encrypt the generated cetrainer file and when MyCheat loads this file back it will destroy the main form preventing the user from doing anything with it."
 msgstr ""
 
 #: tfrmtrainergenerator.cbstopplaying.caption
@@ -10167,7 +10167,7 @@ msgstr ""
 
 #: tfrmtrainergenerator.cbsupportcheatengine.caption
 msgctxt "TFRMTRAINERGENERATOR.CBSUPPORTCHEATENGINE.CAPTION"
-msgid "Don't support Cheat Engine (or yourself)"
+msgid "Don't support MyCheat (or yourself)"
 msgstr ""
 
 #: tfrmtrainergenerator.cbused3dhook.caption
@@ -10223,7 +10223,7 @@ msgid "Output"
 msgstr ""
 
 #: tfrmtrainergenerator.label6.caption
-msgid "Tip: The trainer generator is a tool for beginners. It is recommended to learn lua and the formdesigner and save as .exe manually to experience the full power of a Cheat Engine trainer"
+msgid "Tip: The trainer generator is a tool for beginners. It is recommended to learn lua and the formdesigner and save as .exe manually to experience the full power of a MyCheat trainer"
 msgstr ""
 
 #: tfrmtrainergenerator.lblactivatesound.caption
@@ -10347,7 +10347,7 @@ msgid "Preemptive flushing"
 msgstr ""
 
 #: tfrmultimap.cbpreemptiveflush.hint
-msgid "When enabled Cheat Engine will flush the data for each cpu instead of only when the buffer is full"
+msgid "When enabled MyCheat will flush the data for each cpu instead of only when the buffer is full"
 msgstr ""
 
 #: tfrmultimap.edit1.text

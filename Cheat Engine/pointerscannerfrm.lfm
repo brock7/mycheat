@@ -248,14 +248,14 @@ object frmPointerScanner: TfrmPointerScanner
   object SaveDialog1: TSaveDialog
     Title = 'Specify the filename you want to store the results'
     DefaultExt = '.PTR'
-    Filter = 'Cheat Engine Pointerlist|*.PTR'
+    Filter = 'MyCheat Pointerlist|*.PTR'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
     left = 208
     top = 288
   end
   object OpenDialog1: TOpenDialog
     DefaultExt = '.PTR'
-    Filter = 'Cheat Engine Pointerlist|*.PTR'
+    Filter = 'MyCheat Pointerlist|*.PTR'
     left = 144
     top = 288
   end
@@ -280,7 +280,7 @@ object frmPointerScanner: TfrmPointerScanner
   end
   object odMerge: TOpenDialog
     DefaultExt = '.ptr'
-    Filter = 'Cheat Engine Pointerlist|*.PTR'
+    Filter = 'MyCheat Pointerlist|*.PTR'
     Options = [ofAllowMultiSelect, ofFileMustExist, ofEnableSizing, ofViewDetail]
     left = 111
     top = 198

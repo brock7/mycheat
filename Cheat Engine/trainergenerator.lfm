@@ -109,7 +109,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
       Height = 19
       Top = 1
       Width = 233
-      Caption = 'Don''t support Cheat Engine (or yourself)'
+      Caption = 'Don''t support MyCheat (or yourself)'
       Checked = True
       OnChange = cbSupportCheatEngineChange
       State = cbChecked
@@ -141,7 +141,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
         Top = 56
         Width = 241
         Lines.Strings = (
-          'This trainer was made by Cheat Engine'
+          'This trainer was made by MyCheat'
           'www.cheatengine.org'
         )
         ScrollBars = ssVertical
@@ -203,7 +203,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
     object cbProtect: TCheckBox
       Left = 271
       Height = 19
-      Hint = 'Will encrypt the generated cetrainer file and when Cheat Engine loads this file back it will destroy the main form preventing the user from doing anything with it.'#13#10'Does not affect the standalone trainer because that one is protected by default'
+      Hint = 'Will encrypt the generated cetrainer file and when MyCheat loads this file back it will destroy the main form preventing the user from doing anything with it.'#13#10'Does not affect the standalone trainer because that one is protected by default'
       Top = 168
       Width = 209
       Caption = 'Protect trainer from editing/reading'
@@ -305,7 +305,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
       Top = 386
       Width = 502
       Align = alBottom
-      Caption = 'Tip: The trainer generator is a tool for beginners. It is recommended to learn lua and the formdesigner and save as .exe manually to experience the full power of a Cheat Engine trainer'
+      Caption = 'Tip: The trainer generator is a tool for beginners. It is recommended to learn lua and the formdesigner and save as .exe manually to experience the full power of a MyCheat trainer'
       ParentColor = False
       WordWrap = True
     end
@@ -620,7 +620,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
   object CETRAINERSaveDialog: TSaveDialog
     Title = 'Save script as'
     DefaultExt = '.CETRAINER'
-    Filter = 'Cheat Engine Table Trainer (*.CETRAINER)|*.CETRAINER'
+    Filter = 'MyCheat Table Trainer (*.CETRAINER)|*.CETRAINER'
     Options = [ofReadOnly, ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
     left = 48
     top = 304
@@ -628,7 +628,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
   object EXESaveDialog: TSaveDialog
     Title = 'Save script as'
     DefaultExt = '.EXE'
-    Filter = 'Cheat Engine EXE Trainer (*.EXE)|*.EXE'
+    Filter = 'MyCheat EXE Trainer (*.EXE)|*.EXE'
     Options = [ofReadOnly, ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
     left = 48
     top = 288
@@ -642,7 +642,7 @@ object frmTrainerGenerator: TfrmTrainerGenerator
   object CTSaveDialog: TSaveDialog
     Title = 'Save script as'
     DefaultExt = '.CT'
-    Filter = 'Cheat Engine Table (*.CT)|*.CT'
+    Filter = 'MyCheat Table (*.CT)|*.CT'
     Options = [ofReadOnly, ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
     left = 48
     top = 272

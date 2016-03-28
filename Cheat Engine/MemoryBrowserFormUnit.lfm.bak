@@ -16,7 +16,7 @@ object MemoryBrowser: TMemoryBrowser
   OnResize = FormResize
   OnShow = FormShow
   Position = poScreenCenter
-  LCLVersion = '1.3'
+  LCLVersion = '1.6.0.4'
   object Splitter1: TSplitter
     Cursor = crVSplit
     Left = 0
@@ -1264,7 +1264,7 @@ object MemoryBrowser: TMemoryBrowser
   end
   object OpenMemory: TOpenDialog
     DefaultExt = '.CEM'
-    Filter = 'Cheat Engine Memory file|*.CEM|All Files (*.*)|*.*'
+    Filter = 'MyCheat Memory file|*.CEM|All Files (*.*)|*.*'
     FilterIndex = 0
     left = 152
     top = 80

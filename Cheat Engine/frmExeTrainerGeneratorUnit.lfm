@@ -178,7 +178,7 @@ object frmExeTrainerGenerator: TfrmExeTrainerGenerator
       object cbTiny: TRadioButton
         Left = 86
         Height = 19
-        Hint = 'Only put the trainer data in the trainer. The user must have Cheat Engine installed to run this trainer'
+        Hint = 'Only put the trainer data in the trainer. The user must have MyCheat installed to run this trainer'
         Top = 0
         Width = 43
         Caption = 'Tiny'
@@ -190,7 +190,7 @@ object frmExeTrainerGenerator: TfrmExeTrainerGenerator
       object cbGigantic: TRadioButton
         Left = 10
         Height = 19
-        Hint = 'Puts the Cheat Engine executable, dll''s and other requirements into the trainer'
+        Hint = 'Puts the MyCheat executable, dll''s and other requirements into the trainer'
         Top = 0
         Width = 64
         Caption = 'Gigantic'

@@ -108,7 +108,7 @@ object frmSaveMemoryRegion: TfrmSaveMemoryRegion
       Height = 21
       Top = 31
       Width = 214
-      Caption = 'Don''t include Cheat Engine header in file'
+      Caption = 'Don''t include MyCheat header in file'
       OnClick = DontIncludeClick
       TabOrder = 0
     end
@@ -146,7 +146,7 @@ object frmSaveMemoryRegion: TfrmSaveMemoryRegion
   end
   object SaveDialog1: TSaveDialog
     DefaultExt = '.CEM'
-    Filter = 'Cheat Engine Memory file(*.CEM)|*.CEM|All files(*.*)|*.*'
+    Filter = 'MyCheat Memory file(*.CEM)|*.CEM|All files(*.*)|*.*'
     FilterIndex = 0
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
     left = 72

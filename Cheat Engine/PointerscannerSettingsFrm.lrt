@@ -118,5 +118,5 @@ TFRMPOINTERSCANNERSETTINGS.CBMUSTSTARTWITHBASE.CAPTION=Base address must be in s
 TFRMPOINTERSCANNERSETTINGS.CBCOMPRESSEDPOINTERSCANFILE.HINT=Compresses the generated .PTR files slightly so they take less space on the disk and less time writing to disk.
 Most of the time the bottleneck of a pointerscan is disk writing, so it is recommended to use this option.
 
-Compressed .PTR files can not be read out by older Cheat Engine versions
+Compressed .PTR files can not be read out by older MyCheat versions
 TFRMPOINTERSCANNERSETTINGS.CBCOMPRESSEDPOINTERSCANFILE.CAPTION=Compressed pointerscan file

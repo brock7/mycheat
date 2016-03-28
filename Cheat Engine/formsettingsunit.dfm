@@ -4,7 +4,7 @@ object formSettings: TformSettings
   Width = 785
   Height = 574
   BorderIcons = [biSystemMenu]
-  Caption = 'Cheat Engine settings'
+  Caption = 'MyCheat settings'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -161,7 +161,7 @@ object formSettings: TformSettings
           Top = 60
           Width = 601
           Height = 21
-          Caption = 'Center Cheat Engine when bringing to front'
+          Caption = 'Center MyCheat when bringing to front'
           Checked = True
           State = cbChecked
           TabOrder = 2
@@ -172,7 +172,7 @@ object formSettings: TformSettings
           Width = 53
           Height = 24
           Hint = 
-            'The number of milliseconds that Cheat Engine will wait before re' +
+            'The number of milliseconds that MyCheat will wait before re' +
             'freshing the list of addresses'
           ParentShowHint = False
           ShowHint = True
@@ -185,7 +185,7 @@ object formSettings: TformSettings
           Width = 53
           Height = 24
           Hint = 
-            'The number of milliseconds that Cheat Engine will wait before re' +
+            'The number of milliseconds that MyCheat will wait before re' +
             'setting the frozen addresses to their original value.'
           ParentShowHint = False
           ShowHint = True
@@ -230,7 +230,7 @@ object formSettings: TformSettings
           Width = 53
           Height = 24
           Hint = 
-            'The number of milliseconds that Cheat Engine will wait before re' +
+            'The number of milliseconds that MyCheat will wait before re' +
             'freshing the list of addresses'
           ParentShowHint = False
           ShowHint = True
@@ -255,7 +255,7 @@ object formSettings: TformSettings
           Width = 51
           Height = 24
           Hint = 
-            'The number of milliseconds that Cheat Engine will wait before re' +
+            'The number of milliseconds that MyCheat will wait before re' +
             'freshing the list of addresses'
           ParentShowHint = False
           ShowHint = True
@@ -710,7 +710,7 @@ object formSettings: TformSettings
           Height = 48
           Align = alTop
           Caption = 
-            'There are 2 ways Cheat Engine can find the addresss of code that' +
+            'There are 2 ways MyCheat can find the addresss of code that' +
             ' writes to a specific address. Each type has it advantages and i' +
             't'#39's disadvantages. So choose which one suits you better. (or cho' +
             'ose the one that doesnt give you problems.)'

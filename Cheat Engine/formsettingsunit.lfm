@@ -4,7 +4,7 @@ object formSettings: TformSettings
   Top = 308
   Width = 772
   BorderIcons = [biSystemMenu]
-  Caption = 'Cheat Engine settings'
+  Caption = 'MyCheat settings'
   ClientHeight = 517
   ClientWidth = 772
   Font.Height = -11
@@ -148,7 +148,7 @@ object formSettings: TformSettings
           Height = 19
           Top = 41
           Width = 223
-          Caption = 'Center Cheat Engine when bringing to front'
+          Caption = 'Center MyCheat when bringing to front'
           Checked = True
           State = cbChecked
           TabOrder = 1
@@ -156,7 +156,7 @@ object formSettings: TformSettings
         object EditUpdateInterval: TEdit
           Left = 165
           Height = 21
-          Hint = 'The number of milliseconds that Cheat Engine will wait before refreshing the list of addresses'
+          Hint = 'The number of milliseconds that MyCheat will wait before refreshing the list of addresses'
           Top = 369
           Width = 53
           ParentShowHint = False
@@ -167,7 +167,7 @@ object formSettings: TformSettings
         object EditFreezeInterval: TEdit
           Left = 165
           Height = 21
-          Hint = 'The number of milliseconds that Cheat Engine will wait before resetting the frozen addresses to their original value.'
+          Hint = 'The number of milliseconds that MyCheat will wait before resetting the frozen addresses to their original value.'
           Top = 394
           Width = 53
           ParentShowHint = False
@@ -215,7 +215,7 @@ object formSettings: TformSettings
         object editUpdatefoundInterval: TEdit
           Left = 165
           Height = 21
-          Hint = 'The number of milliseconds that Cheat Engine will wait before refreshing the list of addresses'
+          Hint = 'The number of milliseconds that MyCheat will wait before refreshing the list of addresses'
           Top = 417
           Width = 51
           ParentShowHint = False

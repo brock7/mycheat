@@ -3,7 +3,7 @@ object frmAdConfig: TfrmAdConfig
   Height = 266
   Top = 381
   Width = 351
-  Caption = 'Support Cheat Engine'
+  Caption = 'Support MyCheat'
   ClientHeight = 266
   ClientWidth = 351
   OnCreate = FormCreate
@@ -14,7 +14,7 @@ object frmAdConfig: TfrmAdConfig
     Top = 0
     Width = 351
     Align = alTop
-    Caption = 'Thank you for supporting Cheat Engine. And to thank you for that I''ll let you share in the generated traffic'
+    Caption = 'Thank you for supporting MyCheat. And to thank you for that I''ll let you share in the generated traffic'
     ParentColor = False
     WordWrap = True
   end

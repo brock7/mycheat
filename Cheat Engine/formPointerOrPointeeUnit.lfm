@@ -5,7 +5,7 @@ object formPointerOrPointee: TformPointerOrPointee
   Width = 335
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
-  Caption = 'Cheat Engine Pointer'
+  Caption = 'MyCheat Pointer'
   ClientHeight = 101
   ClientWidth = 335
   Font.Height = -11

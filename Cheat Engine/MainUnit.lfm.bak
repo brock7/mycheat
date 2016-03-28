@@ -9,7 +9,7 @@ object MainForm: TMainForm
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
   AllowDropFiles = True
-  Caption = 'Cheat Engine 6.4'
+  Caption = 'MyCheat 6.4'
   ClientHeight = 534
   ClientWidth = 597
   Font.Height = -11
@@ -68,7 +68,7 @@ object MainForm: TMainForm
       Width = 229
       Alignment = taCenter
       Anchors = [akBottom]
-      Caption = 'Ctrl+Alt+Page Down brings Cheat Engine to front'
+      Caption = 'Ctrl+Alt+Page Down brings MyCheat to front'
       Font.Color = clMenuText
       Font.Height = -11
       Font.Name = 'MS Sans Serif'
@@ -709,7 +709,7 @@ object MainForm: TMainForm
     object ProgressBar1: TProgressBar
       Left = 92
       Height = 16
-      Hint = 'This shows how far Cheat Engine is with searching'
+      Hint = 'This shows how far MyCheat is with searching'
       Top = 14
       Width = 458
       Anchors = [akTop, akLeft, akRight]
@@ -1774,14 +1774,14 @@ object MainForm: TMainForm
   end
   object OpenDialog1: TOpenDialog
     DefaultExt = '.CT'
-    Filter = 'All supported cheat tables|*.CT;*.CETRAINER|Cheat Engine Trainer (*.CETRAINER)|*.CETRAINER|All files (*.*)|*.*|Cheat Engine Tables (*.CT)|*.CT'
+    Filter = 'All supported cheat tables|*.CT;*.CETRAINER|MyCheat Trainer (*.CETRAINER)|*.CETRAINER|All files (*.*)|*.*|MyCheat Tables (*.CT)|*.CT'
     Options = [ofHideReadOnly, ofFileMustExist, ofEnableSizing]
     left = 48
     top = 104
   end
   object SaveDialog1: TSaveDialog
     DefaultExt = '.CT'
-    Filter = 'Cheat Engine Tables (*.CT)|*.CT|Cheat Engine Trainer (*.CETRAINER)|*.CETRAINER|Cheat Engine Trainer Standalone (*.EXE)|*.EXE'
+    Filter = 'MyCheat Tables (*.CT)|*.CT|Cheat Engine Trainer (*.CETRAINER)|*.CETRAINER|MyCheat Trainer Standalone (*.EXE)|*.EXE'
     Options = [ofReadOnly, ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
     left = 16
     top = 104
@@ -2172,12 +2172,12 @@ object MainForm: TMainForm
     object Help1: TMenuItem
       Caption = '&Help'
       object Helpindex1: TMenuItem
-        Caption = 'Cheat Engine Help'
+        Caption = 'MyCheat Help'
         ShortCut = 112
         OnClick = Helpindex1Click
       end
       object miTutorial: TMenuItem
-        Caption = 'Cheat Engine Tutorial'
+        Caption = 'MyCheat Tutorial'
         OnClick = miTutorialClick
       end
       object N8: TMenuItem

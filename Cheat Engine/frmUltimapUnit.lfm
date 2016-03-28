@@ -313,7 +313,7 @@ object frmUltimap: TfrmUltimap
       object cbPreemptiveFlush: TCheckBox
         Left = 8
         Height = 19
-        Hint = 'When enabled Cheat Engine will flush the data for each cpu instead of only when the buffer is full'
+        Hint = 'When enabled MyCheat will flush the data for each cpu instead of only when the buffer is full'
         Top = 96
         Width = 126
         Caption = 'Preemptive flushing'
