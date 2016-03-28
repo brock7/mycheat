@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by default"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or not"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -421,7 +421,7 @@ msgid "VirtualAlloc failed. You probably don't have enough system memory free. E
 msgstr ""
 
 #: bigmemallochandler.rscepointerscanmemorymanager
-msgid "CE Pointerscan memory manager"
+msgid "MC Pointerscan memory manager"
 msgstr ""
 
 #: cedebugger.rscontinue
@@ -1633,7 +1633,7 @@ msgid "nothing found"
 msgstr ""
 
 #: frmexetrainergeneratorunit.rscetrainermaker
-msgid "CE trainer maker"
+msgid "MC trainer maker"
 msgstr ""
 
 #: frmexetrainergeneratorunit.rsdefault
@@ -2444,7 +2444,7 @@ msgid "This button will try to cancel the current scan. Click twice to force an 
 msgstr ""
 
 #: mainunit.rsthislistishuge
-msgid "This list is huge and deleting multiple items will require CE to traverse the whole list and can take a while. Are you sure?"
+msgid "This list is huge and deleting multiple items will require MC to traverse the whole list and can take a while. Are you sure?"
 msgstr ""
 
 #: mainunit.rsunrandomizerinfo
@@ -2456,7 +2456,7 @@ msgid "Value %"
 msgstr ""
 
 #: mainunit.rswhatareyousayingyouregoingtocontinueusingceillegal
-msgid "WHAT!!! Are you saying you're going to continue using CE ILLEGALLY??? If you say yes, i'm going to mail the cops to get you and send you to jail!!!"
+msgid "WHAT!!! Are you saying you're going to continue using MC ILLEGALLY??? If you say yes, i'm going to mail the cops to get you and send you to jail!!!"
 msgstr ""
 
 #: mainunit.rswhatdoyouwantthegroupnametobe
@@ -2547,7 +2547,7 @@ msgid "Disable cheat"
 msgstr ""
 
 #: mainunit.strdontbother
-msgid "Don't even bother. MyCheat uses the main thread to receive messages when the scan is done, freeze it and CE will crash!"
+msgid "Don't even bother. MyCheat uses the main thread to receive messages when the scan is done, freeze it and MC will crash!"
 msgstr ""
 
 #: mainunit.strenablecheat
@@ -5021,7 +5021,7 @@ msgid "Scanning..."
 msgstr ""
 
 #: tformsettings.aboutlabel.caption
-msgid "About CE"
+msgid "About MC"
 msgstr ""
 
 #: tformsettings.askforreplacewithnops.caption
@@ -5111,7 +5111,7 @@ msgid "Use Global Debug routines"
 msgstr ""
 
 #: tformsettings.cbhandlebreakpoints.caption
-msgid "Handle beakpoints not caused by CE"
+msgid "Handle beakpoints not caused by MC"
 msgstr ""
 
 #: tformsettings.cbhideallwindows.caption
@@ -5327,7 +5327,7 @@ msgid "Debugger interface config"
 msgstr ""
 
 #: tformsettings.groupbox3.caption
-msgid "Use the following CE Kernel routines instead of the original windows version"
+msgid "Use the following MC Kernel routines instead of the original windows version"
 msgstr ""
 
 #: tformsettings.groupbox4.caption
@@ -5972,7 +5972,7 @@ msgid "Full Injection"
 msgstr ""
 
 #: tfrmautoinject.micalllua.caption
-msgid "Call CE lua function"
+msgid "Call MC lua function"
 msgstr ""
 
 #: tfrmautoinject.mifindnext.caption
@@ -6001,7 +6001,7 @@ msgstr ""
 
 #: tfrmautoinject.opendialog1.title
 msgctxt "tfrmautoinject.opendialog1.title"
-msgid "Open CE assembly file"
+msgid "Open MC assembly file"
 msgstr ""
 
 #: tfrmautoinject.paste1.caption
@@ -6021,7 +6021,7 @@ msgstr ""
 
 #: tfrmautoinject.savedialog1.title
 msgctxt "TFRMAUTOINJECT.SAVEDIALOG1.TITLE"
-msgid "Open CE assembly file"
+msgid "Open MC assembly file"
 msgstr ""
 
 #: tfrmautoinject.syntaxhighlighting1.caption
@@ -10633,7 +10633,7 @@ msgstr ""
 
 #: tmainform.caption
 msgctxt "TMAINFORM.CAPTION"
-msgid "MyCheat 6.4"
+msgid "Cheat Engine 6.4"
 msgstr ""
 
 #: tmainform.cbcasesensitive.caption
@@ -10835,7 +10835,7 @@ msgid "&Help"
 msgstr ""
 
 #: tmainform.helpindex1.caption
-msgid "MyCheat Help"
+msgid "Cheat Engine Help"
 msgstr ""
 
 #: tmainform.hint
@@ -10888,7 +10888,7 @@ msgid "Label61"
 msgstr ""
 
 #: tmainform.label7.caption
-msgid "Ctrl+Alt+Page Down brings MyCheat to front"
+msgid "Ctrl+Alt+Page Down brings Cheat Engine to front"
 msgstr ""
 
 #: tmainform.label7.hint
@@ -11205,7 +11205,7 @@ msgid "-"
 msgstr ""
 
 #: tmainform.mitutorial.caption
-msgid "MyCheat Tutorial"
+msgid "Cheat Engine Tutorial"
 msgstr ""
 
 #: tmainform.miundovalue.caption
@@ -11299,7 +11299,7 @@ msgid "No Process Selected"
 msgstr ""
 
 #: tmainform.progressbar1.hint
-msgid "This shows how far MyCheat is with searching"
+msgid "This shows how far Cheat Engine is with searching"
 msgstr ""
 
 #: tmainform.rbbit.caption

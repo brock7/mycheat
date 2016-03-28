@@ -5521,7 +5521,7 @@ begin
   tsPSReverse.TabVisible:=false;
 
   {$ifdef injectedpscan}
-  caption:='CE Injected Pointerscan';
+  caption:='MC Injected Pointerscan';
   {$endif}
   listview1.DoubleBuffered:=true;
 

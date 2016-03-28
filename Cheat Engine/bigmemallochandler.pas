@@ -35,7 +35,7 @@ resourcestring
   rsAllocError = 'VirtualAlloc failed. You probably don''t have enough system '
     +'memory free. Either install more RAM, or increase the maximum allowed '
     +'paging size';
-  rsCEPointerscanMemoryManager = 'CE Pointerscan memory manager';
+  rsCEPointerscanMemoryManager = 'MC Pointerscan memory manager';
 
 constructor TBigMemoryAllocHandler.create;
 begin

@@ -117,7 +117,7 @@ object frmAutoInject: TfrmAutoInject
         OnClick = Coderelocation1Click
       end
       object miCallLua: TMenuItem
-        Caption = 'Call CE lua function'
+        Caption = 'Call MC lua function'
         ShortCut = 16460
         OnClick = miCallLuaClick
       end
@@ -149,14 +149,14 @@ object frmAutoInject: TfrmAutoInject
     end
   end
   object OpenDialog1: TOpenDialog
-    Title = 'Open CE assembly file'
+    Title = 'Open MC assembly file'
     DefaultExt = '.CEA'
     Filter = 'MyCheat Assembly (*.CEA)|*.CEA|All Files (*.*)|*.*'
     left = 8
     top = 40
   end
   object SaveDialog1: TSaveDialog
-    Title = 'Open CE assembly file'
+    Title = 'Open MC assembly file'
     DefaultExt = '.CEA'
     Filter = 'MyCheat Assembly (*.CEA)|*.CEA|All Files (*.*)|*.*'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]

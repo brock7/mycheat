@@ -1,9 +1,9 @@
 object MainForm: TMainForm
   Tag = 2
-  Left = 606
+  Left = 503
   Height = 554
   Hint = ' '
-  Top = 247
+  Top = 165
   Width = 597
   HelpContext = 3
   HorzScrollBar.Visible = False
@@ -1781,7 +1781,7 @@ object MainForm: TMainForm
   end
   object SaveDialog1: TSaveDialog
     DefaultExt = '.CT'
-    Filter = 'MyCheat Tables (*.CT)|*.CT|Cheat Engine Trainer (*.CETRAINER)|*.CETRAINER|MyCheat Trainer Standalone (*.EXE)|*.EXE'
+    Filter = 'MyCheat Tables (*.CT)|*.CT|MyCheat Trainer (*.CETRAINER)|*.CETRAINER|MyCheat Trainer Standalone (*.EXE)|*.EXE'
     Options = [ofReadOnly, ofOverwritePrompt, ofHideReadOnly, ofPathMustExist, ofEnableSizing]
     left = 16
     top = 104

@@ -920,7 +920,7 @@ begin
   l.add('--'+rsAutogenwarningPart1);
   l.add('--'+rsAutoGenWarningPart2);
   l.add('');
-  l.add('--Uncomment the following line if this is a Cheat Table format trainer and you don''t want CE to show (Tip, save as .CETRAINER alternatively)');
+  l.add('--Uncomment the following line if this is a Cheat Table format trainer and you don''t want MC to show (Tip, save as .CETRAINER alternatively)');
   l.add('--hideAllCEWindows()');
   l.add('');
   l.add('RequiredCEVersion='+floattostr(ceversion));

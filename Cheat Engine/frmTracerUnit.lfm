@@ -471,7 +471,7 @@ object frmTracer: TfrmTracer
   end
   object SaveDialog1: TSaveDialog
     DefaultExt = '.cetrace'
-    Filter = 'CE Trace (*.cetrace)|*.cetrace|All file (*.*)|*.*'
+    Filter = 'MC Trace (*.cetrace)|*.cetrace|All file (*.*)|*.*'
     Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
     left = 72
     top = 119
@@ -490,7 +490,7 @@ object frmTracer: TfrmTracer
   end
   object OpenDialog1: TOpenDialog
     DefaultExt = '.cetrace'
-    Filter = 'CE Trace (*.cetrace)|*.cetrace|All file (*.*)|*.*'
+    Filter = 'MC Trace (*.cetrace)|*.cetrace|All file (*.*)|*.*'
     left = 72
     top = 248
   end

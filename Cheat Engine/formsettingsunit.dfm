@@ -499,7 +499,7 @@ object formSettings: TformSettings
           Height = 32
           Caption = 
             'Running the scan in a seperate thread will give you a cancel but' +
-            'ton, and prevents CE from starvation. (meaning parts of the wind' +
+            'ton, and prevents MC from starvation. (meaning parts of the wind' +
             'ow turn white) but it also makes scanning a little slower'
           Transparent = True
           WordWrap = True
@@ -783,7 +783,7 @@ object formSettings: TformSettings
           Top = 208
           Width = 602
           Height = 21
-          Caption = 'Handle beakpoints not caused by CE'
+          Caption = 'Handle beakpoints not caused by MC'
           TabOrder = 3
           OnClick = CheckBox1Click
         end
@@ -899,7 +899,7 @@ object formSettings: TformSettings
           Height = 86
           Align = alTop
           Caption = 
-            'Use the following CE Kernel routines instead of the original win' +
+            'Use the following MC Kernel routines instead of the original win' +
             'dows version'
           TabOrder = 0
           object cbKernelQueryMemoryRegion: TCheckBox
@@ -1187,7 +1187,7 @@ object formSettings: TformSettings
       Height = 16
       Cursor = crHandPoint
       Anchors = [akRight, akBottom]
-      Caption = 'About CE'
+      Caption = 'About MC'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlue
       Font.Height = -15

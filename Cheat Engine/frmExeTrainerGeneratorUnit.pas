@@ -106,7 +106,7 @@ resourcestring
   rsDefault = 'Default';
   rsMax = 'Max';
   rsNewFoldername = 'New foldername';
-  rsCETrainerMaker = 'CE trainer maker';
+  rsCETrainerMaker = 'MC trainer maker';
 
 procedure TfrmExeTrainerGenerator.FormActivate(Sender: TObject);
 begin

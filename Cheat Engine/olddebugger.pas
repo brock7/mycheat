@@ -2647,7 +2647,7 @@ begin
     end;
 
   except
-    messagebox(0,'Debugger crash','CE Debugger',mb_ok);
+    messagebox(0,'Debugger crash','MC Debugger',mb_ok);
   end;
 
   OutputDebugString('End of debuggerthread');

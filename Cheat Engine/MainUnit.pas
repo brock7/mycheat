@@ -928,7 +928,7 @@ resourcestring
   rsThankYouForTryingOutCheatEngineBecauseItHasExpired =
     'Thank you for trying out MyCheat. Because it has expired MyCheat will now close. Is that ok with you?';
   rsWHATAreYouSayingYouReGoingToContinueUsingCEILLEGAL =
-    'WHAT!!! Are you saying you''re going to continue using CE ILLEGALLY??? If you say yes, i''m going to mail the cops to '
+    'WHAT!!! Are you saying you''re going to continue using MC ILLEGALLY??? If you say yes, i''m going to mail the cops to '
     + 'get you and send you to jail!!!';
   rsHrmpfBecauseIMInAGoodMoodILlLetYouGoThisTimeButDon =
     'Hrmpf... Because I''m in a good mood i''ll let you go this time. But don''t do it again you filthy pirate';
@@ -999,7 +999,7 @@ resourcestring
   rsRemoveSelectedAddresses = 'Remove selected addresses';
   rsRemoveSelectedAddress = 'Remove selected address';
   rsThisListIsHuge =
-    'This list is huge and deleting multiple items will require CE to traverse the whole list and can take a while. Are you sure?';
+    'This list is huge and deleting multiple items will require MC to traverse the whole list and can take a while. Are you sure?';
   rsFindOutWhatAccessesThisPointer = 'Find out what accesses this pointer';
   rsFindWhatAccessesTheAddressPointedAtByThisPointer =
     'Find what accesses the address pointed at by this pointer';
@@ -1023,7 +1023,7 @@ resourcestring
     'Your license to use MyCheat has expired. You can buy a license to use cheat engine for 1 month for $200, 6 months for only $1000 and for 1 year for ' + 'only $1800. If you don''t renew your license MyCheat will be severely limited in it''s abilities. (e.g: Next scan has been disabled)';
   rsEXPIRED = 'EXPIRED';
   strdontbother =
-    'Don''t even bother. MyCheat uses the main thread to receive messages when the scan is done, freeze it and CE will crash!';
+    'Don''t even bother. MyCheat uses the main thread to receive messages when the scan is done, freeze it and MC will crash!';
   rsTheProcessIsnTFullyOpenedIndicatingAInvalidProcess =
     'The process isn''t fully opened. Indicating a invalid ProcessID. You still want to find out the EPROCESS? (BSOD is '
     + 'possible)';
@@ -1198,7 +1198,7 @@ begin
     case message.WParam of
       0:
       begin
-        //popup/hide CE
+        //popup/hide MC
         if advancedoptions.Pausebutton.Down then
         begin
           errorbeep;
@@ -6461,7 +6461,7 @@ end;
 
 procedure TMainForm.paste(simplecopypaste: boolean);
 {
-this routine will paste a entry from the cplipboard into the addresslist of CE
+this routine will paste a entry from the cplipboard into the addresslist of MC
 If simplecopypaste is false frmPasteTableentry is shown to let the user change
 some stuff before adding the new entry
 
@@ -7783,7 +7783,7 @@ begin
     begin
     //ShowMessage(IntToStr(item.index));
 
-      error:='CE Error:'+inttostr(item.index)+' part '+inttostr(part)+':'+e.message;
+      error:='MC Error:'+inttostr(item.index)+' part '+inttostr(part)+':'+e.message;
 
       if part in [0,3] then
       begin
