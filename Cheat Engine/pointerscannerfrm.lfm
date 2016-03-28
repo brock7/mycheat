@@ -1,0 +1,288 @@
+object frmPointerScanner: TfrmPointerScanner
+  Left = 1201
+  Height = 517
+  Top = 141
+  Width = 614
+  Caption = 'Pointer scan'
+  ClientHeight = 497
+  ClientWidth = 614
+  Font.Height = -14
+  Font.Name = 'MS Sans Serif'
+  Menu = MainMenu1
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '1.3'
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Height = 21
+    Top = 476
+    Width = 614
+    Align = alBottom
+    Step = 1
+    TabOrder = 0
+    Visible = False
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 24
+    Top = 0
+    Width = 614
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 24
+    ClientWidth = 614
+    TabOrder = 1
+    object cbType: TComboBox
+      Left = 0
+      Height = 24
+      Top = 0
+      Width = 145
+      ItemHeight = 16
+      Items.Strings = (
+        '4 Byte'
+        'Float'
+        'Double'
+      )
+      OnChange = cbTypeChange
+      Style = csDropDownList
+      TabOrder = 0
+      Visible = False
+    end
+  end
+  object pgcPScandata: TPageControl
+    Left = 0
+    Height = 452
+    Top = 24
+    Width = 614
+    ActivePage = tsPSReverse
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 2
+    object tsPSReverse: TTabSheet
+      Caption = 'tsPSReverse'
+      ClientHeight = 423
+      ClientWidth = 606
+      ImageIndex = 1
+      object tvRSThreads: TTreeView
+        Left = 0
+        Height = 323
+        Top = 65
+        Width = 606
+        Align = alClient
+        DefaultItemHeight = 18
+        Indent = 19
+        TabOrder = 0
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 65
+        Top = 0
+        Width = 606
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 65
+        ClientWidth = 606
+        TabOrder = 1
+        object Label5: TLabel
+          Left = 0
+          Height = 16
+          Top = 47
+          Width = 51
+          Caption = 'Threads'
+          ParentColor = False
+        end
+        object lblRSTotalStaticPaths: TLabel
+          Left = 0
+          Height = 17
+          Top = 6
+          Width = 612
+          AutoSize = False
+          Caption = 'Of those # have a static base'
+          ParentColor = False
+        end
+        object Label6: TLabel
+          Left = 0
+          Height = 17
+          Top = 23
+          Width = 606
+          AutoSize = False
+          Caption = 'Pointer addresses found:'
+          ParentColor = False
+        end
+      end
+      object Panel3: TPanel
+        Left = 0
+        Height = 35
+        Top = 388
+        Width = 606
+        Align = alBottom
+        BevelOuter = bvNone
+        ClientHeight = 35
+        ClientWidth = 606
+        TabOrder = 2
+        object btnStopScan: TButton
+          Left = 0
+          Height = 31
+          Hint = 'This will stop the current scan and show you the results it has found'
+          Top = 0
+          Width = 92
+          Caption = 'Stop'
+          OnClick = btnStopScanClick
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 0
+        end
+      end
+      object Button1: TButton
+        Left = 436
+        Height = 25
+        Top = 0
+        Width = 170
+        Anchors = [akTop, akRight]
+        Caption = 'Save current pointermap'
+        OnClick = Button1Click
+        TabOrder = 3
+        Visible = False
+      end
+    end
+  end
+  object ListView1: TListView
+    Left = 384
+    Height = 329
+    Top = 144
+    Width = 225
+    Columns = <>
+    HideSelection = False
+    OwnerData = True
+    PopupMenu = PopupMenu1
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 3
+    Visible = False
+    ViewStyle = vsReport
+    OnColumnClick = ListView1ColumnClick
+    OnData = ListView1Data
+    OnDblClick = ListView1DblClick
+    OnResize = ListView1Resize
+  end
+  object btnStopRescanLoop: TButton
+    Left = 248
+    Height = 25
+    Top = -1
+    Width = 144
+    Caption = 'Stop rescan loop'
+    OnClick = btnStopRescanLoopClick
+    TabOrder = 4
+    Visible = False
+  end
+  object MainMenu1: TMainMenu
+    left = 464
+    top = 40
+    object File1: TMenuItem
+      Caption = 'File'
+      object New1: TMenuItem
+        Caption = 'New'
+        Enabled = False
+        ShortCut = 16462
+        OnClick = New1Click
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Open1: TMenuItem
+        Caption = 'Open'
+        ShortCut = 16463
+        OnClick = Open1Click
+      end
+      object miMergePointerscanResults: TMenuItem
+        Caption = 'Merge pointerscan results'
+        Enabled = False
+        OnClick = miMergePointerscanResultsClick
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Distributed pointer scan'
+      object miJoinDistributedScan: TMenuItem
+        Caption = 'Join scan'
+        ShortCut = 16452
+        OnClick = miJoinDistributedScanClick
+      end
+      object miJoinDistributedRescan: TMenuItem
+        Caption = 'Join rescan'
+        OnClick = miJoinDistributedRescanClick
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem3: TMenuItem
+        AutoCheck = True
+        Caption = 'Autojoin scans and rescans'
+        OnClick = MenuItem3Click
+      end
+      object miSetWorkFolder: TMenuItem
+        Caption = 'Set work folder'
+        OnClick = miSetWorkFolderClick
+      end
+    end
+    object Pointerscanner1: TMenuItem
+      Caption = 'Pointer scanner'
+      object Method3Fastspeedandaveragememoryusage1: TMenuItem
+        Caption = 'Scan for pointer'
+        ShortCut = 16464
+        OnClick = Method3Fastspeedandaveragememoryusage1Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Rescanmemory1: TMenuItem
+        Caption = 'Rescan memory - Removes pointers not pointing to the right address'
+        Enabled = False
+        ShortCut = 16466
+        OnClick = Rescanmemory1Click
+      end
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Specify the filename you want to store the results'
+    DefaultExt = '.PTR'
+    Filter = 'Cheat Engine Pointerlist|*.PTR'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
+    left = 208
+    top = 288
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.PTR'
+    Filter = 'Cheat Engine Pointerlist|*.PTR'
+    left = 144
+    top = 288
+  end
+  object Timer2: TTimer
+    Interval = 500
+    OnTimer = Timer2Timer
+    left = 104
+    top = 312
+  end
+  object PopupMenu1: TPopupMenu
+    left = 520
+    top = 248
+    object Resyncmodulelist1: TMenuItem
+      Caption = 'Resync modulelist'
+      OnClick = Resyncmodulelist1Click
+    end
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    Title = 'Select folder for pointerfiles (May not be used by other scanners)'
+    left = 296
+    top = 32
+  end
+  object odMerge: TOpenDialog
+    DefaultExt = '.ptr'
+    Filter = 'Cheat Engine Pointerlist|*.PTR'
+    Options = [ofAllowMultiSelect, ofFileMustExist, ofEnableSizing, ofViewDetail]
+    left = 111
+    top = 198
+  end
+end
