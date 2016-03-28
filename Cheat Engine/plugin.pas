@@ -879,10 +879,10 @@ resourcestring
   rsErrorEnabling = 'Error enabling %s';
   rsErrorDisabling = 'Error disabling %s';
   rsErrorLoadingOnlyDLLFilesAreAllowed = 'Error loading %s. Only DLL files are allowed';
-  rsErrorLoadingTheDllIsMissingTheCEPlugin_GetVersionF = 'Error loading %s. The dll is missing the CEPlugin_GetVersion function';
-  rsIsMissingTheCEPlugin_InitializePluginExport = '%s is missing the CEPlugin_InitializePlugin export';
-  rsIsMissingTheCEPlugin_DisablePluginExport = '%s is missing the CEPlugin_DisablePlugin export';
-  rsErrorLoadingTheDllIsMissingTheCEPlugin_GetVersionE = 'Error loading %s. The dll is missing the CEPlugin_GetVersion export';
+  rsErrorLoadingTheDllIsMissingTheCEPlugin_GetVersionF = 'Error loading %s. The dll is missing the C*E*P*l*u*g*i*n_GetVersion function';
+  rsIsMissingTheCEPlugin_InitializePluginExport = '%s is missing the C*E*P*l*u*g*i*n_InitializePlugin export';
+  rsIsMissingTheCEPlugin_DisablePluginExport = '%s is missing the C*E*P*l*u*g*i*n_DisablePlugin export';
+  rsErrorLoadingTheDllIsMissingTheCEPlugin_GetVersionE = 'Error loading %s. The dll is missing the C*E*P*l*u*g*i*n_GetVersion export';
   rsErrorLoadingThisDllRequiresANewerVersionOfCeToFunc = 'Error loading %s. This dll requires a newer version of ce to function properly';
   rsErrorLoadingTheGetVersionFunctionReturnedFALSE = 'Error loading %s. The GetVersion function returned FALSE';
 
@@ -1417,6 +1417,7 @@ var hmodule: thandle;
     PluginVersion: TPluginVersion;
 begin
   result:='';
+  {
   if uppercase(extractfileext(dllname))<>'.DLL' then raise exception.Create(Format(rsErrorLoadingOnlyDLLFilesAreAllowed, [dllname]));
   hmodule:=loadlibrary(pchar(dllname));
 
@@ -1438,6 +1439,7 @@ begin
     result:=PluginVersion.pluginname;
 
   freelibrary(hmodule);
+  }
 end;
 
 function TPluginHandler.GetPluginID(dllname:string):integer;
@@ -1473,6 +1475,7 @@ var hmodule: thandle;
     i: integer;
 begin
   result:=-1;
+  {
   if uppercase(extractfileext(dllname))<>'.DLL' then raise exception.Create(Format(rsErrorLoadingOnlyDLLFilesAreAllowed, [dllname]));
 
   s:=uppercase(extractfilename(dllname));
@@ -1548,6 +1551,7 @@ begin
     end;
 
   end else raise exception.Create(Format(rsErrorLoadingTheGetVersionFunctionReturnedFALSE, [dllname]));
+  }
 end;
 
 
