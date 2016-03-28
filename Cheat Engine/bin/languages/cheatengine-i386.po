@@ -1,6 +1,9 @@
 msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or not"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
+msgid "Don't care if it's executable or not"
+msgstr ""
+
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
 msgid "Are you sure you want to launch DBVM? You seem to be running in 32-bit, so don't really need it that badly (Except for ultimap and cloaked operations)"
 msgstr ""
