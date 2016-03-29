@@ -4692,6 +4692,8 @@ begin
   {$endif}
   {$endif}
 
+  LoadLibrary('xdbgcore.dp32');
+
   Set8087CW($133f);
   SetSSECSR($1f80);
 

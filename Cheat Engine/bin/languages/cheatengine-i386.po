@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or not"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 msgid "Don't care if it's executable or not"
