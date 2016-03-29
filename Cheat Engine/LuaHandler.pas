@@ -5443,12 +5443,11 @@ procedure InitializeLua;
 var s: tstringlist;
   k32: THandle;
 begin
-  (*
+
   LuaVM:=lua_open();
 
   if LuaVM<>nil then
   begin
-
     luaL_openlibs(LuaVM);
 
     lua_atpanic(LuaVM, LuaPanic);
@@ -5932,7 +5931,7 @@ begin
       s.free;
     end;
   end;
-  *)
+
 end;
 
 initialization

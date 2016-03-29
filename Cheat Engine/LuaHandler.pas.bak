@@ -277,7 +277,7 @@ begin
 end;
 
 function lua_ToCEUserData(L: PLua_state; i: integer): pointer;
-//MyCheat implements two types of userdata. the legacy LightUserData used in 6.2- and the Heavy UserData in 6.3+
+//Cheat Engine implements two types of userdata. the legacy LightUserData used in 6.2- and the Heavy UserData in 6.3+
 //Heavy UserData is a pointer with a pointer to the real object, while lightuserdata is just a pointer to the object
 begin
   result:=lua_touserdata(L,i);
@@ -5443,12 +5443,11 @@ procedure InitializeLua;
 var s: tstringlist;
   k32: THandle;
 begin
-  (*
+
   LuaVM:=lua_open();
 
   if LuaVM<>nil then
   begin
-
     luaL_openlibs(LuaVM);
 
     lua_atpanic(LuaVM, LuaPanic);

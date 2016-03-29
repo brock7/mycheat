@@ -89,7 +89,7 @@ end;
 procedure TAbout.Button2Click(Sender: TObject);
 begin
 
-  // shellexecute(0,'open','https://www.paypal.com/xclick/business=dark_byte%40hotmail.com&no_note=1&tax=0&lc=US',nil,nil,sw_maximize);
+  shellexecute(0,'open','https://www.paypal.com/xclick/business=dark_byte%40hotmail.com&no_note=1&tax=0&lc=US',nil,nil,sw_maximize);
 end;
 
 procedure TAbout.FormShow(Sender: TObject);
