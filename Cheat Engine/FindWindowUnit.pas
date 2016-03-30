@@ -33,6 +33,7 @@ type
     procedure btnCancelClick(Sender: TObject);
     procedure btnOKClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
   private
     { Private declarations }
@@ -169,6 +170,11 @@ begin
     label3.Visible:=false;
     timer1.enabled:=true; //bah, I wanted to do execute here but it seems thats not possible
   end;
+end;
+
+procedure TFindWindow.Panel1Click(Sender: TObject);
+begin
+
 end;
 
 procedure TFindWindow.Timer1Timer(Sender: TObject);
