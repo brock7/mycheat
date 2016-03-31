@@ -1783,7 +1783,7 @@ var
 begin
   if (hdevice<>INVALID_HANDLE_VALUE) then
   begin
-    Outputdebugstring('LaunchDBVM');
+    Outputdebugstring('LaunchD*B*V*M');
     cc:=IOCTL_CE_LAUNCHDBVM;
 
 
@@ -1808,7 +1808,7 @@ begin
       begin
         //the feature control msr is locked
         if (fc and (1 shl 2))=0 then
-          raise exception.create('Could not launch DBVM: The Intel-VT feature has been disabled in your BIOS');
+          raise exception.create('Could not launch D*B*V*M: The Intel-VT feature has been disabled in your BIOS');
       end;
     end;
 
@@ -2231,7 +2231,7 @@ begin
         begin
           if dbvm_version>$ce000000 then
           begin
-            if MessageDlg('The driver couldn''t be opened! It''s not loaded or not responding. Luckely you are running dbvm so it''s not a total waste. Do you wish to force load the driver?', mtconfirmation, [mbyes, mbno],0)=mryes then
+            if MessageDlg('The driver couldn''t be opened! It''s not loaded or not responding. Luckely you are running d*b*v*m so it''s not a total waste. Do you wish to force load the driver?', mtconfirmation, [mbyes, mbno],0)=mryes then
             begin
               OutputDebugString('Calling SecondaryDriverLoad');
               {$ifdef cpu32}
@@ -2248,7 +2248,7 @@ begin
           end
           else
           begin
-            messagebox(0,'The driver couldn''t be opened! It''s not loaded or not responding. I recommend to reboot your system and try again (If you''re on 64-bit windows, you might want to use dbvm)','DBK32.DLL Error',MB_ICONERROR or MB_OK)
+            messagebox(0,'The driver couldn''t be opened! It''s not loaded or not responding. I recommend to reboot your system and try again (If you''re on 64-bit windows, you might want to use d*b*v*m)','D*B*K*32.DLL Error',MB_ICONERROR or MB_OK)
           end;
 
         end

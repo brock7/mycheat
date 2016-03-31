@@ -291,7 +291,7 @@ resourcestring
   rsTheValueForTheKeypollIntervalIsInvalid = 'the value for the keypoll interval (%s is invalid';
   rsTheValueForTheWaitBetweenHotkeyPressesIsInvalid = 'the value for the wait between hotkey presses (%s is invalid';
   rsPleaseBootWithUnsignedDriversAllowedF8DuringBootOr = 'Please boot with unsigned drivers allowed(F8 during boot), or sign the driver yourself';
-  rsRequiresDBVM = '(Requires DBVM)';
+  rsRequiresDBVM = '(Requires D*B*V*M)';
   rsThisPluginIsAlreadyLoaded = 'This plugin is already loaded';
   rsIdle = 'Idle';
   rsLowest = 'Lowest';

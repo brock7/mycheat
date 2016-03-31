@@ -2,7 +2,7 @@ msgid "Does not affect the standalone trainer because that one is protected by d
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
-msgid "Are you sure you want to launch DBVM? You seem to be running in 32-bit, so don't really need it that badly (Except for ultimap and cloaked operations)"
+msgid "Are you sure you want to launch D*B*V*M? You seem to be running in 32-bit, so don't really need it that badly (Except for ultimap and cloaked operations)"
 msgstr ""
 
 #: aboutunit.rsdidyoureallythinkyoudfindaneastereggbydoingthiswel
@@ -10,27 +10,27 @@ msgid "Did you really think you'd find an easter egg by doing this? Well, you kn
 msgstr ""
 
 #: aboutunit.rsthismeansthatyourecurrentlynotrunningdbvm
-msgid "This means that you're currently not running dbvm, but that your system is capable of running it"
+msgid "This means that you're currently not running d*b*v*m, but that your system is capable of running it"
 msgstr ""
 
 #: aboutunit.rsthismeansthatyoursystemisrunningdbvm
-msgid "This means that your system is running dbvm. This means ce will make use of some advanced tools that are otherwise unavailable"
+msgid "This means that your system is running d*b*v*m. This means ce will make use of some advanced tools that are otherwise unavailable"
 msgstr ""
 
 #: aboutunit.rsthismeansthatyouwillneedanewcpuinteltobeabletouset
-msgid "This means that you will need a new cpu (intel) to be able to use the advanced dbvm options"
+msgid "This means that you will need a new cpu (intel) to be able to use the advanced d*b*v*m options"
 msgstr ""
 
 #: aboutunit.rsyoursystemdoesnotsupportdbvm
-msgid "Your system DOES NOT support DBVM"
+msgid "Your system DOES NOT support D*B*V*M"
 msgstr ""
 
 #: aboutunit.rsyoursystemisrunningdbvmversion
-msgid "Your system is running DBVM version %s"
+msgid "Your system is running D*B*V*M version %s"
 msgstr ""
 
 #: aboutunit.rsyoursystemsupportsdbvm
-msgid "Your system supports DBVM"
+msgid "Your system supports D*B*V*M"
 msgstr ""
 
 #: accesscheck.rsnofilecreationrightsornofileoverwriterights
@@ -1429,7 +1429,7 @@ msgid "Popup/Hide cheat engine"
 msgstr ""
 
 #: formsettingsunit.rsrequiresdbvm
-msgid "(Requires DBVM)"
+msgid "(Requires D*B*V*M)"
 msgstr ""
 
 #: formsettingsunit.rsscansettings
@@ -3213,7 +3213,7 @@ msgid "%s couldn't be opened"
 msgstr ""
 
 #: newkernelhandler.rsdidnotloaddbvm
-msgid "I don't know what you did, you didn't crash, but you also didn't load DBVM"
+msgid "I don't know what you did, you didn't crash, but you also didn't load D*B*V*M"
 msgstr ""
 
 #: newkernelhandler.rsfucked
@@ -3229,11 +3229,11 @@ msgid "The driver needs to be loaded to be able to use this function."
 msgstr ""
 
 #: newkernelhandler.rstousethisfunctionyouwillneedtorundbvm
-msgid "To use this function you will need to run DBVM. There is a high chance running DBVM can crash your system and make you lose your data(So don't forget to save first). Do you want to run DBVM?"
+msgid "To use this function you will need to run D*B*V*M. There is a high chance running DBVM can crash your system and make you lose your data(So don't forget to save first). Do you want to run D*B*V*M?"
 msgstr ""
 
 #: newkernelhandler.rsyourcpumustbeabletorundbvmtousethisfunction
-msgid "Your cpu must be able to run dbvm to use this function"
+msgid "Your cpu must be able to run d*b*v*m to use this function"
 msgstr ""
 
 #: opensave.rsaskifstupid

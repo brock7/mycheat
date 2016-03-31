@@ -67,14 +67,14 @@ MainUnit;
 {$endif}
 
 resourcestring
-  rsYourSystemDOESNOTSupportDBVM = 'Your system DOES NOT support DBVM';
-  rsThisMeansThatYouWillNeedANewCpuIntelToBeAbleToUseT = 'This means that you will need a new cpu (intel) to be able to use the advanced dbvm options';
-  rsYourSystemIsRunningDBVMVersion = 'Your system is running DBVM version %s';
-  rsThisMeansThatYourSystemIsRunningDbvm = 'This means that your system is running dbvm. This means ce will make use of some advanced tools that are otherwise unavailable';
-  rsYourSystemSupportsDBVM = 'Your system supports DBVM';
-  rsThisMeansThatYouReCurrentlyNotRunningDbvm = 'This means that you''re currently not running dbvm, but that your system is capable of running it';
+  rsYourSystemDOESNOTSupportDBVM = 'Your system DOES NOT support D*B*V*M';
+  rsThisMeansThatYouWillNeedANewCpuIntelToBeAbleToUseT = 'This means that you will need a new cpu (intel) to be able to use the advanced d*b*v*m options';
+  rsYourSystemIsRunningDBVMVersion = 'Your system is running D*B*V*M version %s';
+  rsThisMeansThatYourSystemIsRunningDbvm = 'This means that your system is running d*b*v*m. This means ce will make use of some advanced tools that are otherwise unavailable';
+  rsYourSystemSupportsDBVM = 'Your system supports D*B*V*M';
+  rsThisMeansThatYouReCurrentlyNotRunningDbvm = 'This means that you''re currently not running d*b*v*m, but that your system is capable of running it';
   rsDidYouReallyThinkYouDFindAnEasterEggByDoingThisWel = 'Did you really think you''d find an easter egg by doing this? Well, you know what? You where right!';
-  rsAreYouSureYouWantToLaunchDBVM = 'Are you sure you want to launch DBVM? You seem to be running in 32-bit, so don''t really need it that badly (Except for ultimap and cloaked operations)';
+  rsAreYouSureYouWantToLaunchDBVM = 'Are you sure you want to launch D*B*V*M? You seem to be running in 32-bit, so don''t really need it that badly (Except for ultimap and cloaked operations)';
 
 procedure TAbout.Button1Click(Sender: TObject);
 begin

@@ -87,7 +87,7 @@ begin
     //load the 64 bit driver
     if dbvmversion=0 then
     begin
-      showmessage('seems like dbvm isn''t loaded after all');
+      showmessage('seems like d*b*v*m isn''t loaded after all');
       exit;
     end;
 
@@ -108,7 +108,7 @@ begin
       begin
         result:=$fff00fff;
         part:=6;
-        ShowMessage('Success. The driver has been loaded thanks to dbvm');
+        ShowMessage('Success. The driver has been loaded thanks to d*b*v*m');
       end
       else
         showMessage('The driver failed to initialize');

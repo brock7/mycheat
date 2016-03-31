@@ -749,13 +749,13 @@ uses
 
 
 resourcestring
-  rsToUseThisFunctionYouWillNeedToRunDBVM = 'To use this function you will need to run DBVM. There is a high chance running DBVM can crash your system and make '
-    +'you lose your data(So don''t forget to save first). Do you want to run DBVM?';
-  rsDidNotLoadDBVM = 'I don''t know what you did, you didn''t crash, but you also didn''t load DBVM';
+  rsToUseThisFunctionYouWillNeedToRunDBVM = 'To use this function you will need to run D*B*V*M. There is a high chance running DBVM can crash your system and make '
+    +'you lose your data(So don''t forget to save first). Do you want to run D*B*V*M?';
+  rsDidNotLoadDBVM = 'I don''t know what you did, you didn''t crash, but you also didn''t load D*B*V*M';
   rsPleaseRebootAndPressF8BeforeWindowsBoots = 'Please reboot and press f8 before windows boots. Then enable unsigned drivers. Alternatively, you could buy yourself a business '
     +'class certificate and sign the driver yourself (or try debug signing)';
   rsTheDriverNeedsToBeLoadedToBeAbleToUseThisFunction = 'The driver needs to be loaded to be able to use this function.';
-  rsYourCpuMustBeAbleToRunDbvmToUseThisFunction = 'Your cpu must be able to run dbvm to use this function';
+  rsYourCpuMustBeAbleToRunDbvmToUseThisFunction = 'Your cpu must be able to run d*b*v*m to use this function';
   rsCouldnTBeOpened = '%s couldn''t be opened';
 
 
