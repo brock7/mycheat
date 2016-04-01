@@ -35,7 +35,7 @@ object formPointerOrPointee: TformPointerOrPointee
     Height = 25
     Top = 64
     Width = 321
-    Caption = 'Find what writes to the address pointed at by this pointer'
+    Caption = 'Find what writes to the *address pointed at by this *pointer'
     ModalResult = 7
     TabOrder = 1
   end

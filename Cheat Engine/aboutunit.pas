@@ -67,14 +67,14 @@ MainUnit;
 {$endif}
 
 resourcestring
-  rsYourSystemDOESNOTSupportDBVM = 'Your system DOES NOT support D*B*V*M';
-  rsThisMeansThatYouWillNeedANewCpuIntelToBeAbleToUseT = 'This means that you will need a new cpu (intel) to be able to use the advanced d*b*v*m options';
-  rsYourSystemIsRunningDBVMVersion = 'Your system is running D*B*V*M version %s';
-  rsThisMeansThatYourSystemIsRunningDbvm = 'This means that your system is running d*b*v*m. This means ce will make use of some advanced tools that are otherwise unavailable';
-  rsYourSystemSupportsDBVM = 'Your system supports D*B*V*M';
-  rsThisMeansThatYouReCurrentlyNotRunningDbvm = 'This means that you''re currently not running d*b*v*m, but that your system is capable of running it';
-  rsDidYouReallyThinkYouDFindAnEasterEggByDoingThisWel = 'Did you really think you''d find an easter egg by doing this? Well, you know what? You where right!';
-  rsAreYouSureYouWantToLaunchDBVM = 'Are you sure you want to launch D*B*V*M? You seem to be running in 32-bit, so don''t really need it that badly (Except for ultimap and cloaked operations)';
+  rsYourSystemDOESNOTSupportDBVM = 'YOUR SYSTEM DOES NOT SUPPORT D*B*V*M';
+  rsThisMeansThatYouWillNeedANewCpuIntelToBeAbleToUseT = 'THIS MEANS THAT YOU WILL NEED A NEW CPU (INTEL) TO BE ABLE TO USE THE ADVANCED D*B*V*M OPTIONS';
+  rsYourSystemIsRunningDBVMVersion = 'YOUR SYSTEM IS RUNNING D*B*V*M VERSION %S';
+  rsThisMeansThatYourSystemIsRunningDbvm = 'THIS MEANS THAT YOUR SYSTEM IS RUNNING D*B*V*M. THIS MEANS CE WILL MAKE USE OF SOME ADVANCED TOOLS THAT ARE OTHERWISE UNAVAILABLE';
+  rsYourSystemSupportsDBVM = 'YOUR SYSTEM SUPPORTS D*B*V*M';
+  rsThisMeansThatYouReCurrentlyNotRunningDbvm = 'THIS MEANS THAT YOU''RE CURRENTLY NOT RUNNING D*B*V*M, BUT THAT YOUR SYSTEM IS CAPABLE OF RUNNING IT';
+  rsDidYouReallyThinkYouDFindAnEasterEggByDoingThisWel = 'DID YOU REALLY THINK YOU''D FIND AN *EASTER *EGG BY DOING THIS? WELL, YOU KNOW WHAT? YOU WHERE RIGHT!';
+  rsAreYouSureYouWantToLaunchDBVM = 'ARE YOU SURE YOU WANT TO LAUNCH D*B*V*M? YOU SEEM TO BE RUNNING IN 32-BIT, SO DON''T REALLY NEED IT THAT BADLY (EXCEPT FOR ULTIMAP AND CLOAKED OPERATIONS)';
 
 procedure TAbout.Button1Click(Sender: TObject);
 begin
@@ -214,7 +214,7 @@ begin
         if assigned(launchdbvm) then
           launchdbvm
         else
-          raise exception.create('launchdbvm was not assigned');
+          raise exception.create('LAUNCH*D*B*V*M WAS NOT ASSIGNED');
 
         formshow(self);
       end;

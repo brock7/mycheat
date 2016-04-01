@@ -47,7 +47,7 @@ resourcestring
     +' a powerfull feature if you learn to use it. Are you sure you want to quit?';
   rsLOSER = 'LOSER';
 
-  rsTutorialStep6=
+  rsTutorialStep6=''; {
     'In the previous step I explained how to use the Code finder to handle changing locations. But that method alone '+
     'makes it difficult to find the address to set the values you want.'+#13#10+
     'That''s why there are pointers:'+#13#10+
@@ -83,7 +83,7 @@ resourcestring
     ''+#13#10+
     ''+#13#10+
     'extra:'+#13#10+
-    'And you could also use the pointer scanner to find the pointer to this address';
+    'And you could also use the pointer scanner to find the pointer to this address';}
 
 
 procedure TForm7.Button2Click(Sender: TObject);

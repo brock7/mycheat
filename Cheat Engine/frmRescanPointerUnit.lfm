@@ -198,7 +198,7 @@ object frmRescanPointer: TfrmRescanPointer
   object cbLuaFilter: TCheckBox
     Left = 8
     Height = 19
-    Hint = 'When checked this will call the given function for every pointer being evaluated. Return true if it''s valid, false if not'#13#10'base is the base address (integer)'#13#10'offset is a table with offsets'#13#10'target is the address the pointer points to. Can be nil'
+    Hint = 'When checked this will call the given function for every *pointer being evaluated. Return true if it''s valid, false if not'#13#10'base is the base address (integer)'#13#10'offset is a table with offsets'#13#10'target is the *address the *pointer *points to. Can be nil'
     Top = 120
     Width = 104
     Caption = 'Lua filter. function'

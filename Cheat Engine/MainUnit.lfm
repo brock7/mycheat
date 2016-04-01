@@ -278,7 +278,7 @@ object MainForm: TMainForm
     object SpeedButton3: TSpeedButton
       Left = 249
       Height = 22
-      Hint = 'Copy all selected items to the address list'
+      Hint = 'Copy all selected items to the *address list'
       Top = 294
       Width = 23
       Anchors = [akTop, akRight]
@@ -421,7 +421,7 @@ object MainForm: TMainForm
         object cbCopyOnWrite: TCheckBox
           Left = 4
           Height = 21
-          Hint = 'Unchecked:'#13#10'Do not scan copy-on-write memory'#13#10#13#10'Checked:'#13#10'Only scan copy-on-write memory'#13#10#13#10'Gray:'#13#10'Don''t care if it''s copy-on-write or not'
+          Hint = 'Unchecked:'#13#10'DO NOT *SCAN *COPY-ON-*WRITE *MEMORY'#13#10#13#10'Checked:'#13#10'ONLY *SCAN *COPY-ON-*WRITE *MEMORY'#13#10#13#10'Gray:'#13#10'Don''t care if it''s *COPY-ON-*WRITE OR *NOT'
           Top = 17
           Width = 85
           AllowGrayed = True
@@ -434,7 +434,7 @@ object MainForm: TMainForm
         object cbWritable: TCheckBox
           Left = 4
           Height = 21
-          Hint = 'Unchecked:'#13#10'Do not scan writable memory'#13#10#13#10'Checked:'#13#10'Only scan writable memory'#13#10#13#10'Gray:'#13#10'Don''t care if it''s writable memory or not'
+          Hint = 'Unchecked:'#13#10'DO NOT *SCAN *WRITABLE *MEMORY'#13#10#13#10'Checked:'#13#10'ONLY *SCAN *WRITABLE *MEMORY'#13#10#13#10'Gray:'#13#10'DON''T CARE IF IT''S *WRITABLE *MEMORY OR NOT'
           Top = -2
           Width = 61
           AllowGrayed = True
@@ -449,7 +449,7 @@ object MainForm: TMainForm
         object cbExecutable: TCheckBox
           Left = 105
           Height = 21
-          Hint = 'Unchecked:'#13#10'Do not scan executable memory'#13#10#13#10'Checked:'#13#10'Only scan executable memory'#13#10#13#10'Gray:'#13#10'Don''t care if it''s executable or not'
+          Hint = 'Unchecked:'#13#10'DO NOT *SCAN *EXECUTABLE *MEMORY'#13#10#13#10'Checked:'#13#10'ONLY *SCAN *EXECUTABLE *MEMORY'#13#10#13#10'Gray:'#13#10'DON''T CARE IF IT''S *EXECUTABLE OR NOT'
           Top = -2
           Width = 75
           AllowGrayed = True
@@ -549,7 +549,7 @@ object MainForm: TMainForm
         object cbFastScan: TCheckBox
           Left = 4
           Height = 21
-          Hint = 'Speeds up the scan and decreases useless results by skipping unaligned memory, or only scans addresses ending with specific digits'
+          Hint = 'SPEEDS *UP *THE *SCAN AND DECREASES *USELESS *RESULTS *BY SKIPPING UNALIGNED *MEMORY, OR ONLY SCANS *ADDRESSES ENDING *WITH SPECIFIC DIGITS'
           Top = 7
           Width = 70
           Caption = 'Fast Scan'
@@ -579,7 +579,7 @@ object MainForm: TMainForm
           Height = 21
           Top = 33
           Width = 172
-          Caption = 'Pause the game while scanning'
+          Caption = '*PAUSE *THE GAME WHILE *SCANNING'
           Enabled = False
           OnClick = cbPauseWhileScanningClick
           TabOrder = 2
@@ -587,7 +587,7 @@ object MainForm: TMainForm
         object rbfsmLastDigts: TRadioButton
           Left = 123
           Height = 21
-          Hint = 'When set and fastscan is enabled will only scan and return addresses that end with the given digits'
+          Hint = 'WHEN SET AND *FASTSCAN IS ENABLED *WILL ONLY SCAN *AND RETURN ADDRESSES *THAT END WITH THE GIVEN DIGITS'
           Top = 17
           Width = 71
           Caption = 'Last Digits'
@@ -599,7 +599,7 @@ object MainForm: TMainForm
         object rbFsmAligned: TRadioButton
           Left = 123
           Height = 21
-          Hint = 'When set and fastscan is enabled will scan the memory address if it is dividable by the given value'
+          Hint = 'WHEN* SET AND *FASTSCAN IS *ENABLED WILL SCAN *THE MEMORY ADDRESS *IF IT IS DIVIDABLE BY THE GIVEN VALUE'
           Top = 0
           Width = 68
           Caption = 'Alignment'
@@ -702,7 +702,7 @@ object MainForm: TMainForm
       Top = 322
       Width = 115
       Anchors = [akRight, akBottom]
-      Caption = 'Add Address Manually'
+      Caption = 'Add *Address Manually'
       OnClick = btnAddAddressManuallyClick
       TabOrder = 8
     end
@@ -814,7 +814,7 @@ object MainForm: TMainForm
       object sbOpenProcess: TSpeedButton
         Left = 3
         Height = 25
-        Hint = 'Select a process to open'
+        Hint = 'SELECT A P*ROCESS TO OPEN'
         Top = 3
         Width = 25
         Glyph.Data = {

@@ -731,7 +731,7 @@ object MemoryBrowser: TMemoryBrowser
       Caption = '-'
     end
     object Addthisaddresstothelist1: TMenuItem
-      Caption = 'Add this address to the list'
+      Caption = 'Add this *address to the list'
       OnClick = Addthisaddresstothelist1Click
     end
     object Makepagewritable1: TMenuItem

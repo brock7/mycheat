@@ -47,7 +47,7 @@ resourcestring
     +' this one. Sure you want to quit?';
   rsLOSER = 'LOSER';
 
-  rsTutorialStep3=
+  rsTutorialStep3= ''; {
     'Ok, seeing that you''ve figured out how to find a value using exact value let''s move on to the next step.'+#13#10+
           ''+#13#10+
           'In the previous test we knew the initial value so we could do a exact value, but now we have a status bar where '+
@@ -68,7 +68,7 @@ resourcestring
           ''+#13#10+
           'We know the value is between 0 and 500, so pick the one that is most likely the address we need, and add it to '+
           'the list.'+#13#10+
-          'Now change the health to 5000, to proceed to the next step.';
+          'Now change the health to 5000, to proceed to the next step.';}
 
 
 

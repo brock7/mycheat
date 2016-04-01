@@ -43,7 +43,7 @@ resourcestring
     +'try the tutorial later. Are you sure you want to quit?';
   rsLOSER = 'LOSER';
 
-  rsTutorialStep7=
+  rsTutorialStep7='';{
     'Code injection is a technique where one injects a piece of code into the target process, and then reroute the '+
     'execution of code to go through your own written code'+#13#10+
     ''+#13#10+
@@ -81,7 +81,7 @@ resourcestring
     'that a code at another place jumps into your jump instruction end will then cause unknown behavior. If that '+
     'happens, you should usually look near that instruction and see the jumps and fix it, or perhaps even choose to use a '+
     'different address to do the code injection from. As long as you''re able to figure out the address to change from inside '+
-    'your injected code.';
+    'your injected code.';}
 
 
 procedure TForm8.Button1Click(Sender: TObject);

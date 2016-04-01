@@ -583,7 +583,7 @@ resourcestring
   rsHowLongShouldAChangeBeShown = 'How long should a change be shown?';
   rsChangeDisplayFader = 'Change display fader';
   rsGotoAddress = 'Goto Address';
-  rsFillInTheAddressYouWantToGoTo = 'Fill in the address you want to go to';
+  rsFillInTheAddressYouWantToGoTo = 'Fill in the *address you want to go to';
   rsMemoryViewerRunning = 'Memory Viewer - Running';
   rsCheatEngineSingleLingeAssembler = 'MyCheat single-line assembler';
   rsTypeYourAssemblerCodeHereAddress = 'Type your assembler code here: (address=%s)';

@@ -208,7 +208,7 @@ object frmStructures: TfrmStructures
       Caption = '-'
     end
     object Addtoaddresslist1: TMenuItem
-      Caption = 'Add to address list'
+      Caption = 'Add to *address list'
       ShortCut = 65
       OnClick = Addtoaddresslist1Click
     end

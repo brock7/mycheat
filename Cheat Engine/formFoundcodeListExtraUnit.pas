@@ -93,7 +93,7 @@ uses MemoryBrowserFormUnit;
 
 resourcestring
   rsTheValueOfThePointerNeededToFindThisAddressIsProba = 'The value of the '
-    +'pointer needed to find this address is probably %s';
+    +'*pointer needed to find this *address is probably %s';
   rsProbableBasePointer = 'Probable base pointer =%s';
 
 procedure TFormFoundCodeListExtra.setprobably(address: ptrUint);

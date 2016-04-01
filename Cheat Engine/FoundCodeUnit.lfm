@@ -192,7 +192,7 @@ object FoundCodeDialog: TFoundCodeDialog
       OnClick = btnReplacewithnopsClick
     end
     object Showthisaddressinthedisassembler1: TMenuItem
-      Caption = 'Show this address in the disassembler'
+      Caption = 'Show this *address in the *disassembler'
       OnClick = btnOpenDisassemblerClick
     end
     object Addtothecodelist1: TMenuItem

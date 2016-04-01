@@ -213,11 +213,11 @@ resourcestring
   rsCodeNeedsEnableAndDisable = 'The code needs an [ENABLE] and a [DISABLE] section if you want to use this script as a table entry';
   rsNotAllCodeIsInjectable = 'Not all code is injectable.'#13#10'%s'#13#10'Are you sure you wan''t to edit it to this?';
   rsCodeInjectTemplate = 'Code inject template';
-  rsOnWhatAddressDoYouWantTheJump = 'On what address do you want the jump?';
+  rsOnWhatAddressDoYouWantTheJump = 'On what *address do you want the jump?';
   rsFailedToAddToTableNotAllCodeIsInjectable = 'Failed to add to table. Not all code is injectable';
   rsStartAddress = 'Start address';
   rsCodeRelocationTemplate = 'Code relocation template';
-  rsEndAddressLastBytesAreIncludedIfNecesary = 'End address (last bytes are included if necessary)';
+  rsEndAddressLastBytesAreIncludedIfNecesary = 'End *address (last bytes are included if necessary)';
   rsAreYouSureYouWantToClose = 'Are you sure you want to close %s ?';
   rsWhatIdentifierDoYouWantToUse = 'What do you want to name the symbol for the injection point?';
 
@@ -1677,7 +1677,7 @@ begin
       if not symhandler.getmodulebyname('undercdll.dll',mi) then
         raise exception.Create('Failure loading undercdll');
     end;
-    if not autoassemble(callscriptscript,false,true,false,false,CEAllocArray) then raise exception.Create('Failed creating calling stub for script located at address '+inttohex(ptrUint(address),8));
+    if not autoassemble(callscriptscript,false,true,false,false,CEAllocArray) then raise exception.Create('Failed creating calling stub for script located at *address '+inttohex(ptrUint(address),8));
   finally
     callscriptscript.free;
   end;

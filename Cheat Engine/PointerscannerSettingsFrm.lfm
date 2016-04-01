@@ -131,7 +131,7 @@ object frmPointerScannerSettings: TfrmPointerScannerSettings
       object cbHeapOnly: TCheckBox
         Left = 16
         Height = 19
-        Hint = 'If the address you search for isn''t a heap address, the scan will return 0 results'
+        Hint = 'If the *address you search for isn''t a heap *address, the scan will return 0 results'
         Top = 162
         Width = 248
         Caption = 'Only allow static and heap addresses in the path'
@@ -548,10 +548,10 @@ object frmPointerScannerSettings: TfrmPointerScannerSettings
   object cbMustStartWithBase: TCheckBox
     Left = 8
     Height = 19
-    Hint = 'Will only mark the given range as valid base address (Will reduce the number of results)'#13#10'This internally makes use of the "Only find paths with a static address" feature by marking the provided range as static only, so it must be enabled.'
+    Hint = 'Will only mark the given range as valid base *address (Will reduce the number of results)'#13#10'This internally makes use of the "Only find paths with a static address" feature by marking the provided range as static only, so it must be enabled.'
     Top = 314
     Width = 204
-    Caption = 'Base address must be in specific range'
+    Caption = 'Base *address must be in specific range'
     OnChange = cbMustStartWithBaseChange
     ParentShowHint = False
     ShowHint = True

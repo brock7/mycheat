@@ -96,7 +96,7 @@ resourcestring
     +'someday you can try it again. Are you sure you want to quit?';
   rsLOSER = 'LOSER';
 
-  rsTutorialStep8=
+  rsTutorialStep8='';{
           'This step will explain how to use multi-level pointers.'+#13#10+
           'In step 6 you had a simple level-1 pointer, with the first address found already being the real base address.'+#13#10+
           'This step however is a level-4 pointer. It has a pointer to a pointer to a pointer to a pointer to a pointer to the health.'+#13#10+
@@ -124,7 +124,7 @@ resourcestring
           'Extra3: If you''re still reading. You might notice that when looking at the assembler instructions that the pointer is '+
           'being read and filled out in the same codeblock (same routine, if you know assembler, look up till the start of the '+
           'routine). This doesn''t always happen, but can be really useful in finding a '+
-          'pointer when debugging is troublesome';
+          'pointer when debugging is troublesome';}
 
 
 

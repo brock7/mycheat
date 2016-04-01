@@ -738,7 +738,7 @@ object formSettings: TformSettings
           Width = 416
           Height = 16
           Caption = 
-            'Advantage: Finds every address that accesses the specified addre' +
+            'Advantage: Finds every *address that accesses the specified addre' +
             'ss.'
         end
         object Label9: TLabel

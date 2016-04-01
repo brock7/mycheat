@@ -270,7 +270,7 @@ object frmStructures2: TfrmStructures2
       Caption = '-'
     end
     object miAddToAddresslist: TMenuItem
-      Caption = 'Add to address list'
+      Caption = 'Add to *address list'
       ShortCut = 65
       OnClick = miAddToAddresslistClick
     end

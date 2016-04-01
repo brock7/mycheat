@@ -340,7 +340,7 @@ uses frmStructPointerRescanUnit, MemoryBrowserFormUnit;
 resourcestring
   rsGeneratingStringmap = 'Generating stringmap';
   rsGeneratedScanning = 'Generated. Scanning...';
-  rsThisAddressIsNotAccessible = 'This address is not accessible';
+  rsThisAddressIsNotAccessible = 'This *address is not accessible';
   rsStop = 'Stop';
   rsTerminating = 'Terminating...';
   rsAreYouSureYo = 'Are you sure you wish to start a new scan?';

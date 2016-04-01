@@ -261,7 +261,7 @@ object frmStringPointerScan: TfrmStringPointerScan
       object cbMapPointerValues: TCheckBox
         Left = 5
         Height = 19
-        Hint = 'During the scan the values of pointer will be stored in memory for quick lookup when the same address is encountered again'#13#10'If the pointerlist has mostly unique addresses this can cause you to get out of memory errors'#13#10#13#10'Enabled: Fast- Memory gobbler'#13#10'Disabled: Slower- Not too much memory eaten'
+        Hint = 'During the scan the values of *pointer will be stored in *memory for quick lookup when the same *address is encountered again'#13#10'If the pointerlist has mostly unique addresses this can cause you to get out of memory errors'#13#10#13#10'Enabled: Fast- Memory gobbler'#13#10'Disabled: Slower- Not too much memory eaten'
         Top = 104
         Width = 148
         Caption = 'Store values during scan'

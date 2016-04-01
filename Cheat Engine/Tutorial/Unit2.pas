@@ -43,13 +43,14 @@ implementation
 uses Unit3;
 
 resourcestring
-  rsAwYouReDeathLetMeReviveYou = 'Aw, you''re dead! Let me revive you';
-  rsStep2ExactValueScanningPW = 'Step 2: Exact Value scanning (PW=';
-  rsQuittingOnStep2ThisIsTheEasiestStepThereIsFindHeal = 'Quitting on step2? This is the easiest step there is. Find health, change health, done.... Sure you '
-    +'want to quit?';
+  rsAwYouReDeathLetMeReviveYou = ''; // 'Aw, you''re dead! Let me revive you';
+  rsStep2ExactValueScanningPW = ''; // 'Step 2: Exact Value scanning (PW=';
+  rsQuittingOnStep2ThisIsTheEasiestStepThereIsFindHeal = ''; { 'Quitting on step2? This is the easiest step there is. Find health, change health, done.... Sure you '
+    +'want to quit?'; }
   rsLOSER = 'LOSER';
 
-  rsTutorialStep2=
+  rsTutorialStep2= ''
+  	{
     'Now that you have opened the tutorial with MyCheat lets get on with the next step.'+#13#10+
     ''+#13#10+
     'You see at the bottom of this window the text Health: xxx'+#13#10+
@@ -82,7 +83,7 @@ resourcestring
     'Note:'+#13#10+
     'If you did anything wrong while scanning, click "New Scan" and repeat the scanning again.'+#13#10+
     'Also, try playing around with the value and click ''hit me''';
-
+	}
 
 
 type TTester=class(TThread)

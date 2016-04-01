@@ -626,8 +626,8 @@ resourcestring
   rsNoReadableMemoryFound = 'No readable memory found';
   rsFailureAllocatingMemoryForCopyTriedAllocatingKB = 'Failure allocating memory for copy. Tried allocating %s KB';
   rsErrorWhenWhileLoadingResult = 'Error when while loading result';
-  rsNotEnoughDiskspaceForTheAddressFile = 'Not enough diskspace for the address file';
-  rsNotEnoughDiskspaceForTheMemoryFile = 'Not enough diskspace for the memory file';
+  rsNotEnoughDiskspaceForTheAddressFile = 'Not enough diskspace for the *address file';
+  rsNotEnoughDiskspaceForTheMemoryFile = 'Not enough diskspace for the *memory file';
   rsDiskWriteError2 = 'Disk Write Error:%s';
   rsFailedSpawningTheSaveFirstScanThread = 'Failed spawning the Save First Scan thread';
   rsForSomeReasonTheScanControllerDoesNotExist = 'For some reason the scanController does not exist';

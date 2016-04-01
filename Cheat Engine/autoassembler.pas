@@ -35,7 +35,7 @@ uses simpleaobscanner, StrUtils, LuaHandler, memscan, disassembler, networkInter
 
 resourcestring
   rsForwardJumpWithNoLabelDefined = 'Forward jump with no label defined';
-  rsThereIsCodeDefinedWithoutSpecifyingTheAddressItBel = 'There is code defined without specifying the address it belongs to';
+  rsThereIsCodeDefinedWithoutSpecifyingTheAddressItBel = 'There is code defined without specifying the *address it belongs to';
   rsIsNotAValidBytestring = '%s is not a valid bytestring';
   rsTheBytesAtAreNotWhatWasExpected = 'The bytes at %s are not what was expected';
   rsTheMemoryAtCanNotBeRead = 'The memory at +%s can not be read';
@@ -48,7 +48,7 @@ resourcestring
   rsCouldNotBeInjected = '%s could not be injected';
   rsWrongSyntaxLoadLibraryFilename = 'Wrong syntax. LoadLibrary(filename)';
   rsWrongSyntaxLuaCall = 'Wrong Syntax. LuaCall(luacommand)';
-  rsInvalidAddressForReadMem = 'Invalid address for ReadMem';
+  rsInvalidAddressForReadMem = 'Invalid *address for ReadMem';
   rsInvalidSizeForReadMem = 'Invalid size for ReadMem';
   rsTheMemoryAtCouldNotBeFullyRead = 'The memory at %s could not be fully read';
   rsWrongSyntaxReadMemAddressSize = 'Wrong syntax. ReadMem(address,size)';
@@ -72,7 +72,7 @@ resourcestring
   rsNeedToUseKernelmodeReadWriteprocessmemory = 'You need to use kernelmode read/writeprocessmemory if you want to use KALLOC';
   rsSorryButWithoutTheDriverKALLOCWillNotFunction = 'Sorry, but without the driver KALLOC will not function';
   rsWrongSyntaxKallocIdentifierSizeinbytes = 'Wrong syntax. kalloc(identifier,sizeinbytes)';
-  rsThisAddressSpecifierIsNotValid = 'This address specifier is not valid';
+  rsThisAddressSpecifierIsNotValid = 'This *address specifier is not valid';
   rsThisInstructionCanTBeCompiled = 'This instruction can''t be compiled';
   rsErrorInLine = 'Error in line %s (%s) :%s';
   rsWasSupposedToBeAddedToTheSymbollistButItIsnTDeclar = '%s was supposed to be added to the symbollist, but it isn''t declared';

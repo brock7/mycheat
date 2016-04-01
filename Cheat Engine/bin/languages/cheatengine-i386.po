@@ -2,35 +2,35 @@ msgid "Does not affect the standalone trainer because that one is protected by d
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
-msgid "Are you sure you want to launch D*B*V*M? You seem to be running in 32-bit, so don't really need it that badly (Except for ultimap and cloaked operations)"
+msgid "ARE YOU SURE YOU WANT TO LAUNCH D*B*V*M? YOU SEEM TO BE RUNNING IN 32-BIT, SO DON'T REALLY NEED IT THAT BADLY (EXCEPT FOR ULTIMAP AND CLOAKED OPERATIONS)"
 msgstr ""
 
 #: aboutunit.rsdidyoureallythinkyoudfindaneastereggbydoingthiswel
-msgid "Did you really think you'd find an easter egg by doing this? Well, you know what? You where right!"
+msgid "DID YOU REALLY THINK YOU'D FIND AN *EASTER *EGG BY DOING THIS? WELL, YOU KNOW WHAT? YOU WHERE RIGHT!"
 msgstr ""
 
 #: aboutunit.rsthismeansthatyourecurrentlynotrunningdbvm
-msgid "This means that you're currently not running d*b*v*m, but that your system is capable of running it"
+msgid "THIS MEANS THAT YOU'RE CURRENTLY NOT RUNNING D*B*V*M, BUT THAT YOUR SYSTEM IS CAPABLE OF RUNNING IT"
 msgstr ""
 
 #: aboutunit.rsthismeansthatyoursystemisrunningdbvm
-msgid "This means that your system is running d*b*v*m. This means ce will make use of some advanced tools that are otherwise unavailable"
+msgid "THIS MEANS THAT YOUR SYSTEM IS RUNNING D*B*V*M. THIS MEANS CE WILL MAKE USE OF SOME ADVANCED TOOLS THAT ARE OTHERWISE UNAVAILABLE"
 msgstr ""
 
 #: aboutunit.rsthismeansthatyouwillneedanewcpuinteltobeabletouset
-msgid "This means that you will need a new cpu (intel) to be able to use the advanced d*b*v*m options"
+msgid "THIS MEANS THAT YOU WILL NEED A NEW CPU (INTEL) TO BE ABLE TO USE THE ADVANCED D*B*V*M OPTIONS"
 msgstr ""
 
 #: aboutunit.rsyoursystemdoesnotsupportdbvm
-msgid "Your system DOES NOT support D*B*V*M"
+msgid "YOUR SYSTEM DOES NOT SUPPORT D*B*V*M"
 msgstr ""
 
 #: aboutunit.rsyoursystemisrunningdbvmversion
-msgid "Your system is running D*B*V*M version %s"
+msgid "YOUR SYSTEM IS RUNNING D*B*V*M VERSION %S"
 msgstr ""
 
 #: aboutunit.rsyoursystemsupportsdbvm
-msgid "Your system supports D*B*V*M"
+msgid "YOUR SYSTEM SUPPORTS D*B*V*M"
 msgstr ""
 
 #: accesscheck.rsnofilecreationrightsornofileoverwriterights
@@ -134,16 +134,16 @@ msgstr ""
 
 #: advancedoptionsunit.rsthememoryatthisaddresscouldntbewritten
 msgctxt "advancedoptionsunit.rsthememoryatthisaddresscouldntbewritten"
-msgid "The memory at this address couldn't be written"
+msgid "THE *MEMORY AT THIS *ADDRESS COULDN'T BE WRITTEN"
 msgstr ""
 
 #: advancedoptionsunit.straddressalreadyinthelist
 msgctxt "advancedoptionsunit.straddressalreadyinthelist"
-msgid "This address is already in the list"
+msgid "THIS *ADDRESS IS ALREADY IN THE LIST"
 msgstr ""
 
 #: advancedoptionsunit.stralreadyinthelist
-msgid "This byte is already part of another opcode already present in the list"
+msgid "THIS BYTE IS ALREADY PART OF ANOTHER *OPCODE ALREADY PRESENT IN THE LIST"
 msgstr ""
 
 #: advancedoptionsunit.strcecode
@@ -164,7 +164,7 @@ msgstr ""
 
 #: advancedoptionsunit.strcouldntwrite
 msgctxt "advancedoptionsunit.strcouldntwrite"
-msgid "The memory at this address couldn't be written"
+msgid "THE *MEMORY AT THIS *ADDRESS COULDN'T BE WRITTEN"
 msgstr ""
 
 #: advancedoptionsunit.strfindwhatcodeaccesses
@@ -185,15 +185,15 @@ msgid "What name do you want to give this code?"
 msgstr ""
 
 #: advancedoptionsunit.strnotreadable
-msgid "This address is not readable"
+msgid "THIS *ADDRESS IS NOT READABLE"
 msgstr ""
 
 #: advancedoptionsunit.strnotthesame
-msgid "The memory at this address isn't what it should be! Continue?"
+msgid "THE *MEMORY AT THIS *ADDRESS ISN'T WHAT IT SHOULD BE! CONTINUE?"
 msgstr ""
 
 #: advancedoptionsunit.strnotwhatitshouldbe
-msgid "The memory at this address is'nt what it should be! Continue?"
+msgid "THE *MEMORY AT THIS *ADDRESS IS'NT WHAT IT SHOULD BE! CONTINUE?"
 msgstr ""
 
 #: advancedoptionsunit.strpartofopcodeinthelist
@@ -229,7 +229,7 @@ msgid "Forward jump with no label defined"
 msgstr ""
 
 #: autoassembler.rsinvalidaddressforreadmem
-msgid "Invalid address for ReadMem"
+msgid "Invalid *address for ReadMem"
 msgstr ""
 
 #: autoassembler.rsinvalidsizeforreadmem
@@ -321,11 +321,11 @@ msgid "The memory at %s could not be fully read"
 msgstr ""
 
 #: autoassembler.rsthereiscodedefinedwithoutspecifyingtheaddressitbel
-msgid "There is code defined without specifying the address it belongs to"
+msgid "There is code defined without specifying the *address it belongs to"
 msgstr ""
 
 #: autoassembler.rsthisaddressspecifierisnotvalid
-msgid "This address specifier is not valid"
+msgid "This *address specifier is not valid"
 msgstr ""
 
 #: autoassembler.rsthiscodecanbeinjectedareyousure
@@ -525,11 +525,11 @@ msgid "Failed to allocate memory"
 msgstr ""
 
 #: cefuncproc.rsfailedtoexecutethedllloader
-msgid "Failed to execute the dll loader"
+msgid "FAILED TO EXECUTE THE *DLL *LOADER"
 msgstr ""
 
 #: cefuncproc.rsfailedtoinjectthedllloader
-msgid "Failed to inject the dll loader"
+msgid "FAILED TO *INJECT THE *DLL *LOADER"
 msgstr ""
 
 #: cefuncproc.rsgetprocaddressnotfound
@@ -547,7 +547,7 @@ msgid "Home"
 msgstr ""
 
 #: cefuncproc.rsicantgettheprocesslistyouarepropablyusingwindowsnt
-msgid "I can't get the process list. You are propably using windows NT. Use the window list instead!"
+msgid "I CAN'T GET THE *PROCESS LIST. YOU ARE PROPABLY USING WINDOWS NT. USE THE WINDOW LIST INSTEAD!"
 msgstr ""
 
 #: cefuncproc.rsinsert
@@ -673,11 +673,11 @@ msgid "Tab"
 msgstr ""
 
 #: cefuncproc.rstheinjectionthreadtooklongerthan10secondstoexecute
-msgid "The injection thread took longer than 10 seconds to execute. Injection routine not freed"
+msgid "THE *INJECTION THREAD TOOK LONGER THAN 10 SECONDS TO EXECUTE. *INJECTION ROUTINE NOT FREED"
 msgstr ""
 
 #: cefuncproc.rsunknownerrorduringinjection
-msgid "Unknown error during injection"
+msgid "UNKNOWN ERROR DURING *INJECTION"
 msgstr ""
 
 #: cefuncproc.rsuparrow
@@ -1018,7 +1018,7 @@ msgid "Probable base pointer =%s"
 msgstr ""
 
 #: formfoundcodelistextraunit.rsthevalueofthepointerneededtofindthisaddressisproba
-msgid "The value of the pointer needed to find this address is probably %s"
+msgid "The value of the *pointer needed to find this *address is probably %s"
 msgstr ""
 
 #: formhotkeyunit.rsalt
@@ -1549,7 +1549,7 @@ msgid "Code relocation template"
 msgstr ""
 
 #: frmautoinjectunit.rsendaddresslastbytesareincludedifnecesary
-msgid "End address (last bytes are included if necessary)"
+msgid "End *address (last bytes are included if necessary)"
 msgstr ""
 
 #: frmautoinjectunit.rsexecutescript
@@ -1576,7 +1576,7 @@ msgid ""
 msgstr ""
 
 #: frmautoinjectunit.rsonwhataddressdoyouwantthejump
-msgid "On what address do you want the jump?"
+msgid "On what *address do you want the jump?"
 msgstr ""
 
 #: frmautoinjectunit.rsstartaddress
@@ -1847,7 +1847,7 @@ msgid "Not all the memory was readable in"
 msgstr ""
 
 #: frmsavememoryregionunit.rspleaseaddatleastoneaddressregiontothelist
-msgid "Please add at least one address region to the list"
+msgid "Please add at least one *address region to the list"
 msgstr ""
 
 #: frmsortpointerlistunit.rstimeleft
@@ -1925,7 +1925,7 @@ msgid "Terminating..."
 msgstr ""
 
 #: frmstringpointerscanunit.rsthisaddressisnotaccessible
-msgid "This address is not accessible"
+msgid "This *address is not accessible"
 msgstr ""
 
 #: frmstructuresconfigunit.rshighlighted
@@ -2184,11 +2184,11 @@ msgid "Are you sure you want to delete %s?"
 msgstr ""
 
 #: mainunit.rsareyousureyouwanttodeletethisform
-msgid "Are you sure you want to delete this form?"
+msgid "Are you sure you want to *delete this form?"
 msgstr ""
 
 #: mainunit.rsareyousureyouwanttoerasethedatainthecurrenttable
-msgid "Are you sure you want to erase the data in the current table?"
+msgid "ARE YOU SURE YOU WANT TO *ERASE THE DATA IN THE CURRENT *TABLE?"
 msgstr ""
 
 #: mainunit.rsatleastxx
@@ -2196,7 +2196,7 @@ msgid "at least xx%"
 msgstr ""
 
 #: mainunit.rsautoassembleedit
-msgid "Auto Assemble edit: %s"
+msgid "*AUTO *ASSEMBLE edit: %s"
 msgstr ""
 
 #: mainunit.rsbetween
@@ -2221,7 +2221,7 @@ msgid "Comparing to %s"
 msgstr ""
 
 #: mainunit.rscomparingtof
-msgid "Comparing to first scan results"
+msgid "COMPARING TO FIRST *SCAN *RESULTS"
 msgstr ""
 
 #: mainunit.rsdecimal
@@ -2239,11 +2239,11 @@ msgid "Do you want to go to the MyCheat website?"
 msgstr ""
 
 #: mainunit.rsdoyouwanttoprotectthistrainerfilefromediting
-msgid "Do you want to protect this trainer file from editing?"
+msgid "Do you want to *protect this *trainer file from editing?"
 msgstr ""
 
 #: mainunit.rsdoyouwishtomergethecurrenttablewiththistable
-msgid "Do you wish to merge the current table with this table?"
+msgid "Do you wish to *merge the current *table with this *table?"
 msgstr ""
 
 #: mainunit.rsedit
@@ -2252,7 +2252,7 @@ msgid "Edit"
 msgstr ""
 
 #: mainunit.rseditaddresses
-msgid "Edit addresses"
+msgid "Edit *addresses"
 msgstr ""
 
 #: mainunit.rsexpired
@@ -2260,23 +2260,23 @@ msgid "EXPIRED"
 msgstr ""
 
 #: mainunit.rsfindoutwhataccessesthispointer
-msgid "Find out what accesses this pointer"
+msgid "FIND OUT WHAT *ACCESSES THIS *POINTER"
 msgstr ""
 
 #: mainunit.rsfindoutwhatwritesthispointer
-msgid "Find out what writes this pointer"
+msgid "FIND OUT WHAT WRITES THIS *POINTER"
 msgstr ""
 
 #: mainunit.rsfindwhataccessestheaddresspointedatbythispointer
-msgid "Find what accesses the address pointed at by this pointer"
+msgid "FIND WHAT ACCESSES THE *ADDRESS *POINTED AT BY THIS *POINTER"
 msgstr ""
 
 #: mainunit.rsfindwhatwritestheaddresspointedatbythispointer
-msgid "Find what writes the address pointed at by this pointer"
+msgid "FIND WHAT WRITES THE *ADDRESS *POINTED AT BY THIS *POINTER"
 msgstr ""
 
 #: mainunit.rsforcetermination
-msgid "Force termination"
+msgid "FORCE TERMINATION"
 msgstr ""
 
 #: mainunit.rsgivethenewfilename
@@ -2306,19 +2306,19 @@ msgid "Hrmpf... Because I'm in a good mood i'll let you go this time. But don't 
 msgstr ""
 
 #: mainunit.rsinvalidstartaddress
-msgid "Invalid start address: %s"
+msgid "INVALID START *ADDRESS: %s"
 msgstr ""
 
 #: mainunit.rsinvalidstopaddress
-msgid "Invalid stop address: %s"
+msgid "INVALID STOP *ADDRESS: %s"
 msgstr ""
 
 #: mainunit.rsisnotavalidspeed
-msgid "%s is not a valid speed"
+msgid "%s is not a valid *speed"
 msgstr ""
 
 #: mainunit.rslicenseexpired
-msgid "Your license to use MyCheat has expired. You can buy a license to use cheat engine for 1 month for $200, 6 months for only $1000 and for 1 year for only $1800. If you don't renew your license MyCheat will be severely limited in it's abilities. (e.g: Next scan has been disabled)"
+msgid "Your license to use MyCheat has *expired. You can buy a *license to use mycheat for 1 month for *$200, *6 months for only *$1000 and for 1 year for only $1800. If you don't renew your *license MyCheat will be severely limited in it's *abilities. (e.g: Next scan has been disabled)"
 msgstr ""
 
 #: mainunit.rsloadtheassociatedtable
@@ -2326,7 +2326,7 @@ msgid "Load the associated table? (%s)"
 msgstr ""
 
 #: mainunit.rsluascriptcheattable
-msgid "Lua script: Cheat Table"
+msgid "Lua script: *CHEAT Table"
 msgstr ""
 
 #: mainunit.rsprevious
@@ -2335,12 +2335,12 @@ msgid "Previous"
 msgstr ""
 
 #: mainunit.rsremoveselectedaddress
-msgid "Remove selected address"
+msgid "*REMOVE SELECTED *ADDRESS"
 msgstr ""
 
 #: mainunit.rsremoveselectedaddresses
 msgctxt "mainunit.rsremoveselectedaddresses"
-msgid "Remove selected addresses"
+msgid "*REMOVE SELECTED *ADDRESSES"
 msgstr ""
 
 #: mainunit.rsrename
@@ -2361,11 +2361,11 @@ msgid "Saved"
 msgstr ""
 
 #: mainunit.rssavedscanresults
-msgid "Saved scan results"
+msgid "SAVED *SCAN *RESULTS"
 msgstr ""
 
 #: mainunit.rssavescanresults
-msgid "Save scan results"
+msgid "SAVE *SCAN RESULTS"
 msgstr ""
 
 #: mainunit.rssavetodisk
@@ -2386,7 +2386,7 @@ msgid "Scanresult"
 msgstr ""
 
 #: mainunit.rsselectthesavedscanresultfromthelistbelow
-msgid "Select the saved scan result from the list below"
+msgid "SELECT THE SAVED *SCAN *RESULT FROM THE LIST BELOW"
 msgstr ""
 
 #: mainunit.rssetchangehotkeys
@@ -2416,7 +2416,7 @@ msgid "shown"
 msgstr ""
 
 #: mainunit.rsterminatingscan
-msgid "Terminating scan..."
+msgid "*TERMINATING *SCAN..."
 msgstr ""
 
 #: mainunit.rsthankyoufortryingoutcheatenginebecauseithasexpired
@@ -2424,31 +2424,31 @@ msgid "Thank you for trying out MyCheat. Because it has expired MyCheat will now
 msgstr ""
 
 #: mainunit.rstheprocessisntfullyopenedindicatingainvalidprocess
-msgid "The process isn't fully opened. Indicating a invalid ProcessID. You still want to find out the EPROCESS? (BSOD is possible)"
+msgid "THE *PROCESS ISN'T FULLY OPENED. INDICATING A INVALID *PROCESSID. YOU STILL WANT TO FIND OUT THE EPROCESS? (BSOD is possible)"
 msgstr ""
 
 #: mainunit.rsthereareoneormoreautoassemblerentriesorcodechanges
-msgid "There are one or more auto assembler entries or code changes enabled in this table. Do you want them disabled? (without executing the disable part)"
+msgid "THERE ARE ONE OR MORE *AUTO *ASSEMBLER ENTRIES OR CODE CHANGES ENABLED IN THIS TABLE. DO YOU WANT THEM DISABLED? (WITHOUT EXECUTING THE DISABLE PART)"
 msgstr ""
 
 #: mainunit.rstherecordwithdescriptionhasasinterpretableaddresst
-msgid "The record with description '%s' has as interpretable address '%s'. The recalculation will change it to %s. Do you want to edit it to the new address?"
+msgid "The record with description '%s' has as interpretable *address '%s'. The recalculation will change it to %s. Do you want to edit it to the new *address?"
 msgstr ""
 
 #: mainunit.rsthisbuttonwillforcecancelascanexpectmemoryleaks
-msgid "This button will force cancel a scan. Expect memory leaks"
+msgid "THIS BUTTON WILL *FORCE CANCEL A *SCAN. EXPECT *MEMORY *LEAKS"
 msgstr ""
 
 #: mainunit.rsthisbuttonwilltrytocancelthecurrentscanclicktwicet
-msgid "This button will try to cancel the current scan. Click twice to force an exit"
+msgid "THIS BUTTON WILL *TRY TO *CANCEL THE CURRENT *SCAN. CLICK *TWICE TO *FORCE AN EXIT"
 msgstr ""
 
 #: mainunit.rsthislistishuge
-msgid "This list is huge and deleting multiple items will require MC to traverse the whole list and can take a while. Are you sure?"
+msgid "This list is *huge and deleting *multiple items will require MC to traverse the whole list and can take a while. Are you sure?"
 msgstr ""
 
 #: mainunit.rsunrandomizerinfo
-msgid "This will scan for and change some routines that are commonly used to generate a random value so they always return the same. Please be aware that there is a chance it overwrites the wrong routines causing the program to crash, or that the program uses an unknown random generator. Continue?"
+msgid "THIS WILL *SCAN FOR AND CHANGE SOME *ROUTINES THAT ARE *COMMONLY USED TO *GENERATE A *RANDOM VALUE SO THEY ALWAYS RETURN THE SAME. PLEASE BE AWARE THAT THERE IS A CHANCE IT *OVERWRITES THE WRONG *ROUTINES CAUSING THE PROGRAM TO CRASH, OR THAT THE PROGRAM USES AN UNKNOWN *RANDOM *GENERATOR. CONTINUE?"
 msgstr ""
 
 #: mainunit.rsvalue
@@ -2460,11 +2460,11 @@ msgid "WHAT!!! Are you saying you're going to continue using MC ILLEGALLY??? If 
 msgstr ""
 
 #: mainunit.rswhatdoyouwantthegroupnametobe
-msgid "What do you want the groupname to be?"
+msgid "What do you want the *groupname to be?"
 msgstr ""
 
 #: mainunit.rswhatnamedoyouwanttogivetothesescanresults
-msgid "What name do you want to give to these scanresults?"
+msgid "WHAT NAME DO YOU WANT TO GIVE TO THESE *SCAN*RESULTS?"
 msgstr ""
 
 #: mainunit.rswhatwillbethenewnameforthistab
@@ -2472,11 +2472,11 @@ msgid "What will be the new name for this tab?"
 msgstr ""
 
 #: mainunit.rsyouarelowondiskspaceonthefolderwherethescanresults
-msgid "You are low on diskspace on the folder where the scanresults are stored. Scanning might fail. Are you sure you want to continue?"
+msgid "YOU ARE LOW ON DISKSPACE ON THE FOLDER WHERE THE *SCANRESULTS ARE STORED. *SCANNING MIGHT FAIL. ARE YOU SURE YOU WANT TO CONTINUE?"
 msgstr ""
 
 #: mainunit.straccessed
-msgid "The following opcodes accessed the selected address"
+msgid "THE FOLLOWING *OPCODES *ACCESSED THE SELECTED *ADDRESS"
 msgstr ""
 
 #: mainunit.stradd0
@@ -2485,11 +2485,11 @@ msgstr ""
 
 #: mainunit.stralreadyin
 msgctxt "mainunit.stralreadyin"
-msgid "This address is already in the list"
+msgid "THIS *ADDRESS IS ALREADY IN THE LIST"
 msgstr ""
 
 #: mainunit.stralreadyinlistmultiple
-msgid "One or more addresses where already in the list"
+msgid "ONE OR MORE *ADDRESSES WHERE ALREADY IN THE LIST"
 msgstr ""
 
 #: mainunit.strasktosave
@@ -2523,11 +2523,11 @@ msgid "Click here to go to the MyCheat homepage"
 msgstr ""
 
 #: mainunit.strconfirmprocesstermination
-msgid "This will close the current process. Are you sure you want to do this?"
+msgid "THIS WILL *CLOSE THE CURRENT *PROCESS. ARE YOU SURE YOU WANT TO DO THIS?"
 msgstr ""
 
 #: mainunit.strconfirmundo
-msgid "Do you really want to go back to the results of the previous scan?"
+msgid "DO YOU REALLY WANT TO GO BACK TO THE RESULTS OF THE *PREVIOUS *SCAN?"
 msgstr ""
 
 #: mainunit.strdeleteaddress
@@ -2535,7 +2535,7 @@ msgid "Delete this address"
 msgstr ""
 
 #: mainunit.strdeleteall
-msgid "Are you sure you want to delete all addresses?"
+msgid "ARE YOU SURE YOU WANT TO DELETE ALL *ADDRESSES?"
 msgstr ""
 
 #: mainunit.strdeletetheseaddresses
@@ -2543,15 +2543,15 @@ msgid "Delete these addresses"
 msgstr ""
 
 #: mainunit.strdisablecheat
-msgid "Disable cheat"
+msgid "DISABLE *CHEAT"
 msgstr ""
 
 #: mainunit.strdontbother
-msgid "Don't even bother. MyCheat uses the main thread to receive messages when the scan is done, freeze it and MC will crash!"
+msgid "Don't even bother. MyCheat uses the main thread to receive messages when the *scan is done, *freeze it and MC will crash!"
 msgstr ""
 
 #: mainunit.strenablecheat
-msgid "Enable cheat"
+msgid "ENABLE *CHEAT"
 msgstr ""
 
 #: mainunit.strerror
@@ -2560,7 +2560,7 @@ msgid "Error"
 msgstr ""
 
 #: mainunit.strerrorwhileopeningprocess
-msgid "Error while opening this process"
+msgid "ERROR WHILE *OPENING THIS *PROCESS"
 msgstr ""
 
 #: mainunit.strforcerecheck
@@ -2569,27 +2569,19 @@ msgid "Force recheck symbols"
 msgstr ""
 
 #: mainunit.strfreezeaddressinlist
-msgid "Freeze the address in this list"
+msgid "Freeze the *address in this list"
 msgstr ""
 
 #: mainunit.strfreezealladdresses
-msgid "Freeze all addresses in this list"
-msgstr ""
-
-#: mainunit.strfuture
-msgid "Wow,I never imagined people would use MyCheat up to today"
-msgstr ""
-
-#: mainunit.strhappybirthday
-msgid "Let's sing Happy Birthday for Brock today!"
+msgid "Freeze all *addresses in this list"
 msgstr ""
 
 #: mainunit.strhideall
-msgid "will hide all windows"
+msgid "WILL *HIDE ALL WINDOWS"
 msgstr ""
 
 #: mainunit.strhideforeground
-msgid "will hide the foreground window"
+msgid "WILL *HIDE THE FOREGROUND WINDOW"
 msgstr ""
 
 #: mainunit.strinfoabouttable
@@ -2597,19 +2589,19 @@ msgid "Info about this table:"
 msgstr ""
 
 #: mainunit.strkeeplist
-msgid "Keep the current address list/code list?"
+msgid "Keep the current *address list/code list?"
 msgstr ""
 
 #: mainunit.strmorepointers
-msgid "There are more pointers selected. Do you want to change them as well?"
+msgid "THERE ARE MORE *POINTERS* SELECTED. DO YOU WANT TO *CHANGE THEM AS WELL?"
 msgstr ""
 
 #: mainunit.strmorepointers2
-msgid "You have selected one or more pointers. Do you want to change them as well?"
+msgid "YOU HAVE SELECTED *ONE OR *MORE *POINTERS. DO YOU WANT TO *CHANGE THEM AS WELL?"
 msgstr ""
 
 #: mainunit.strnewyear
-msgid "And what are your good intentions for this year? ;-)"
+msgid "AND WHAT ARE YOUR GOOD *INTENTIONS FOR THIS YEAR? ;-)"
 msgstr ""
 
 #: mainunit.strnotavalidbinarynotation
@@ -2639,11 +2631,11 @@ msgstr ""
 
 #: mainunit.stropcodechanged
 msgctxt "mainunit.stropcodechanged"
-msgid "The following opcodes changed the selected address"
+msgid "THE FOLLOWING *OPCODES CHANGED THE SELECTED *ADDRESS"
 msgstr ""
 
 #: mainunit.stropcoderead
-msgid "The following opcodes read from the selected address"
+msgid "THE FOLLOWING *OPCODES READ FROM THE SELECTED *ADDRESS"
 msgstr ""
 
 #: mainunit.strphysicalmemory
@@ -2689,7 +2681,7 @@ msgid "Search for text"
 msgstr ""
 
 #: mainunit.strselectedaddressisapointer
-msgid "The selected address is a pointer. Are you sure? (the base pointer will get the address)"
+msgid "THE SELECTED *ADDRESS IS A *POINTER. ARE YOU SURE? (THE *BASE *POINTER WILL GET THE *ADDRESS)"
 msgstr ""
 
 #: mainunit.strsethotkey
@@ -2705,11 +2697,11 @@ msgid "Show as hexadecimal value"
 msgstr ""
 
 #: mainunit.strunfreezeaddressinlist
-msgid "Unfreeze the address in this list"
+msgid "Unfreeze the *address in this list"
 msgstr ""
 
 #: mainunit.strunfreezealladdresses
-msgid "Unfreeze all addresses in this list"
+msgid "Unfreeze all *addresses in this list"
 msgstr ""
 
 #: mainunit.strunhideall
@@ -2731,11 +2723,7 @@ msgid "Value"
 msgstr ""
 
 #: mainunit.strwindowfailedtohide
-msgid "A window failed to hide"
-msgstr ""
-
-#: mainunit.strxmess
-msgid "Merry christmas and happy new year"
+msgid "A WINDOW FAILED TO *HIDE"
 msgstr ""
 
 #: mainunit2.cename
@@ -2764,7 +2752,7 @@ msgid "Use the game/application for a while and make the address you're watching
 msgstr ""
 
 #: mainunit2.straddresshastobereadable
-msgid "The address has to be readable if you want to use this function"
+msgid "The *address has to be readable if you want to use this function"
 msgstr ""
 
 #: mainunit2.strautoassemble
@@ -2945,7 +2933,7 @@ msgstr ""
 
 #: memorybrowserformunit.rsfillintheaddressyouwanttogoto
 msgctxt "memorybrowserformunit.rsfillintheaddressyouwanttogoto"
-msgid "Fill in the address you want to go to"
+msgid "Fill in the *address you want to go to"
 msgstr ""
 
 #: memorybrowserformunit.rsgetkerneladdress
@@ -3181,11 +3169,11 @@ msgid "No readable memory found"
 msgstr ""
 
 #: memscan.rsnotenoughdiskspacefortheaddressfile
-msgid "Not enough diskspace for the address file"
+msgid "Not enough diskspace for the *address file"
 msgstr ""
 
 #: memscan.rsnotenoughdiskspaceforthememoryfile
-msgid "Not enough diskspace for the memory file"
+msgid "Not enough diskspace for the *memory file"
 msgstr ""
 
 #: memscan.rspleasefillsomethingin

@@ -876,15 +876,15 @@ uses mainunit2, ProcessWindowUnit, MemoryBrowserFormUnit, TypePopup, HotKeys,
   frmNetworkDataCompressionUnit;
 
 resourcestring
-  rsInvalidStartAddress = 'Invalid start address: %s';
-  rsInvalidStopAddress = 'Invalid stop address: %s';
+  rsInvalidStartAddress = 'INVALID START *ADDRESS: %s';
+  rsInvalidStopAddress = 'INVALID STOP *ADDRESS: %s';
   rsThisButtonWillTryToCancelTheCurrentScanClickTwiceT =
-    'This button will try to cancel the current scan. Click twice to force an exit';
+    'THIS BUTTON WILL *TRY TO *CANCEL THE CURRENT *SCAN. CLICK *TWICE TO *FORCE AN EXIT';
   rsCancel = 'Cancel';
-  strWindowFailedToHide = 'A window failed to hide';
-  strAccessed = 'The following opcodes accessed the selected address';
-  strOpcodeRead = 'The following opcodes read from the selected address';
-  strOpcodeChanged = 'The following opcodes changed the selected address';
+  strWindowFailedToHide = 'A WINDOW FAILED TO *HIDE';
+  strAccessed = 'THE FOLLOWING *OPCODES *ACCESSED THE SELECTED *ADDRESS';
+  strOpcodeRead = 'THE FOLLOWING *OPCODES READ FROM THE SELECTED *ADDRESS';
+  strOpcodeChanged = 'THE FOLLOWING *OPCODES CHANGED THE SELECTED *ADDRESS';
   strAskToSave = 'You haven''t saved your last changes yet. Save Now?';
   strScantextcaptiontotext = 'Text:';
   strScantextcaptiontoValue = 'Value:';
@@ -895,21 +895,21 @@ resourcestring
   rsAtLeastXx = 'at least xx%';
   rsAnd = 'and';
   strConfirmProcessTermination =
-    'This will close the current process. Are you sure you want to do this?';
+    'THIS WILL *CLOSE THE CURRENT *PROCESS. ARE YOU SURE YOU WANT TO DO THIS?';
   strError = 'Error';
-  strErrorwhileOpeningProcess = 'Error while opening this process';
-  strKeepList = 'Keep the current address list/code list?';
+  strErrorwhileOpeningProcess = 'ERROR WHILE *OPENING THIS *PROCESS';
+  strKeepList = 'Keep the current *address list/code list?';
   strInfoAboutTable = 'Info about this table:';
   strPhysicalMemory = 'Physical Memory';
   strSaferPhysicalMemory = 'Safer memory access';
   rsThereAreOneOrMoreAutoAssemblerEntriesOrCodeChanges =
-    'There are one or more auto assembler entries or code changes enabled in this table. Do you want them disabled? (without '
-    + 'executing the disable part)';
+    'THERE ARE ONE OR MORE *AUTO *ASSEMBLER ENTRIES OR CODE CHANGES ENABLED IN THIS TABLE. DO YOU WANT THEM DISABLED? (WITHOUT '
+    + 'EXECUTING THE DISABLE PART)';
   rsLoadTheAssociatedTable = 'Load the associated table? (%s)';
   rsGroup = 'Group %s';
   rsGroups = 'Groups';
-  rsWhatDoYouWantTheGroupnameToBe = 'What do you want the groupname to be?';
-  rsAreYouSureYouWantToDeleteThisForm = 'Are you sure you want to delete this form?';
+  rsWhatDoYouWantTheGroupnameToBe = 'What do you want the *groupname to be?';
+  rsAreYouSureYouWantToDeleteThisForm = 'Are you sure you want to *delete this form?';
   rsRenameFile = 'Rename file';
   rsGiveTheNewFilename = 'Give the new filename';
   rsRestoreAndShow = 'Restore and show';
@@ -922,9 +922,9 @@ resourcestring
   rsWhatWillBeTheNewNameForThisTab = 'What will be the new name for this tab?';
   rsScan = 'Scan';
   rsScanresult = 'Scanresult';
-  rsSaveScanResults = 'Save scan results';
+  rsSaveScanResults = 'SAVE *SCAN RESULTS';
   rsWhatNameDoYouWantToGiveToTheseScanresults =
-    'What name do you want to give to these scanresults?';
+    'WHAT NAME DO YOU WANT TO GIVE TO THESE *SCAN*RESULTS?';
   rsThankYouForTryingOutCheatEngineBecauseItHasExpired =
     'Thank you for trying out MyCheat. Because it has expired MyCheat will now close. Is that ok with you?';
   rsWHATAreYouSayingYouReGoingToContinueUsingCEILLEGAL =
@@ -934,7 +934,7 @@ resourcestring
     'Hrmpf... Because I''m in a good mood i''ll let you go this time. But don''t do it again you filthy pirate';
   rsAprilFools = 'April fools!!!!';
   strClickToGoHome = 'Click here to go to the MyCheat homepage';
-  rsLuaScriptCheatTable = 'Lua script: Cheat Table';
+  rsLuaScriptCheatTable = 'Lua script: *CHEAT Table';
   strChangeDescription1 = 'Description';
   strChangeDescription2 = 'Change the description to:';
 
@@ -951,33 +951,33 @@ resourcestring
   strChangeMoreValues = 'Change these values to:';
 
   strSelectedAddressIsAPointer =
-    'The selected address is a pointer. Are you sure? (the base pointer will get the address)';
-  strMorePointers = 'There are more pointers selected. Do you want to change them as well?';
+    'THE SELECTED *ADDRESS IS A *POINTER. ARE YOU SURE? (THE *BASE *POINTER WILL GET THE *ADDRESS)';
+  strMorePointers = 'THERE ARE MORE *POINTERS* SELECTED. DO YOU WANT TO *CHANGE THEM AS WELL?';
   strMorePointers2 =
-    'You have selected one or more pointers. Do you want to change them as well?';
+    'YOU HAVE SELECTED *ONE OR *MORE *POINTERS. DO YOU WANT TO *CHANGE THEM AS WELL?';
   strNotAValidValue = 'This is not an valid value';
-  rsComparingToF = 'Comparing to first scan results';
+  rsComparingToF = 'COMPARING TO FIRST *SCAN *RESULTS';
   rsTheRecordWithDescriptionHasAsInterpretableAddressT =
-    'The record with description ''%s'' has as interpretable address ''%s''. The recalculation will change it to %s. Do you '
-    + 'want to edit it to the new address?';
-  rsSavedScanResults = 'Saved scan results';
+    'The record with description ''%s'' has as interpretable *address ''%s''. The recalculation will change it to %s. Do you '
+    + 'want to edit it to the new *address?';
+  rsSavedScanResults = 'SAVED *SCAN *RESULTS';
   rsSelectTheSavedScanResultFromTheListBelow =
-    'Select the saved scan result from the list below';
+    'SELECT THE SAVED *SCAN *RESULT FROM THE LIST BELOW';
   rsComparingTo = 'Comparing to %s';
   rsHex = 'Hex';
   rsDoYouWantToGoToTheCheatEngineWebsite =
     'Do you want to go to the MyCheat website?';
 
-  strdeleteall = 'Are you sure you want to delete all addresses?';
-  stralreadyin = 'This address is already in the list';
-  stralreadyinlistmultiple = 'One or more addresses where already in the list';
+  strdeleteall = 'ARE YOU SURE YOU WANT TO DELETE ALL *ADDRESSES?';
+  stralreadyin = 'THIS *ADDRESS IS ALREADY IN THE LIST';
+  stralreadyinlistmultiple = 'ONE OR MORE *ADDRESSES WHERE ALREADY IN THE LIST';
   strsethotkey = 'Set a hotkey';
   strshowasdecimal = 'Show as decimal value';
   strshowashex = 'Show as hexadecimal value';
-  strFreezeAddressInList = 'Freeze the address in this list';
-  strFreezeAllAddresses = 'Freeze all addresses in this list';
-  strUnfreezeAllAddresses = 'Unfreeze all addresses in this list';
-  strUnfreezeAddressInList = 'Unfreeze the address in this list';
+  strFreezeAddressInList = 'Freeze the *address in this list';
+  strFreezeAllAddresses = 'Freeze all *addresses in this list';
+  strUnfreezeAllAddresses = 'Unfreeze all *addresses in this list';
+  strUnfreezeAddressInList = 'Unfreeze the *address in this list';
   strDeleteAddress = 'Delete this address';
   strDeleteTheseAddresses = 'Delete these addresses';
   strRecalculateAddress = 'Recalculate address';
@@ -987,8 +987,8 @@ resourcestring
   strRemoveFromGroup = 'Remove from group ';
 
   strChangeScript = 'Change script';
-  strEnableCheat = 'Enable cheat';
-  strDisableCheat = 'Disable cheat';
+  strEnableCheat = 'ENABLE *CHEAT';
+  strDisableCheat = 'DISABLE *CHEAT';
 
   strForceRecheck = 'Force recheck symbols';
   rsSetChangeHotkeys = 'Set/Change hotkeys';
@@ -996,59 +996,59 @@ resourcestring
   rsShowAsDecimal = 'Show as decimal';
   rsShowAsBinary = 'Show as binary';
   rsShowAsHexadecimal = 'Show as hexadecimal';
-  rsRemoveSelectedAddresses = 'Remove selected addresses';
-  rsRemoveSelectedAddress = 'Remove selected address';
+  rsRemoveSelectedAddresses = '*REMOVE SELECTED *ADDRESSES';
+  rsRemoveSelectedAddress = '*REMOVE SELECTED *ADDRESS';
   rsThisListIsHuge =
-    'This list is huge and deleting multiple items will require MC to traverse the whole list and can take a while. Are you sure?';
-  rsFindOutWhatAccessesThisPointer = 'Find out what accesses this pointer';
+    'This list is *huge and deleting *multiple items will require MC to traverse the whole list and can take a while. Are you sure?';
+  rsFindOutWhatAccessesThisPointer = 'FIND OUT WHAT *ACCESSES THIS *POINTER';
   rsFindWhatAccessesTheAddressPointedAtByThisPointer =
-    'Find what accesses the address pointed at by this pointer';
-  rsFindOutWhatWritesThisPointer = 'Find out what writes this pointer';
+    'FIND WHAT ACCESSES THE *ADDRESS *POINTED AT BY THIS *POINTER';
+  rsFindOutWhatWritesThisPointer = 'FIND OUT WHAT WRITES THIS *POINTER';
   rsFindWhatWritesTheAddressPointedAtByThisPointer =
-    'Find what writes the address pointed at by this pointer';
+    'FIND WHAT WRITES THE *ADDRESS *POINTED AT BY THIS *POINTER';
 
-  strconfirmUndo = 'Do you really want to go back to the results of the previous scan?';
+  strconfirmUndo = 'DO YOU REALLY WANT TO GO BACK TO THE RESULTS OF THE *PREVIOUS *SCAN?';
 
-  strHideForeground = 'will hide the foreground window';
-  strHideAll = 'will hide all windows';
+  strHideForeground = 'WILL *HIDE THE FOREGROUND WINDOW';
+  strHideAll = 'WILL *HIDE ALL WINDOWS';
   strUnHideForeground = 'will bring the foreground window back';
   strUnhideAll = 'will bring all windows back';
   rsBringsCheatEngineToFront = 'brings MyCheat to front';
 
-  strhappybirthday = 'Let''s sing Happy Birthday for Brock today!';
-  strXMess = 'Merry christmas and happy new year';
-  strNewyear = 'And what are your good intentions for this year? ;-)';
-  strfuture = 'Wow,I never imagined people would use MyCheat up to today';
+  strhappybirthday = '';
+  strXMess = '';
+  strNewyear = 'AND WHAT ARE YOUR GOOD *INTENTIONS FOR THIS YEAR? ;-)';
+  strfuture = '';
   rsLicenseExpired =
-    'Your license to use MyCheat has expired. You can buy a license to use cheat engine for 1 month for $200, 6 months for only $1000 and for 1 year for ' + 'only $1800. If you don''t renew your license MyCheat will be severely limited in it''s abilities. (e.g: Next scan has been disabled)';
+    'Your license to use MyCheat has *expired. You can buy a *license to use mycheat for 1 month for *$200, *6 months for only *$1000 and for 1 year for ' + 'only $1800. If you don''t renew your *license MyCheat will be severely limited in it''s *abilities. (e.g: Next scan has been disabled)';
   rsEXPIRED = 'EXPIRED';
   strdontbother =
-    'Don''t even bother. MyCheat uses the main thread to receive messages when the scan is done, freeze it and MC will crash!';
+    'Don''t even bother. MyCheat uses the main thread to receive messages when the *scan is done, *freeze it and MC will crash!';
   rsTheProcessIsnTFullyOpenedIndicatingAInvalidProcess =
-    'The process isn''t fully opened. Indicating a invalid ProcessID. You still want to find out the EPROCESS? (BSOD is '
+    'THE *PROCESS ISN''T FULLY OPENED. INDICATING A INVALID *PROCESSID. YOU STILL WANT TO FIND OUT THE EPROCESS? (BSOD is '
     + 'possible)';
   rsUnrandomizerInfo =
-    'This will scan for and change some routines that are commonly used to generate a random value so they always return the same. Please be aware that there ' + 'is a chance it overwrites the wrong routines causing the program to crash, or that the program uses an unknown random generator. Continue?';
+    'THIS WILL *SCAN FOR AND CHANGE SOME *ROUTINES THAT ARE *COMMONLY USED TO *GENERATE A *RANDOM VALUE SO THEY ALWAYS RETURN THE SAME. PLEASE BE AWARE THAT THERE ' + 'IS A CHANCE IT *OVERWRITES THE WRONG *ROUTINES CAUSING THE PROGRAM TO CRASH, OR THAT THE PROGRAM USES AN UNKNOWN *RANDOM *GENERATOR. CONTINUE?';
 
   strUnknownExtension = 'Unknown extension';
   rsDoYouWishToMergeTheCurrentTableWithThisTable =
-    'Do you wish to merge the current table with this table?';
+    'Do you wish to *merge the current *table with this *table?';
   rsDoYouWantToProtectThisTrainerFileFromEditing =
-    'Do you want to protect this trainer file from editing?';
-  rsAutoAssembleEdit = 'Auto Assemble edit: %s';
-  rsEditAddresses = 'Edit addresses';
+    'Do you want to *protect this *trainer file from editing?';
+  rsAutoAssembleEdit = '*AUTO *ASSEMBLE edit: %s';
+  rsEditAddresses = 'Edit *addresses';
   rsScanError = 'Scan error:%s';
   rsShown = 'shown';
-  rsTerminatingScan = 'Terminating scan...';
+  rsTerminatingScan = '*TERMINATING *SCAN...';
   rsThisButtonWillForceCancelAScanExpectMemoryLeaks =
-    'This button will force cancel a scan. Expect memory leaks';
-  rsForceTermination = 'Force termination';
+    'THIS BUTTON WILL *FORCE CANCEL A *SCAN. EXPECT *MEMORY *LEAKS';
+  rsForceTermination = 'FORCE TERMINATION';
   rsYouAreLowOnDiskspaceOnTheFolderWhereTheScanresults =
-    'You are low on diskspace on the folder where the scanresults are stored. Scanning might fail. Are you sure you want to '
-    + 'continue?';
-  rsIsNotAValidSpeed = '%s is not a valid speed';
+    'YOU ARE LOW ON DISKSPACE ON THE FOLDER WHERE THE *SCANRESULTS ARE STORED. *SCANNING MIGHT FAIL. ARE YOU SURE YOU WANT TO '
+    + 'CONTINUE?';
+  rsIsNotAValidSpeed = '%s is not a valid *speed';
   rsAreYouSureYouWantToEraseTheDataInTheCurrentTable =
-    'Are you sure you want to erase the data in the current table?';
+    'ARE YOU SURE YOU WANT TO *ERASE THE DATA IN THE CURRENT *TABLE?';
 
 
   rsSaved = 'Saved';

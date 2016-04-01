@@ -49,7 +49,7 @@ var
 implementation
 
 resourcestring
-  rsPleaseAddAtLeastOneAddressRegionToTheList = 'Please add at least one address region to the list';
+  rsPleaseAddAtLeastOneAddressRegionToTheList = 'Please add at least one *address region to the list';
   rsNotAllTheMemoryWasReadableIn = 'Not all the memory was readable in';
   rsNoStartAddress = 'If you don''t include the header data you''ll have to specify the startaddress yourself when loading the file(That means MyCheat wont fill in the '
     +'startaddress text field when loaded for you)';

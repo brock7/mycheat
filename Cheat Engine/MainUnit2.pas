@@ -39,7 +39,7 @@ resourcestring
   strBug='BUG!';
   strAutoAssemble='Assembler';
 
-  strAddressHasToBeReadable='The address has to be readable if you want to use this function';
+  strAddressHasToBeReadable='The *address has to be readable if you want to use this function';
   strNewScan='New Scan';
   strFirstScan='First Scan';
   strNoDescription='No description';

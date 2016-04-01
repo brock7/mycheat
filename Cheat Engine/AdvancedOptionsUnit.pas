@@ -100,8 +100,8 @@ var
   AdvancedOptions: TAdvancedOptions;
 
 resourcestring
-  strnotreadable='This address is not readable';
-  strNotWhatitshouldbe='The memory at this address is''nt what it should be! Continue?';
+  strnotreadable='THIS *ADDRESS IS NOT READABLE';
+  strNotWhatitshouldbe='THE *MEMORY AT THIS *ADDRESS IS''NT WHAT IT SHOULD BE! CONTINUE?';
 
 
 implementation
@@ -147,9 +147,9 @@ end;
 
 
 resourcestring
-  stralreadyinthelist = 'This byte is already part of another opcode already present in the list';
+  stralreadyinthelist = 'THIS BYTE IS ALREADY PART OF ANOTHER *OPCODE ALREADY PRESENT IN THE LIST';
   strPartOfOpcodeInTheList='At least one of these bytes is already in the list';
-  strAddressAlreadyInTheList='This address is already in the list';
+  strAddressAlreadyInTheList='THIS *ADDRESS IS ALREADY IN THE LIST';
   strCECode='MyCheat code:';
   strNameCECode='What name do you want to give this code?';
   strChangeOf='Change of ';
@@ -401,7 +401,7 @@ begin
 end;
 
 resourcestring strcouldntrestorecode='Error when trying to restore this code!';
-               strnotthesame='The memory at this address isn''t what it should be! Continue?';
+               strnotthesame='THE *MEMORY AT THIS *ADDRESS ISN''T WHAT IT SHOULD BE! CONTINUE?';
 procedure TAdvancedOptions.miRestoreWithOriginalClick(Sender: TObject);
 var i,j: integer;
     a: ptrUint;
@@ -475,14 +475,14 @@ begin
 end;
 
 resourcestring
-strcouldntwrite='The memory at this address couldn''t be written';
+strcouldntwrite='THE *MEMORY AT THIS *ADDRESS COULDN''T BE WRITTEN';
 rsDelete = 'Delete';
 rsNewName = 'New name';
 rsGiveTheNewNameOfThisEntry = 'Give the new name of this entry';
 rsResumeTheGame = 'Resume the game';
 rsPaused = 'paused';
 rsPauseTheGame = 'Pause the game';
-rsTheMemoryAtThisAddressCouldnTBeWritten = 'The memory at this address couldn''t be written';
+rsTheMemoryAtThisAddressCouldnTBeWritten = 'THE *MEMORY AT THIS *ADDRESS COULDN''T BE WRITTEN';
 rsAreYouSureYouWishToDeleteTheseEntries = 'Are you sure you wish to delete these entries?';
 
 
