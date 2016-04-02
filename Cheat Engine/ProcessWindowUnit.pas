@@ -9,6 +9,7 @@ uses
   StdCtrls, ExtCtrls, MCFuncProc,CEDebugger, ComCtrls, ImgList,
   filehandler, Menus, LResources,{tlhelp32,}vmxfunctions, NewKernelHandler, debugHelper{, KIcon};
 
+type TCE_OpenProcess=function(dwProcessId: DWORD):BOOL; stdcall;
 type tprocesslistlong = class(tthread)
 private
   processcount: integer;
@@ -84,7 +85,7 @@ type
 
 var
   ProcessWindow: TProcessWindow;
-
+  CE_OpenProcess : TCE_OpenProcess;
 implementation
 
 
@@ -291,6 +292,7 @@ begin
     PWOP(ProcessIDString);
     MainForm.ProcessLabel.caption:=ProcessList.Items[Processlist.ItemIndex];
     Modalresult:=MROK;
+    CE_OpenProcess(ProcessHandler.processid);
     //ProcessWindow.close;
   end;
 
@@ -575,6 +577,6 @@ end;
 
 initialization
   {$i ProcessWindowUnit.lrs}
-
+  CE_OpenProcess := GetProcAddress(LoadLibrary('xdbgcore.dp32'), 'CE_OpenProcess');;
 end.
 
