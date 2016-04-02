@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, NewKernelHandler, MCFuncProc, ExtCtrls, LResources, Menus;
+  Dialogs, StdCtrls, NewKernelHandler, CEFuncProc, ExtCtrls, LResources, Menus;
 
 type
 

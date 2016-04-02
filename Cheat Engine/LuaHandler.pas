@@ -14,7 +14,7 @@ interface
 
 uses
   jwawindows, windows, vmxfunctions, Classes, dialogs, SysUtils, lua, lualib,
-  lauxlib, syncobjs, MCFuncProc, newkernelhandler, autoassembler, Graphics,
+  lauxlib, syncobjs, cefuncproc, newkernelhandler, autoassembler, Graphics,
   controls, LuaCaller, forms, ExtCtrls, StdCtrls, comctrls, ceguicomponents,
   generichotkey, luafile, xmplayer_server, ExtraTrainerComponents, customtimer,
   menus, XMLRead, XMLWrite, DOM,ShellApi, Clipbrd, typinfo, PEInfoFunctions,

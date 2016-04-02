@@ -4,7 +4,7 @@ unit disassembler;
 
 interface
 
-uses windows, imagehlp,sysutils,LCLIntf,byteinterpreter, symbolhandler,MCFuncProc,
+uses windows, imagehlp,sysutils,LCLIntf,byteinterpreter, symbolhandler,CEFuncProc,
   NewKernelHandler, ProcessHandlerUnit, LastDisassembleData, disassemblerarm;
 
 //translation: There is no fucking way I change the descriptions to resource strings
@@ -3619,7 +3619,7 @@ begin
 
 
                 $77 : begin
-                        description:='empty mmxstate';
+                        description:='empty mmx™ state';
                         lastdisassembledata.opcode:='emms';
                         inc(offset);
                       end;
@@ -9108,7 +9108,7 @@ begin
 
 
               $f0 : begin
-                      description:='compute 2^x';
+                      description:='compute 2^x–1';
                       lastdisassembledata.opcode:='f2xm1';
                       inc(offset);
                     end;

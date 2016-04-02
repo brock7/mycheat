@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, lua, lualib, lauxlib, LuaHandler, LuaCaller, symbolhandler,
-  MCFuncProc, newkernelhandler, Dialogs, LuaClass, LuaClassArray;
+  cefuncproc, newkernelhandler, Dialogs, LuaClass, LuaClassArray;
 
 procedure initializeLuaStructure;
 

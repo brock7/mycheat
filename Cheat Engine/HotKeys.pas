@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Buttons, registry, MCFuncProc, ExtCtrls, LResources,
+  Dialogs, StdCtrls, Buttons, registry, CEFuncProc, ExtCtrls, LResources,
   comCtrls, menus, hotkeyhandler, MemoryRecordUnit;
 
 type

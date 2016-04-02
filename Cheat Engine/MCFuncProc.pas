@@ -1,8 +1,8 @@
-unit MCFuncProc;
+unit CEFuncProc;
 
 {$MODE Delphi}
 
-//This version of MCFuncProc has been COPIED to the server dir
+//This version of CEFuncProc has been COPIED to the server dir
 //MyCheat regular WONT look at this
 
 interface
@@ -1316,7 +1316,7 @@ begin
 
       //call the routine
 
-      if not writeprocessmemory(processhandle, injectionlocation, @inject[0], position2, x) then raise exception.Create(rs_Failed_To_Inject_The_Dll_Loader);
+      if not writeprocessmemory(processhandle, injectionlocation, @inject[0], position2, x) then raise exception.Create(rs_Failed_To_Execute_The_Dll_Loader);
 
       {$ifndef standalonetrainer}
       {$ifndef net}

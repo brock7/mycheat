@@ -8,7 +8,7 @@ Converts Cheat engine 5.6 tables to xmlformat tables
 interface
 
 uses
-  Classes, SysUtils, dom, xmlread, xmlwrite, MCFuncProc;
+  Classes, SysUtils, dom, xmlread, xmlwrite, cefuncproc;
 
 
 function ConvertCheatTableToXML(filename: string): TXMLDocument;

@@ -7,7 +7,7 @@ interface
 uses
   windows, Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics,
   Dialogs, StdCtrls, Menus, ExtCtrls, SynMemo, SynCompletion, SynEdit, lua,
-  lauxlib, lualib, LuaSyntax, luahandler, MCFuncProc, strutils, InterfaceBase,
+  lauxlib, lualib, LuaSyntax, luahandler, cefuncproc, strutils, InterfaceBase,
   ComCtrls, SynGutterBase, SynEditMarks, PopupNotifier, ActnList,
   SynEditHighlighter, AvgLvlTree, math;
 

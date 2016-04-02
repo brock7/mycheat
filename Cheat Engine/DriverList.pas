@@ -6,7 +6,7 @@ interface
 
 uses
   jwaWindows, windows, LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,{psapi,} Menus,imagehlp,MCFuncProc,NewKernelHandler, LREsources;
+  Dialogs, StdCtrls,{psapi,} Menus,imagehlp,CEFuncProc,NewKernelHandler, LREsources;
 
 type
   TfrmDriverlist = class(TForm)

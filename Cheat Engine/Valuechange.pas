@@ -10,7 +10,7 @@ uses
   {$ifdef net}
   ,netapis,CEClient;
   {$else}
-  ,NewKernelHandler, MCFuncProc;
+  ,NewKernelHandler, CEFuncProc;
   {$endif}
                                        
 type

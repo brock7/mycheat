@@ -5,7 +5,7 @@ unit frmStackViewUnit;
 interface
 
 uses
-  windows, MCFuncProc, newkernelhandler, Classes, SysUtils, FileUtil, LResources,
+  windows, cefuncproc, newkernelhandler, Classes, SysUtils, FileUtil, LResources,
   Forms, Controls, Graphics, Dialogs, StdCtrls, Menus, stacktrace2, Clipbrd, ComCtrls,
   strutils, frmSelectionlistunit, maps;
 

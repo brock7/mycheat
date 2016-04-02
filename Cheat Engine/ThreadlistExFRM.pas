@@ -6,7 +6,7 @@ interface
 
 uses
   jwawindows, windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls,NewKernelHandler,{tlhelp32,}MCFuncProc,
+  Dialogs, StdCtrls, ComCtrls,NewKernelHandler,{tlhelp32,}CEFuncProc,
   ExtCtrls, LResources;
 
 type

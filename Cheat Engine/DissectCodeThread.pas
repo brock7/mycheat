@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf,sysutils,syncobjs,Classes,disassembler, NewKernelHandler, math,
-  MCFuncProc, maps, LastDisassembleData;
+  CEFuncProc, maps, LastDisassembleData;
 
 
 type

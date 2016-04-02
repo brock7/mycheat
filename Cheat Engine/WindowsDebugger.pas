@@ -9,7 +9,7 @@ It's basically just a forward for everything
 interface
 
 uses
-  Classes, SysUtils, DebuggerInterface, windows, MCFuncProc,newkernelhandler,
+  Classes, SysUtils, DebuggerInterface, windows, cefuncproc,newkernelhandler,
   symbolhandler, dialogs;
 
 type TWindowsDebuggerInterface=class(TDebuggerInterface)

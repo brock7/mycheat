@@ -5,7 +5,7 @@ unit LuaMemscan;
 interface
 
 uses
-  Classes, SysUtils, lua, lualib, lauxlib, symbolhandler, LuaHandler, MCFuncProc,
+  Classes, SysUtils, lua, lualib, lauxlib, symbolhandler, LuaHandler, cefuncproc,
   memscan, foundlisthelper, forms;
 
 procedure initializeMemscan;

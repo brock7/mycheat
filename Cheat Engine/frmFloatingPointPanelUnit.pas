@@ -10,7 +10,7 @@ interface
 
 uses
   {jwawindows,} windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, MCFuncProc, ComCtrls, LResources, NewKernelHandler;
+  Dialogs, StdCtrls, ExtCtrls, cefuncproc, ComCtrls, LResources, NewKernelHandler;
 
 type
   TfrmFloatingPointPanel = class(TForm)

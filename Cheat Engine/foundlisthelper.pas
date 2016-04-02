@@ -7,7 +7,7 @@ unit foundlisthelper;
 
 interface
 
-uses LCLIntf,sysutils,classes,ComCtrls,StdCtrls,symbolhandler, MCFuncProc,
+uses LCLIntf,sysutils,classes,ComCtrls,StdCtrls,symbolhandler, CEFuncProc,
      NewKernelHandler, memscan, CustomTypeHandler, byteinterpreter,
      groupscancommandparser, math, AvgLvlTree;
 

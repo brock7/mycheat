@@ -7,7 +7,7 @@ interface
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, disassembler, NewKernelHandler, ExtCtrls, Buttons,
-  LResources, frmFloatingPointPanelUnit, strutils, MCFuncProc, clipbrd, Menus,
+  LResources, frmFloatingPointPanelUnit, strutils, cefuncproc, clipbrd, Menus,
   ComCtrls, luahandler, symbolhandler, byteinterpreter, frmStackviewunit, tracerIgnore;
 
 type TTraceDebugInfo=class

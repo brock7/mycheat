@@ -5,7 +5,7 @@ unit DBK64SecondaryLoader;
 interface
 
 uses
-  jwawindows, windows, Classes, SysUtils, MCFuncProc, NewKernelHandler, dialogs;
+  jwawindows, windows, Classes, SysUtils, cefuncproc, NewKernelHandler, dialogs;
 
 function SecondaryDriverLoad: THandle;
 function SecondaryDeviceIoControl(dwIoControlCode: DWORD; lpInBuffer: Pointer; nInBufferSize: DWORD; lpOutBuffer: Pointer; nOutBufferSize: DWORD; var lpBytesReturned: DWORD; lpOverlapped: POverlapped): BOOL; stdcall;

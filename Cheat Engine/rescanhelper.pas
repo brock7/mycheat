@@ -4,7 +4,7 @@ unit rescanhelper;
 
 interface
 
-uses windows, LCLIntf, classes, symbolhandler, MCFuncProc,NewKernelHandler, maps,
+uses windows, LCLIntf, classes, symbolhandler, CEFuncProc,NewKernelHandler, maps,
   sysutils, syncobjs, pagemap, Sockets, CELazySocket, PointerscanNetworkCommands,
   zstream;
 

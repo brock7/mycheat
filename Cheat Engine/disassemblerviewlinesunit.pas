@@ -4,7 +4,7 @@ unit disassemblerviewlinesunit;
 
 interface
 
-uses LCLIntf,sysutils, classes,ComCtrls, graphics, MCFuncProc, disassembler,
+uses LCLIntf,sysutils, classes,ComCtrls, graphics, CEFuncProc, disassembler,
      CEDebugger, debughelper, KernelDebugger, symbolhandler, plugin,
      disassemblerComments, SymbolListHandler, ProcessHandlerUnit;
 
@@ -425,7 +425,7 @@ begin
 
   if fisJump then
   begin
-    MCFuncProc.isjumporcall(faddress, fJumpsTo);
+    cefuncproc.isjumporcall(faddress, fJumpsTo);
 
     if visibleDisassembler.LastDisassembleData.iscall then
       fjumpcolor:=clYellow

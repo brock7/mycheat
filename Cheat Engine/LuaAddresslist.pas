@@ -5,7 +5,7 @@ unit LuaAddresslist;
 interface
 
 uses
-  Classes, SysUtils, lua, lualib, lauxlib, LuaHandler, MCFuncProc;
+  Classes, SysUtils, lua, lualib, lauxlib, LuaHandler, cefuncproc;
 
 procedure initializeLuaAddresslist;
 

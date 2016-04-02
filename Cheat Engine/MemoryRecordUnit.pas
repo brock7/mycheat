@@ -6,7 +6,7 @@ interface
 
 uses
   Windows, forms, graphics, Classes, SysUtils, controls, stdctrls, comctrls,symbolhandler,
-  MCFuncProc,newkernelhandler, autoassembler, hotkeyhandler, dom, XMLRead,XMLWrite,
+  cefuncproc,newkernelhandler, autoassembler, hotkeyhandler, dom, XMLRead,XMLWrite,
   customtypehandler, fileutil, LCLProc;
 
 type TMemrecHotkeyAction=(mrhToggleActivation, mrhToggleActivationAllowIncrease, mrhToggleActivationAllowDecrease, mrhActivate, mrhDeactivate, mrhSetValue, mrhIncreaseValue, mrhDecreaseValue);

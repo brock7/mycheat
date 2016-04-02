@@ -7,7 +7,7 @@ interface
 uses
   windows, LCLIntf, LResources, Messages, SysUtils, Variants, Classes, Graphics,
   Controls, Forms, Dialogs, StdCtrls, ExtCtrls, ComCtrls, Buttons, Arrow, Spin,
-  MCFuncProc, NewKernelHandler, symbolhandler, memoryrecordunit, types, byteinterpreter,
+  CEFuncProc, NewKernelHandler, symbolhandler, memoryrecordunit, types, byteinterpreter,
   math, CustomTypeHandler;
 
 const WM_disablePointer=WM_USER+1;

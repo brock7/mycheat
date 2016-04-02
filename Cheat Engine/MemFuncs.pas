@@ -5,7 +5,7 @@ unit MemFuncs;
 interface
 
 uses
-  windows, Classes, SysUtils, MCFuncProc, newkernelhandler;
+  windows, Classes, SysUtils, cefuncproc, newkernelhandler;
 
 procedure getexecutablememoryregionsfromregion(start: ptrUint; stop:ptrUint; var memoryregions: TMemoryRegions);
 function getallmemoryregions(var memoryregions: tmemoryregions): qword;

@@ -10,7 +10,7 @@ uses
   Dialogs, ComCtrls, StdCtrls, ExtCtrls, Buttons, Menus, JvDesignSurface,
   JvDesignImp, JvDesignUtils, typinfo, PropEdits, ObjectInspector, LResources,
   maps, ExtDlgs, PopupNotifier, IDEDialogs, ceguicomponents, LMessages, luacaller,
-  luahandler, MCFuncProc, ListViewPropEdit, TreeViewPropEdit, AnchorEditor,
+  luahandler, cefuncproc, ListViewPropEdit, TreeViewPropEdit, AnchorEditor,
   LCLType;
 
 

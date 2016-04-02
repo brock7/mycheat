@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,MCFuncProc, ExtCtrls, LResources;
+  Dialogs, StdCtrls,CEFuncProc, ExtCtrls, LResources;
 
 type
   TfrmExcludeHide = class(TForm)

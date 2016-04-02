@@ -1634,7 +1634,7 @@ procedure unregisterAssembler(id: integer);
 
 implementation
 
-uses {$ifndef autoassemblerdll}MCFuncProc,{$endif}symbolhandler, lua, luahandler,
+uses {$ifndef autoassemblerdll}CEFuncProc,{$endif}symbolhandler, lua, luahandler,
   lualib, assemblerArm;
 
 

@@ -5,7 +5,7 @@ unit genericHotkey;
 interface
 
 uses
-  Classes, SysUtils, MCFuncProc;
+  Classes, SysUtils, cefuncproc;
 
 type TGenericHotkey=class
   public

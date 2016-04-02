@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,MCFuncProc,NewKernelHandler, LResources,memorybrowserformunit;
+  Dialogs, StdCtrls,CEFuncProc,NewKernelHandler, LResources,memorybrowserformunit;
 
 type
   TfrmProcessInfo = class(TForm)

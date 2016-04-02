@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs,MCFuncProc, StdCtrls{$ifdef netclient},netapis{$else},NewKernelHandler{$endif},LResources;
+  Dialogs,CEFuncProc, StdCtrls{$ifdef netclient},netapis{$else},NewKernelHandler{$endif},LResources;
 
 type tbarray=array of byte;
 

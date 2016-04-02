@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, LCLType, Classes, SysUtils, controls, stdctrls, comctrls, ExtCtrls, graphics,
-  math, MemoryRecordUnit, FPCanvas, MCFuncProc, newkernelhandler, menus,dom,
+  math, MemoryRecordUnit, FPCanvas, cefuncproc, newkernelhandler, menus,dom,
   XMLRead,XMLWrite, symbolhandler, AddresslistEditor, inputboxtopunit, frmMemrecComboboxUnit;
 
 type

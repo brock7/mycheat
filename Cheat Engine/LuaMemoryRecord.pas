@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, MemoryRecordUnit, plugin, pluginexports, lua, lualib,
-  lauxlib, LuaHandler, LuaCaller, MCFuncProc, ComCtrls, Graphics;
+  lauxlib, LuaHandler, LuaCaller, CEFuncProc, ComCtrls, Graphics;
 
 procedure initializeLuaMemoryRecord;
 

@@ -6,7 +6,7 @@ interface
 
 uses
   windows, Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  DBK32functions, NewKernelHandler, MCFuncProc, AvgLvlTree, ExtCtrls, ComCtrls,
+  DBK32functions, NewKernelHandler, cefuncproc, AvgLvlTree, ExtCtrls, ComCtrls,
   math,  symbolhandler, maps, Menus, disassembler, multicpuexecution, syncobjs,
   genericHotkey, HotKeys, frmHotkeyExUnit, frmSelectionlistunit;
 

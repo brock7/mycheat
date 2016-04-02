@@ -5,7 +5,7 @@ unit LuaFoundlist;
 interface
 
 uses
-  Classes, SysUtils,lua, lualib, lauxlib, symbolhandler, LuaHandler, MCFuncProc,
+  Classes, SysUtils,lua, lualib, lauxlib, symbolhandler, LuaHandler, cefuncproc,
   memscan, foundlisthelper;
 
 

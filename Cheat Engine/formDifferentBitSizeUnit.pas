@@ -6,7 +6,7 @@ interface
 
 uses
   Windows, LCLIntf, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,MCFuncProc, Menus, LResources;
+  Dialogs, StdCtrls,CEFuncProc, Menus, LResources;
 
 type
   TformDifferentBitSize = class(TForm)

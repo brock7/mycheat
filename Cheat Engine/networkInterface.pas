@@ -8,7 +8,7 @@ interface
 
 uses
   jwawindows, windows, Classes, SysUtils, Sockets, resolve, ctypes, networkconfig,
-  MCFuncProc, newkernelhandler, math, zstream, syncobjs;
+  cefuncproc, newkernelhandler, math, zstream, syncobjs;
 
 
 

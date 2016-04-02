@@ -4,7 +4,7 @@ unit memscan;
 
 {
 This unit will hold the class object used to control scanning
-The old scanning routines will be moved out of MCFuncProc and made object oriented into this class
+The old scanning routines will be moved out of cefuncproc and made object oriented into this class
 Special care should be taken to add multithreaded scanning routines
 }
 
@@ -12,7 +12,7 @@ interface
 
 uses windows, FileUtil, LCLIntf,sysutils, classes,ComCtrls,dialogs, NewKernelHandler,math,
      SyncObjs, windows7taskbar,SaveFirstScan, savedscanhandler, autoassembler,
-     symbolhandler, MCFuncProc,shellapi, customtypehandler,lua,lualib,lauxlib,
+     symbolhandler, CEFuncProc,shellapi, customtypehandler,lua,lualib,lauxlib,
      LuaHandler, fileaccess, groupscancommandparser;
 
 
@@ -649,7 +649,7 @@ function getBytecountBinaryString(st:string; scanvalueisdecimal: boolean): integ
 var i: integer;
 begin
   if scanvalueisdecimal then //first convert to binarystring
-    st:=MCFuncProc.inttobin(strtoint(st));
+    st:=cefuncproc.inttobin(strtoint(st));
 
 
   result:=0;
@@ -3694,7 +3694,7 @@ begin
           scanvalue2:=scanvalue2+'$';
         end;
 
-        binarystring:=MCFuncProc.inttobin(strtoint(trim(scanvalue1)))
+        binarystring:=cefuncproc.inttobin(strtoint(trim(scanvalue1)))
       end
       else
         binarystring:=scanvalue1;
@@ -4526,7 +4526,7 @@ begin
   AddressFile:=TFileStream.Create(AddressFilename,fmCreate or fmSharedenynone);
   MemoryFile:=TFileStream.Create(MemoryFilename,fmCreate or fmSharedenynone);
 
-  Priority:=MCFuncProc.scanpriority;
+  Priority:=cefuncproc.scanpriority;
 
 
 
@@ -4644,7 +4644,7 @@ begin
 
       //store some info for lookup
       if binaryStringAsDecimal then //first convert do binarystring
-        s:=MCFuncProc.inttobin(strtoint(scanvalue1))
+        s:=cefuncproc.inttobin(strtoint(scanvalue1))
       else
         s:=trim(scanvalue1);
 

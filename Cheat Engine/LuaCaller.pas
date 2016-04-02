@@ -11,7 +11,7 @@ interface
 
 uses
   Classes, Controls, SysUtils, ceguicomponents, forms, lua, lualib, lauxlib,
-  comctrls, StdCtrls, MCFuncProc, typinfo, Graphics, disassembler, LuaDisassembler,
+  comctrls, StdCtrls, CEFuncProc, typinfo, Graphics, disassembler, LuaDisassembler,
   LastDisassembleData, Assemblerunit;
 
 type

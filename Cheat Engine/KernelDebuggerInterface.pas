@@ -5,7 +5,7 @@ unit KernelDebuggerInterface;
 interface
 
 uses
-  jwawindows, windows, Classes, SysUtils,MCFuncProc, newkernelhandler,DebuggerInterface,contnrs;
+  jwawindows, windows, Classes, SysUtils,cefuncproc, newkernelhandler,DebuggerInterface,contnrs;
 
 type
   TEventType=(etCreateProcess, etCreateThread, etDestroyThread);

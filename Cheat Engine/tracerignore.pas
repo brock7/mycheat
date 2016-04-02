@@ -5,7 +5,7 @@ unit tracerIgnore;
 interface
 
 uses
-  Classes, SysUtils, symbolhandler, MCFuncProc;
+  Classes, SysUtils, symbolhandler, cefuncproc;
 
 type
   TTracerIgnore=class

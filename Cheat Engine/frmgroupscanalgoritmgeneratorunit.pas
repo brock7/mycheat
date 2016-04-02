@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls, CustomTypeHandler, math, strutils, MCFuncProc, groupscancommandparser,
+  ExtCtrls, CustomTypeHandler, math, strutils, cefuncproc, groupscancommandparser,
   vartypestrings;
 
 type

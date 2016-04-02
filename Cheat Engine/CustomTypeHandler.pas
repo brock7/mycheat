@@ -8,7 +8,7 @@ This class is used as a wrapper for different kinds of custom types
 interface
 
 uses
-  {windows, }dialogs, Classes, SysUtils,MCFuncProc, autoassembler, lua, lauxlib,
+  {windows, }dialogs, Classes, SysUtils,cefuncproc, autoassembler, lua, lauxlib,
   lualib, math;
 
 type TConversionRoutine=function(data: pointer):integer; stdcall;

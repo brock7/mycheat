@@ -114,7 +114,7 @@ var
 
 implementation
 
-uses DBK32functions, MCFuncProc, PEInfoFunctions, NewKernelHandler;
+uses DBK32functions, cefuncproc, PEInfoFunctions, NewKernelHandler;
 
 var vmcall :function(vmcallinfo:pointer; level1pass: dword): PtrUInt; stdcall;
 

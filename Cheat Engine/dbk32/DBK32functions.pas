@@ -287,7 +287,7 @@ var kernel32dll: thandle;
 
 implementation
 
-uses vmxfunctions, DBK64SecondaryLoader, NewKernelHandler, frmDriverLoadedUnit, MCFuncProc;
+uses vmxfunctions, DBK64SecondaryLoader, NewKernelHandler, frmDriverLoadedUnit, CEFuncProc;
 
 var dataloc: string;
     applicationPath: string;

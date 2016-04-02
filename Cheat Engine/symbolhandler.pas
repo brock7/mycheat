@@ -5,7 +5,7 @@ unit symbolhandler;
 interface
 
 
-uses jwawindows, windows, classes,LCLIntf,imagehlp,{psapi,}sysutils, MCFuncProc,
+uses jwawindows, windows, classes,LCLIntf,imagehlp,{psapi,}sysutils, cefuncproc,
   newkernelhandler,syncobjs, SymbolListHandler, fgl, typinfo, cvconst, PEInfoFunctions,
   DotNetPipe, DotNetTypes;
 
@@ -1062,8 +1062,8 @@ begin
   end
   else
   begin
-    _processid:=MCFuncProc.ProcessID;
-    _processhandle:=MCFuncProc.ProcessHandle;
+    _processid:=cefuncproc.ProcessID;
+    _processhandle:=cefuncproc.ProcessHandle;
   end;
 {$endif}
 
@@ -1971,7 +1971,7 @@ begin
   end
   else
   begin
-    processhandle:=MCFuncProc.ProcessHandle;
+    processhandle:=cefuncproc.ProcessHandle;
   end;
 {$endif}
 
@@ -2263,7 +2263,7 @@ begin
   end
   else
   begin
-    processhandle:=MCFuncProc.ProcessHandle;
+    processhandle:=cefuncproc.ProcessHandle;
   end;
 {$endif}
 
@@ -2654,7 +2654,7 @@ begin
     if targetself then
       processid:=getcurrentprocessid
     else
-      processid:=MCFuncProc.ProcessID;
+      processid:=cefuncproc.ProcessID;
 
     if processid=0 then exit;
 

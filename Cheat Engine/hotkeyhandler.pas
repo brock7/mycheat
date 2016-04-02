@@ -4,7 +4,7 @@ unit HotkeyHandler;
 
 interface
 
-uses windows, LCLIntf,classes,SyncObjs,MCFuncProc,messages,genericHotkey, math;
+uses windows, LCLIntf,classes,SyncObjs,CEFuncProc,messages,genericHotkey, math;
 
 type thotkeyitem=record
   keys: TKeyCombo;
@@ -429,12 +429,12 @@ begin
               if tempHotkey.hotkeylistItem.handler2 then
               begin
                 if tempHotkey.hotkeylistItem.memrechotkey<>nil then
-                  sendmessage(a,integer(MCFuncProc.WM_HOTKEY2),0,ptrUint(tempHotkey.hotkeylistItem.memrechotkey))
+                  sendmessage(a,integer(cefuncproc.WM_HOTKEY2),0,ptrUint(tempHotkey.hotkeylistItem.memrechotkey))
                 else
                 if tempHotkey.hotkeylistItem.generichotkey<>nil then
-                  sendmessage(a,integer(MCFuncProc.WM_HOTKEY2),1,ptrUint(tempHotkey.hotkeylistItem.genericHotkey))
+                  sendmessage(a,integer(cefuncproc.WM_HOTKEY2),1,ptrUint(tempHotkey.hotkeylistItem.genericHotkey))
                 else
-                  sendmessage(a,integer(MCFuncProc.WM_HOTKEY2),b,0)
+                  sendmessage(a,integer(cefuncproc.WM_HOTKEY2),b,0)
 
 
               end

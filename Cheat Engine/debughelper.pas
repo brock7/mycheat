@@ -6,7 +6,7 @@ interface
 
 uses
   Windows, Classes, SysUtils, Controls, forms, syncobjs, guisafecriticalsection, Dialogs,
-  foundcodeunit, debugeventhandler, MCFuncProc, newkernelhandler, comctrls,
+  foundcodeunit, debugeventhandler, cefuncproc, newkernelhandler, comctrls,
   debuggertypedefinitions, formChangedAddresses, frmTracerUnit, KernelDebuggerInterface, VEHDebugger,
   WindowsDebugger, debuggerinterfaceAPIWrapper, debuggerinterface,symbolhandler,
   fgl, disassembler, NetworkDebuggerInterface, Clipbrd;

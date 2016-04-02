@@ -6,7 +6,7 @@ interface
 
 uses
   jwawindows, windows, LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ComCtrls, ExtCtrls,DissectCodeThread,MCFuncProc,
+  Dialogs, StdCtrls, ComCtrls, ExtCtrls,DissectCodeThread,CEFuncProc,
   symbolhandler, LResources, frmReferencedStringsUnit, newkernelhandler, MemFuncs;
 
 
@@ -234,12 +234,12 @@ end;
 
 procedure TfrmDissectCode.cleanModuleList;
 begin
-  MCFuncProc.cleanModuleList(lbModulelist.items);
+  cefuncproc.cleanModuleList(lbModulelist.items);
 end;
 
 procedure TfrmDissectCode.fillModuleList(withSystemModules: boolean);
 begin
-  MCFuncProc.GetModuleList(lbModuleList.Items, withSystemModules);
+  cefuncproc.GetModuleList(lbModuleList.Items, withSystemModules);
 end;
 
 procedure TfrmDissectCode.FormShow(Sender: TObject);

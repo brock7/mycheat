@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ExtCtrls, Menus, MCFuncProc, StrUtils, types, ComCtrls, LResources,
+  StdCtrls, ExtCtrls, Menus, CEFuncProc, StrUtils, types, ComCtrls, LResources,
   NewKernelHandler, SynEdit, SynHighlighterCpp, SynHighlighterAA, LuaSyntax, disassembler,
   MainUnit2, Assemblerunit, autoassembler, symbolhandler, SynEditSearch,
   MemoryRecordUnit, tablist, customtypehandler, registry, SynGutterBase, SynEditMarks,

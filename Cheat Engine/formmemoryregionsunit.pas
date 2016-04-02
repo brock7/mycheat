@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,MCFuncProc, ComCtrls, Menus,opensave,NewKernelHandler, LResources;
+  Dialogs, StdCtrls,CEFuncProc, ComCtrls, Menus,opensave,NewKernelHandler, LResources;
 
 type tmoreinfo = record
   address: ptrUint;

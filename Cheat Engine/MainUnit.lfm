@@ -578,7 +578,7 @@ object MainForm: TMainForm
           Left = 4
           Height = 21
           Top = 33
-          Width = 226
+          Width = 172
           Caption = '*PAUSE *THE GAME WHILE *SCANNING'
           Enabled = False
           OnClick = cbPauseWhileScanningClick

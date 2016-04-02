@@ -4,7 +4,7 @@ unit plugin;
 
 interface
 
-uses lclproc, windows, classes, sysutils,LCLIntf,checklst,menus,dialogs,MCFuncProc,
+uses lclproc, windows, classes, sysutils,LCLIntf,checklst,menus,dialogs,CEFuncProc,
      NewKernelHandler, graphics, syncobjs;
 
 const CurrentPluginVersion=5;

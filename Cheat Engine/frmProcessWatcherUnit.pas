@@ -7,7 +7,7 @@ interface
 uses
   jwawindows, windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs,NewKernelHandler, ExtCtrls, ComCtrls, StdCtrls,CEDebugger,kerneldebugger,
-  MCFuncProc, Menus, LResources,{tlhelp32,} symbolhandler, debugHelper, syncobjs;
+  CEFuncProc, Menus, LResources,{tlhelp32,} symbolhandler, debugHelper, syncobjs;
 
 type tthreaddata=record
   threadid: dword;

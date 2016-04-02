@@ -7,7 +7,7 @@ interface
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls,{tlhelp32,} ComCtrls,ExtCtrls, LResources, Contnrs,
-  MCFuncProc,NewKernelHandler, symbolhandler, multilineinputqueryunit, registry,
+  CEFuncProc,NewKernelHandler, symbolhandler, multilineinputqueryunit, registry,
   resolve;
 
 

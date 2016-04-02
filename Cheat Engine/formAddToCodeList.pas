@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, LResources, MCFuncProc, newkernelhandler;
+  Dialogs, StdCtrls, LResources, cefuncproc, newkernelhandler;
 
 type
   TfrmAddToCodeList = class(TForm)
