@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDON'T CARE IF IT'S *EXECUTABLE OR NOTDownside: The game may become slightly slower when using these functions. (Of course, if it has been hammering the gui, it would already have been frozen)"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDON'T CARE IF IT'S *EXECUTABLE OR NOTDownside: The game may become slightly slower when using these functions. (Of course, if it has been hammering the gui, it would already have been frozen)DON'T CARE IF IT'S *EXECUTABLE OR NOT"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -2231,6 +2231,7 @@ msgid "Cancel"
 msgstr ""
 
 #: mainunit.rscheatengine
+msgctxt "mainunit.rscheatengine"
 msgid "MyCheat"
 msgstr ""
 
@@ -2746,7 +2747,7 @@ msgstr ""
 
 #: mainunit2.cename
 msgctxt "mainunit2.cename"
-msgid "......"
+msgid "MyCheat"
 msgstr ""
 
 #: mainunit2.rsenabledisablespeedhack
@@ -10894,7 +10895,7 @@ msgstr ""
 
 #: tmainform.caption
 msgctxt "TMAINFORM.CAPTION"
-msgid "......"
+msgid "MyCheat"
 msgstr ""
 
 #: tmainform.cbcasesensitive.caption

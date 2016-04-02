@@ -13,7 +13,7 @@ uses windows, dialogs,forms,classes,LCLIntf, LCLProc, sysutils,registry,ComCtrls
 const ceversion=6.4;
 
 resourcestring
-  cename = '......';
+  cename = 'MyCheat';
   rsPleaseWait = 'Please Wait!';
 
 procedure UpdateToolsMenu;

@@ -193,7 +193,7 @@ begin
 end;
 
 begin
-  Application.Title:='......';
+  Application.Title:='MyCheat';
   Application.Initialize;
   getcedir;
 

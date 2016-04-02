@@ -9,7 +9,7 @@ object MainForm: TMainForm
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
   AllowDropFiles = True
-  Caption = '......'
+  Caption = 'MyCheat'
   ClientHeight = 534
   ClientWidth = 597
   Font.Height = -11
