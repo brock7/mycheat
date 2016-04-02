@@ -287,12 +287,12 @@ resourcestring
   strProcessWatcherWillPreventUnloader='Enabling the process watcher will prevent the unloader from working';
   rsYouHavenTSelectedAnyMemoryTypeThisWillResultInChea = 'You haven''t selected any memory type. This will result in MyCheat finding NO memory! Are you stupid?';
   rsIsNotAValidInterval = '%s is not a valid interval';
-  rsTheScanbufferSizeHasToBeGreaterThan0 = 'The scanbuffer size has to be greater than 0';
+  rsTheScanbufferSizeHasToBeGreaterThan0 = 'THE *SCAN*BUFFER SIZE HAS TO BE GREATER THAN 0';
   rsTheValueForTheKeypollIntervalIsInvalid = 'the value for the keypoll interval (%s is invalid';
   rsTheValueForTheWaitBetweenHotkeyPressesIsInvalid = 'the value for the wait between hotkey presses (%s is invalid';
-  rsPleaseBootWithUnsignedDriversAllowedF8DuringBootOr = 'Please boot with unsigned drivers allowed(F8 during boot), or sign the driver yourself';
-  rsRequiresDBVM = '(Requires D*B*V*M)';
-  rsThisPluginIsAlreadyLoaded = 'This plugin is already loaded';
+  rsPleaseBootWithUnsignedDriversAllowedF8DuringBootOr = 'PLEASE *BOOT WITH *UNSIGNED *DRIVERS ALLOWED(*F8 DURING *BOOT), OR *SIGN THE *DRIVER YOURSELF';
+  rsRequiresDBVM = '(REQUIRES D*B*V*M)';
+  rsThisPluginIsAlreadyLoaded = 'THIS *PLUGIN IS ALREADY *LOADED';
   rsIdle = 'Idle';
   rsLowest = 'Lowest';
   rsLower = 'Lower';
@@ -309,10 +309,10 @@ resourcestring
   rsDebuggerOptions = 'Debugger Options';
   rsExtra = 'Extra';
   rsNoName = 'No Name';
-  rsPopupHideCheatEngine = 'Popup/Hide cheat engine';
+  rsPopupHideMyCheat = 'Popup/Hide MyDheat';
   rsPauseTheSelectedProcess = 'Pause the selected process';
-  rsToggleTheSpeedhack = 'Toggle the speedhack';
-  rsSpeedhackSpeed = 'Speedhack speed';
+  rs_Toggle_The_Speed_hack = 'TOGGLE THE *SPEED*HACK';
+  rs_Speed_hack_Speed = '*SPEED*HACK SPEED';
   rsChangeTypeTo = 'Change type to';
   rsBinary = 'Binary';
   rsByte = 'Byte';
@@ -654,19 +654,19 @@ begin
       reg.WriteString('Scanfolder',tempdiralternative);
 
 
-      reg.WriteBool('Use dbk32 QueryMemoryRegionEx',cbKernelQueryMemoryRegion.checked);
-      reg.WriteBool('Use dbk32 ReadWriteProcessMemory',cbKernelReadWriteProcessMemory.checked);
-      reg.WriteBool('Use dbk32 OpenProcess',cbKernelOpenProcess.checked);
+      reg.WriteBool('Use dbk*32 QueryMemoryRegionEx',cbKernelQueryMemoryRegion.checked);
+      reg.WriteBool('Use dbk*32 ReadWriteProcessMemory',cbKernelReadWriteProcessMemory.checked);
+      reg.WriteBool('Use dbk*32 OpenProcess',cbKernelOpenProcess.checked);
 
-      reg.WriteBool('Use Processwatcher',cbProcessWatcher.checked);
-      reg.WriteBool('Use VEH Debugger',cbUseVEHDebugger.checked);
-      reg.WriteBool('VEH Real context on thread creation event', cbVEHRealContextOnThreadCreation.checked);
+      reg.WriteBool('Use Process*watcher',cbProcessWatcher.checked);
+      reg.WriteBool('Use *VEH *Debugger',cbUseVEHDebugger.checked);
+      reg.WriteBool('VEH* Real *context on *thread creation *event', cbVEHRealContextOnThreadCreation.checked);
       VEHRealContextOnThreadCreation:=cbVEHRealContextOnThreadCreation.checked;
 
 
-      reg.WriteBool('Use Windows Debugger',cbUseWindowsDebugger.checked);
-      reg.WriteBool('Use Kernel Debugger',cbKdebug.checked);
-      reg.WriteBool('Use Global Debug Routines',cbGlobalDebug.checked);
+      reg.WriteBool('Use *Windows *Debugger',cbUseWindowsDebugger.checked);
+      reg.WriteBool('Use *Kernel *Debugger',cbKdebug.checked);
+      reg.WriteBool('Use *Global *Debug *Routines',cbGlobalDebug.checked);
 
       waitafterguiupdate:=cbWaitAfterGuiUpdate.checked;
       reg.WriteBool('Wait After Gui Update', waitafterguiupdate);
@@ -1061,16 +1061,16 @@ begin
   with frameHotkeyConfig.ListBox1.items do
   begin
     clear;
-    add(rsPopupHideCheatEngine);
+    add(rsPopupHideMyCheat);
     add(rsPauseTheSelectedProcess);
-    add(rsToggleTheSpeedhack);
-    add(rsSpeedhackSpeed+' 1');
-    add(rsSpeedhackSpeed+' 2');
-    add(rsSpeedhackSpeed+' 3');
-    add(rsSpeedhackSpeed+' 4');
-    add(rsSpeedhackSpeed+' 5');
-    add(rsSpeedhackSpeed+' +');
-    add(rsSpeedhackSpeed+' -');
+    add(rs_Toggle_The_Speed_hack);
+    add(rs_Speed_hack_Speed+' 1');
+    add(rs_Speed_hack_Speed+' 2');
+    add(rs_Speed_hack_Speed+' 3');
+    add(rs_Speed_hack_Speed+' 4');
+    add(rs_Speed_hack_Speed+' 5');
+    add(rs_Speed_hack_Speed+' +');
+    add(rs_Speed_hack_Speed+' -');
     add(rsChangeTypeTo+' '+rsBinary);
     add(rsChangeTypeTo+' '+rsByte);
     add(rsChangeTypeTo+' '+rs2Bytes);

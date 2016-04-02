@@ -113,7 +113,7 @@ object formSettings: TformSettings
           Top = 395
           Width = 201
           Height = 16
-          Caption = 'Found address list update interval'
+          Caption = 'FOUND *ADDRESS *LIST UPDATE INTERVAL'
         end
         object Label19: TLabel
           Left = 508
@@ -127,7 +127,7 @@ object formSettings: TformSettings
           Top = 345
           Width = 245
           Height = 16
-          Caption = 'Automatically attach to processes named'
+          Caption = 'AUTOMATICALLY *ATTACH TO *PROCESSES NAMED'
         end
         object Label24: TLabel
           Left = 408
@@ -173,7 +173,7 @@ object formSettings: TformSettings
           Height = 24
           Hint = 
             'The number of milliseconds that MyCheat will wait before re' +
-            'freshing the list of addresses'
+            'freshing the list of *addresses'
           ParentShowHint = False
           ShowHint = True
           TabOrder = 3
@@ -186,7 +186,7 @@ object formSettings: TformSettings
           Height = 24
           Hint = 
             'The number of milliseconds that MyCheat will wait before re' +
-            'setting the frozen addresses to their original value.'
+            'setting the frozen *addresses to their original value.'
           ParentShowHint = False
           ShowHint = True
           TabOrder = 4
@@ -212,7 +212,7 @@ object formSettings: TformSettings
             Top = 39
             Width = 542
             Height = 21
-            Caption = 'Show and work with binaries as if they are decimals'
+            Caption = 'Show and work with *binaries as if they are decimals'
             TabOrder = 1
           end
           object cbsimplecopypaste: TCheckBox
@@ -231,7 +231,7 @@ object formSettings: TformSettings
           Height = 24
           Hint = 
             'The number of milliseconds that MyCheat will wait before re' +
-            'freshing the list of addresses'
+            'freshing the list of *addresses'
           ParentShowHint = False
           ShowHint = True
           TabOrder = 6
@@ -243,7 +243,7 @@ object formSettings: TformSettings
           Top = 41
           Width = 601
           Height = 21
-          Caption = 'Update the list of found addresses even after scanning'
+          Caption = 'Update the list of found *addresses even after *scanning'
           Checked = True
           State = cbChecked
           TabOrder = 7
@@ -256,7 +256,7 @@ object formSettings: TformSettings
           Height = 24
           Hint = 
             'The number of milliseconds that MyCheat will wait before re' +
-            'freshing the list of addresses'
+            'freshing the list of *addresses'
           ParentShowHint = False
           ShowHint = True
           TabOrder = 8
@@ -290,8 +290,8 @@ object formSettings: TformSettings
           Width = 143
           Height = 24
           Hint = 
-            'Type the name of the process you want to automatically open. Not' +
-            'e: Only works when NO process has been opened yet'
+            'Type the name of the *process you want to *automatically open. Not' +
+            'e: Only works when NO *process has been opened yet'
           TabOrder = 11
         end
         object cbAlwaysAutoAttach: TCheckBox
@@ -299,7 +299,7 @@ object formSettings: TformSettings
           Top = 367
           Width = 592
           Height = 21
-          Caption = 'Even autoattach when another process has already been selected'
+          Caption = 'EVEN *AUTO*ATTACH WHEN ANOTHER *PROCESS HAS ALREADY BEEN SELECTED'
           TabOrder = 12
         end
         object cbSaveWindowPos: TCheckBox
@@ -334,7 +334,7 @@ object formSettings: TformSettings
           Top = 197
           Width = 237
           Height = 21
-          Caption = 'Only show processes with an icon'
+          Caption = 'Only show *processes with an icon'
           TabOrder = 16
         end
         object cbShowMainMenu: TCheckBox
@@ -352,7 +352,7 @@ object formSettings: TformSettings
           Top = 98
           Width = 614
           Height = 21
-          Caption = 'Pointer adding: Append pointerline instead of insert'
+          Caption = '*Pointer *adding: Append *pointer*line instead of insert'
           Checked = True
           State = cbChecked
           TabOrder = 18
@@ -498,9 +498,9 @@ object formSettings: TformSettings
           Width = 590
           Height = 32
           Caption = 
-            'Running the scan in a seperate thread will give you a cancel but' +
+            'Running the *scan in a seperate *thread will give you a cancel but' +
             'ton, and prevents MC from starvation. (meaning parts of the wind' +
-            'ow turn white) but it also makes scanning a little slower'
+            'ow turn white) but it also makes *scanning a little slower'
           Transparent = True
           WordWrap = True
         end
@@ -523,21 +523,21 @@ object formSettings: TformSettings
           Top = 7
           Width = 169
           Height = 16
-          Caption = '(Can effect scan speed a lot)'
+          Caption = '(Can effect scan *speed a lot)'
         end
         object Label21: TLabel
           Left = 0
           Top = 158
           Width = 198
           Height = 16
-          Caption = 'Scan the following memory types:'
+          Caption = 'Scan* the following *memory types:'
         end
         object checkThread: TCheckBox
           Left = 208
           Top = 286
           Width = 198
           Height = 20
-          Caption = 'Run scan in seperate thread'
+          Caption = 'Run *scan* in seperate *thread'
           Checked = True
           State = cbChecked
           TabOrder = 0
@@ -568,7 +568,7 @@ object formSettings: TformSettings
           Top = 39
           Width = 602
           Height = 21
-          Caption = 'Fast scan on by default'
+          Caption = 'Fast *scan* on by default'
           TabOrder = 2
         end
         object cbSkip_PAGE_NOCACHE: TCheckBox
@@ -577,9 +577,9 @@ object formSettings: TformSettings
           Width = 602
           Height = 21
           Hint = 
-            'Some systems crash when trying to read memory with this protecti' +
+            'Some systems crash when trying to read *memory with this protecti' +
             'on. If that happens check this option.'
-          Caption = 'Don'#39't scan memory that is protected with the No Cache option'
+          Caption = 'Don'#39't *scan *memory that is protected with the No Cache option'
           ParentShowHint = False
           ShowHint = True
           TabOrder = 3
@@ -590,8 +590,8 @@ object formSettings: TformSettings
           Width = 602
           Height = 21
           Caption = 
-            'Keep low memory usage when doing an "Unkown Initial Value scan" ' +
-            'with Hyper Scan'
+            'Keep low *memory usage when doing an "Unkown Initial Value *scan" ' +
+            'with Hyper *Scan'
           TabOrder = 4
         end
         object cbMemImage: TCheckBox
@@ -600,7 +600,7 @@ object formSettings: TformSettings
           Width = 602
           Height = 21
           Caption = 
-            'MEM_IMAGE:Memory that is mapped into the view of an image sectio' +
+            'MEM_IMAGE:*Memory that is *mapped into the view of an *image sectio' +
             'n'
           Checked = True
           State = cbChecked
@@ -612,7 +612,7 @@ object formSettings: TformSettings
           Width = 602
           Height = 21
           Caption = 
-            'MEM_MAPPED:Memory that is mapped into the view of a section. (E.' +
+            'MEM_MAPPED:*Memory that is mapped into the *view of a *section. (E.' +
             'g:File mapping, slow)'
           TabOrder = 6
         end
@@ -621,7 +621,7 @@ object formSettings: TformSettings
           Top = 177
           Width = 602
           Height = 21
-          Caption = 'MEM_PRIVATE:Memory that is private.'
+          Caption = 'MEM_PRIVATE:*Memory that is private.'
           Checked = True
           State = cbChecked
           TabOrder = 7
@@ -722,15 +722,15 @@ object formSettings: TformSettings
           Width = 568
           Height = 16
           Caption = 
-            'Advantage: Not as memory intensive as the "Write Exceptions" typ' +
-            'e. And very high compatibility.'
+            'Advantage: Not as *memory intensive as the "Write *Exceptions" typ' +
+            'e. And very high *compatibility.'
         end
         object Label7: TLabel
           Left = 0
           Top = 97
           Width = 325
           Height = 16
-          Caption = 'Disadvantage: May sometimes return a wrong address'
+          Caption = 'Disadvantage*: May sometimes return a wrong *address'
         end
         object Label8: TLabel
           Left = 0
@@ -738,7 +738,7 @@ object formSettings: TformSettings
           Width = 416
           Height = 16
           Caption = 
-            'Advantage: Finds every *address that accesses the specified addre' +
+            'Advantage: Finds every *address* that accesses* the specified *addre' +
             'ss.'
         end
         object Label9: TLabel
@@ -747,8 +747,8 @@ object formSettings: TformSettings
           Width = 595
           Height = 32
           Caption = 
-            'Disadvantage: Memory intensive so slows down the game. And might' +
-            ' cause stability problems in the game'
+            'Disadvantage*: *Memory intensive so slows down the *game. And might' +
+            ' cause stability problems in the *game'
           WordWrap = True
         end
         object rbDebugRegisters: TRadioButton
@@ -756,7 +756,7 @@ object formSettings: TformSettings
           Top = 59
           Width = 602
           Height = 21
-          Caption = 'Use Debug Registers (aka Hardware Breakpoints)'
+          Caption = 'Use Debug Registers (aka *Hardware *Break*points)'
           Checked = True
           TabOrder = 0
           TabStop = True
@@ -774,7 +774,7 @@ object formSettings: TformSettings
           Top = 188
           Width = 602
           Height = 21
-          Caption = 'Try to prevent detection of the debugger'
+          Caption = 'Try to *prevent *detection of the *debugger'
           TabOrder = 2
           OnClick = CheckBox1Click
         end
@@ -783,7 +783,7 @@ object formSettings: TformSettings
           Top = 208
           Width = 602
           Height = 21
-          Caption = 'Handle beakpoints not caused by MC'
+          Caption = 'Handle *beak*points not caused by MC'
           TabOrder = 3
           OnClick = CheckBox1Click
         end
@@ -818,11 +818,11 @@ object formSettings: TformSettings
           Width = 582
           Height = 21
           Hint = 
-            'If you type in a opcode and it is smaller than the opcode you re' +
-            'placed, it will fill the missing bytes with NOP instructions. If' +
-            ' the opcode is longer it will replace the opcode(s) that have be' +
+            'If you type in a *opcode and it is smaller than the *opcode you re' +
+            'placed, it will fill the missing bytes with *NOP *instructions. If' +
+            ' the *opcode is longer it will replace the *opcode(s) that have be' +
             'en overwritten with NOP'#39's'
-          Caption = 'Replace incomplete opcodes with nops'
+          Caption = 'Replace incomplete *opcodes with *nops'
           Checked = True
           ParentShowHint = False
           ShowHint = True
@@ -845,7 +845,7 @@ object formSettings: TformSettings
           Top = 180
           Width = 602
           Height = 21
-          Caption = 'Try to prevent detection of the debugger'
+          Caption = 'Try to *prevent *detection of the *debugger'
           TabOrder = 4
           OnClick = CheckBox2Click
         end
@@ -854,7 +854,7 @@ object formSettings: TformSettings
           Top = 49
           Width = 563
           Height = 21
-          Caption = 'Use hardware breakpoints (Max 3)'
+          Caption = 'Use *hardware *breakpoints (Max 3)'
           Checked = True
           TabOrder = 5
           TabStop = True
@@ -864,7 +864,7 @@ object formSettings: TformSettings
           Top = 69
           Width = 563
           Height = 21
-          Caption = 'Use int3 instructions for breakpoints (Unlimited)'
+          Caption = 'Use int3 *instructions for *break*points (*Unlimited)'
           TabOrder = 6
         end
         object cbBreakOnAttach: TCheckBox
@@ -872,7 +872,7 @@ object formSettings: TformSettings
           Top = 148
           Width = 582
           Height = 21
-          Caption = 'Break when attaching/creating process using the process list'
+          Caption = 'Break when *attaching/*creating *process using the *process list'
           TabOrder = 7
           Visible = False
         end
@@ -888,7 +888,7 @@ object formSettings: TformSettings
           Align = alBottom
           Alignment = taCenter
           Caption = 
-            'I really recommend upgrading to Windows 2000 or later mister Fli' +
+            'I really recommend *upgrading to Windows 2000 or later *mister Fli' +
             'ntstone'
           Visible = False
         end
@@ -899,7 +899,7 @@ object formSettings: TformSettings
           Height = 86
           Align = alTop
           Caption = 
-            'Use the following MC Kernel routines instead of the original win' +
+            'Use the following MC *Kernel *routines instead of the original win' +
             'dows version'
           TabOrder = 0
           object cbKernelQueryMemoryRegion: TCheckBox
@@ -916,7 +916,7 @@ object formSettings: TformSettings
             Top = 39
             Width = 592
             Height = 21
-            Caption = 'Read/Write Process Memory  (Will cause slower scans)'
+            Caption = 'Read/Write *Process *Memory  (Will cause slower *scans*)'
             TabOrder = 1
             OnClick = cbKernelQueryMemoryRegionClick
           end
@@ -934,7 +934,7 @@ object formSettings: TformSettings
           Top = 91
           Width = 593
           Height = 21
-          Caption = 'Enable use of the Process Watcher'
+          Caption = 'Enable use of the *Process *Watcher'
           TabOrder = 1
           OnClick = cbProcessWatcherClick
         end
@@ -943,7 +943,7 @@ object formSettings: TformSettings
           Top = 111
           Width = 593
           Height = 21
-          Caption = 'Use kernelmode debugger options when possible'
+          Caption = 'Use *kernel*mode *debugger options when possible'
           TabOrder = 2
           OnClick = cbKdebugClick
         end
@@ -952,7 +952,7 @@ object formSettings: TformSettings
           Top = 296
           Width = 593
           Height = 21
-          Caption = 'Use APC to inject dll'#39's'
+          Caption = 'Use *APC to *inject* dll'#39's'
           TabOrder = 3
           Visible = False
         end
@@ -961,7 +961,7 @@ object formSettings: TformSettings
           Top = 316
           Width = 593
           Height = 21
-          Caption = 'Use APC to create new threads'
+          Caption = 'Use *APC* to create new *threads*'
           TabOrder = 4
           Visible = False
         end
@@ -970,7 +970,7 @@ object formSettings: TformSettings
           Top = 129
           Width = 572
           Height = 21
-          Caption = 'Use Global Debug routines'
+          Caption = 'Use *Global *Debug *routines'
           Enabled = False
           TabOrder = 5
         end

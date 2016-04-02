@@ -582,30 +582,30 @@ begin
           if reg.ValueExists('Don''t use tempdir') then
             cbDontUseTempDir.checked:=reg.ReadBool('Don''t use tempdir');
 
-          if reg.ValueExists('Scanfolder') then
-            edtTempScanFolder.text:=reg.ReadString('Scanfolder');
+          if reg.ValueExists('Scan*folder') then
+            edtTempScanFolder.text:=reg.ReadString('Scan*folder');
 
           dontusetempdir:=cbDontusetempdir.checked;
           tempdiralternative:=edtTempScanFolder.text;
 
 
-          if reg.ValueExists('Use Processwatcher') then
-            cbProcessWatcher.checked:=reg.readBool('Use Processwatcher');
+          if reg.ValueExists('Use Process*watcher') then
+            cbProcessWatcher.checked:=reg.readBool('Use Process*watcher');
 
-          if reg.ValueExists('Use VEH Debugger') then
-            cbUseVEHDebugger.Checked:=reg.ReadBool('Use VEH Debugger');
+          if reg.ValueExists('Use *VEH *Debugger') then
+            cbUseVEHDebugger.Checked:=reg.ReadBool('Use *VEH *Debugger');
 
-          if reg.ValueExists('VEH Real context on thread creation event') then
+          if reg.ValueExists('VEH* Real *context on *thread creation event') then
             cbVEHRealContextOnThreadCreation.checked:=reg.ReadBool('VEH Real context on thread creation event');
 
           VEHRealContextOnThreadCreation:=cbVEHRealContextOnThreadCreation.checked;
 
 
-          if reg.ValueExists('Use Windows Debugger') then
-            cbUseWindowsDebugger.checked:=reg.ReadBool('Use Windows Debugger');
+          if reg.ValueExists('Use *Windows *Debugger') then
+            cbUseWindowsDebugger.checked:=reg.ReadBool('Use *Windows *Debugger');
 
-          if reg.ValueExists('Use Kernel Debugger') then
-            cbKdebug.checked:=reg.ReadBool('Use Kernel Debugger');
+          if reg.ValueExists('Use *Kernel *Debugger') then
+            cbKdebug.checked:=reg.ReadBool('Use *Kernel *Debugger');
 
           if reg.ValueExists('Wait After Gui Update') then
             waitafterguiupdate:=reg.ReadBool('Wait After Gui Update');

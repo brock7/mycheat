@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDON'T CARE IF IT'S *EXECUTABLE OR NOT"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDON'T CARE IF IT'S *EXECUTABLE OR NOTDownside: The game may become slightly slower when using these functions. (Of course, if it has been hammering the gui, it would already have been frozen)"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -1434,7 +1434,7 @@ msgid "Pause the selected process"
 msgstr ""
 
 #: formsettingsunit.rspleasebootwithunsigneddriversallowedf8duringbootor
-msgid "Please boot with unsigned drivers allowed(F8 during boot), or sign the driver yourself"
+msgid "PLEASE *BOOT WITH *UNSIGNED *DRIVERS ALLOWED(*F8 DURING *BOOT), OR *SIGN THE *DRIVER YOURSELF"
 msgstr ""
 
 #: formsettingsunit.rsplugins
@@ -1442,21 +1442,17 @@ msgctxt "formsettingsunit.rsplugins"
 msgid "Plugins"
 msgstr ""
 
-#: formsettingsunit.rspopuphidecheatengine
-msgid "Popup/Hide cheat engine"
+#: formsettingsunit.rspopuphidemycheat
+msgid "Popup/Hide MyDheat"
 msgstr ""
 
 #: formsettingsunit.rsrequiresdbvm
-msgid "(Requires D*B*V*M)"
+msgid "(REQUIRES D*B*V*M)"
 msgstr ""
 
 #: formsettingsunit.rsscansettings
 msgctxt "formsettingsunit.rsscansettings"
 msgid "Scan Settings"
-msgstr ""
-
-#: formsettingsunit.rsspeedhackspeed
-msgid "Speedhack speed"
 msgstr ""
 
 #: formsettingsunit.rstext
@@ -1465,7 +1461,7 @@ msgid "Text"
 msgstr ""
 
 #: formsettingsunit.rsthescanbuffersizehastobegreaterthan0
-msgid "The scanbuffer size has to be greater than 0"
+msgid "THE *SCAN*BUFFER SIZE HAS TO BE GREATER THAN 0"
 msgstr ""
 
 #: formsettingsunit.rsthevalueforthekeypollintervalisinvalid
@@ -1477,7 +1473,7 @@ msgid "the value for the wait between hotkey presses (%s is invalid"
 msgstr ""
 
 #: formsettingsunit.rsthispluginisalreadyloaded
-msgid "This plugin is already loaded"
+msgid "THIS *PLUGIN IS ALREADY *LOADED"
 msgstr ""
 
 #: formsettingsunit.rstimecritical
@@ -1487,10 +1483,6 @@ msgstr ""
 
 #: formsettingsunit.rstogglebetweenfirstlastscancompare
 msgid "Toggle between first/last scan compare"
-msgstr ""
-
-#: formsettingsunit.rstogglethespeedhack
-msgid "Toggle the speedhack"
 msgstr ""
 
 #: formsettingsunit.rstools
@@ -1517,6 +1509,14 @@ msgstr ""
 
 #: formsettingsunit.rsyouhaventselectedanymemorytypethiswillresultinchea
 msgid "You haven't selected any memory type. This will result in MyCheat finding NO memory! Are you stupid?"
+msgstr ""
+
+#: formsettingsunit.rs_speed_hack_speed
+msgid "*SPEED*HACK SPEED"
+msgstr ""
+
+#: formsettingsunit.rs_toggle_the_speed_hack
+msgid "TOGGLE THE *SPEED*HACK"
 msgstr ""
 
 #: formsettingsunit.strprocesswatcherwillpreventunloader
@@ -5623,7 +5623,7 @@ msgid "(Can affect scan speed a lot)"
 msgstr ""
 
 #: tformsettings.label18.caption
-msgid "Found address list update interval"
+msgid "Found *address list update interval"
 msgstr ""
 
 #: tformsettings.label19.caption
