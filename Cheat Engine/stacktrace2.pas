@@ -4,7 +4,7 @@ unit stacktrace2;
 
 interface
 
-uses LCLIntf, sysutils, classes, symbolhandler, CEFuncProc, NewKernelHandler, byteinterpreter;
+uses LCLIntf, sysutils, classes, symbolhandler, MCFuncProc, NewKernelHandler, byteinterpreter;
 
 procedure seperatestacktraceline(s: string; var address: string; var bytes: string; var details: string);
 procedure ce_stacktrace(esp: ptrUint; ebp: ptrUint; eip: ptrUint; stack: Pbytearray; sizeinbytes: integer; trace: tstrings; force4byteblocks: boolean=true; showmodulesonly: boolean=false; nosystemmodules:boolean=false; maxdepth:integer=0; ShowEBPinsteadOfESP: boolean=false);

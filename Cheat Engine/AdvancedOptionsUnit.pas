@@ -9,7 +9,7 @@ interface
 
 uses
   jwawindows, windows, symbolhandler,{tlhelp32,}LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, Buttons,CEDebugger, Menus,CEFuncProc, ExtCtrls,disassembler,
+  Dialogs, StdCtrls, Buttons,CEDebugger, Menus,MCFuncProc, ExtCtrls,disassembler,
   SyncObjs,registry, ComCtrls, LResources,NewKernelHandler{$ifdef windows},win32proc{$endif};
 
 

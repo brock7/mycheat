@@ -4,7 +4,7 @@ unit ProcessHandlerUnit;
 
 {
 Will handle all process specific stuff like openening and closing a process
-The ProcessHandler variable will be in cefuncproc, but a tabswitch to another
+The ProcessHandler variable will be in MCFuncProc, but a tabswitch to another
 process will set it to the different tab's process
 }
 

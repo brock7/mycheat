@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Windows, FoundCodeUnit, formchangedaddresses, frmTracerUnit,
-  cefuncproc, NewKernelHandler, fgl;
+  MCFuncProc, NewKernelHandler, fgl;
 
 type
   TNewProcedureData = record

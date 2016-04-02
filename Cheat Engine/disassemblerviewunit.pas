@@ -21,7 +21,7 @@ Lines contain he disassembled address and the description of that line
 interface
 
 uses jwawindows, windows, sysutils, LCLIntf,forms, classes, controls, comctrls, stdctrls, extctrls, symbolhandler,
-     cefuncproc, NewKernelHandler, graphics, disassemblerviewlinesunit, disassembler,
+     MCFuncProc, NewKernelHandler, graphics, disassemblerviewlinesunit, disassembler,
      math, lmessages, menus,commctrl, dissectcodethread;
 
 

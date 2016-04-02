@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,CEFuncProc{$ifdef net},netapis{$else},NewKernelHandler{$endif}, LResources;
+  Dialogs, StdCtrls,MCFuncProc{$ifdef net},netapis{$else},NewKernelHandler{$endif}, LResources;
 
 type
   TfrmFillMemory = class(TForm)

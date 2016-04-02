@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, LResources, CEFuncProc;
+  Dialogs, StdCtrls, ExtCtrls, LResources, MCFuncProc;
 
 type
   TframeHotkeyConfig = class(TFrame)

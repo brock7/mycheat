@@ -13,7 +13,7 @@ FileAccessTest is the main routine
 
 interface
 
-uses LCLIntf, SysUtils, classes, forms, CEFuncProc, NewKernelHandler;
+uses LCLIntf, SysUtils, classes, forms, MCFuncProc, NewKernelHandler;
 
 procedure FileAccessTest;
 

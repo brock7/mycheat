@@ -8,7 +8,7 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   controls, sysutils, Forms, dialogs, bogus, MainUnit, CEDebugger,
-  NewKernelHandler, CEFuncProc, ProcessHandlerUnit, symbolhandler,
+  NewKernelHandler, ProcessHandlerUnit, symbolhandler,
   Assemblerunit, hypermode, byteinterpreter, addressparser, autoassembler,
   ProcessWindowUnit, MainUnit2, Filehandler, dbvmPhysicalMemoryHandler,
   frameHotkeyConfigUnit, formsettingsunit, HotkeyHandler, formhotkeyunit,
@@ -80,7 +80,7 @@ uses
   CEListviewItemEditor, LuaTreeview, LuaTreeNodes, LuaTreeNode, LuaCalendar,
   LuaSymbolListHandler, LuaFindDialog, LuaCommonDialog, LuaSettings,
 frmReferencedFunctionsUnit, LuaPageControl, DebugHelper, 
-frmNetworkDataCompressionUnit, lazcontrols, LuaApplication;
+frmNetworkDataCompressionUnit, lazcontrols, LuaApplication, MCFuncProc;
 
 {$R cheatengine.res}
 //{$R manifest.res}  //lazarus now has this build in

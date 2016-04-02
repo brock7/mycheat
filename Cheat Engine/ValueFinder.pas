@@ -9,7 +9,7 @@ With some fiddling it might be used for some other stuff as well
 
 interface
 
-uses windows, LCLIntf, classes, sysutils, symbolhandler, math, cefuncproc,newkernelhandler;
+uses windows, LCLIntf, classes, sysutils, symbolhandler, math, MCFuncProc,newkernelhandler;
 
 type TValueFinder=class
   private

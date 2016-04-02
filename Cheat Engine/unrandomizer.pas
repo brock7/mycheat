@@ -6,7 +6,7 @@ unit unrandomizer;
 
 interface
 
-uses windows, CEFuncProc,dialogs,classes,comctrls,LCLIntf,sysutils,formsettingsunit,NewKernelHandler,
+uses windows, MCFuncProc,dialogs,classes,comctrls,LCLIntf,sysutils,formsettingsunit,NewKernelHandler,
   MemFuncs;
 
 type Tunrandomize=class(tthread)
@@ -38,7 +38,7 @@ resourcestring
 
 destructor TUnrandomize.destroy;
 begin
-  if (processid=cefuncproc.ProcessID) and (processhandle=cefuncproc.ProcessHandle) then restore;
+  if (processid=MCFuncProc.ProcessID) and (processhandle=MCFuncProc.ProcessHandle) then restore;
   inherited destroy;
 end;
 
@@ -76,8 +76,8 @@ procedure TUnrandomize.restore;
 var i: integer;
     l: dword;
 begin
-  if (processhandle<>cefuncproc.ProcessHandle) and (processid=cefuncproc.ProcessID) then
-    processhandle:=cefuncproc.ProcessHandle; //e.g debugger
+  if (processhandle<>MCFuncProc.ProcessHandle) and (processid=MCFuncProc.ProcessID) then
+    processhandle:=MCFuncProc.ProcessHandle; //e.g debugger
 
   //restore the replaced code with the original
   for i:=0 to length(originalcode)-1 do
@@ -131,8 +131,8 @@ begin
 
 
   //scan the memory of the current process
-  processid:=cefuncproc.ProcessID;
-  processhandle:=cefuncproc.ProcessHandle;
+  processid:=MCFuncProc.ProcessID;
+  processhandle:=MCFuncProc.ProcessHandle;
 
 
   totalmemory:=0;

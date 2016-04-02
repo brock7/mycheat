@@ -6,7 +6,7 @@ interface
 
 uses
   jwawindows, Windows, Classes, SysUtils, syncobjs, GuiSafeCriticalSection,
-  disassembler, cefuncproc, newkernelhandler,debuggertypedefinitions, frmTracerUnit,
+  disassembler, MCFuncProc, newkernelhandler,debuggertypedefinitions, frmTracerUnit,
   DebuggerInterfaceAPIWrapper, LuaHandler, lua, lauxlib, lualib, win32proc, tracerIgnore;
 
 type

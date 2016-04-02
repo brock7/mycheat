@@ -6,7 +6,7 @@ interface
 
 uses
   jwaWindows, Windows, LCLIntf, LCLProc, Messages, SysUtils, Classes, Graphics,
-  Controls, Forms, ComCtrls, StdCtrls, Menus, CEFuncproc, Buttons, shellapi,
+  Controls, Forms, ComCtrls, StdCtrls, Menus, MCFuncProc, Buttons, shellapi,
   imagehlp, ExtCtrls, Dialogs, Clipbrd, CEDebugger, kerneldebugger, assemblerunit,
   hotkeyhandler, registry, Math, ImgList, commctrl, NewKernelHandler,
   unrandomizer, symbolhandler, ActnList, LResources, hypermode, memscan,
@@ -5479,7 +5479,7 @@ begin
               if not (s[i] in ['0', '1']) then
                 s[i] := '0';
 
-            oldvaluei := cefuncproc.BinToInt(s);
+            oldvaluei := MCFuncProc.BinToInt(s);
           end;
         end;
 
@@ -6930,7 +6930,7 @@ begin
   begin
     isbit := False;
     //convert the binary text to a decimal representation
-    scanvalue.Text := IntToStr(cefuncproc.BinToInt(scanvalue.Text));
+    scanvalue.Text := IntToStr(MCFuncProc.BinToInt(scanvalue.Text));
   end;
 end;
 

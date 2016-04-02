@@ -6,7 +6,7 @@ interface
 
 uses jwawindows, windows, ExtCtrls , comctrls, Graphics, forms, StdCtrls,sysutils,Controls,
      SyncObjs,dialogs,LCLIntf,classes,autoassembler,
-     CEFuncProc,NewKernelHandler,CEDebugger,kerneldebugger, plugin, math,
+     MCFuncProc,NewKernelHandler,CEDebugger,kerneldebugger, plugin, math,
      debugHelper, debuggertypedefinitions, typinfo, ceguicomponents, strutils;
 
 type TPluginFunc=function(parameters: pointer): pointer;

@@ -6,7 +6,7 @@ interface
 
 uses
   jwawindows, windows, LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, ComCtrls,disassembler,CEFuncProc,NewKernelHandler,
+  Dialogs, StdCtrls, ExtCtrls, ComCtrls,disassembler,MCFuncProc,NewKernelHandler,
   {tlhelp32,}symbolhandler, LResources;
 
 type TStaticlist=record

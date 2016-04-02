@@ -7,7 +7,7 @@ unit MainUnit2;
 interface
 
 uses windows, dialogs,forms,classes,LCLIntf, LCLProc, sysutils,registry,ComCtrls, menus,
-     formsettingsunit, cefuncproc,AdvancedOptionsUnit, MemoryBrowserFormUnit,
+     formsettingsunit, MCFuncProc,AdvancedOptionsUnit, MemoryBrowserFormUnit,
      memscan,plugin, hotkeyhandler,frmProcessWatcherunit, newkernelhandler, debuggertypedefinitions;
 
 const ceversion=6.4;
@@ -117,13 +117,13 @@ end;
 procedure LoadSettingsFromRegistry;
 var reg : TRegistry;
     i,j: integer;
-    temphotkeylist: array [0..30] of cefuncproc.tkeycombo;
+    temphotkeylist: array [0..30] of MCFuncProc.tkeycombo;
     found:boolean;
     names: TStringList;
     li: tlistitem;
     s,s2: string;
 begin
-  ZeroMemory(@temphotkeylist, 31*sizeof(cefuncproc.tkeycombo));
+  ZeroMemory(@temphotkeylist, 31*sizeof(MCFuncProc.tkeycombo));
   if formsettings=nil then exit;
 
   try

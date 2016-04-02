@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, LResources, contnrs, cefuncproc, symbolhandler,
+  Dialogs, StdCtrls, ExtCtrls, LResources, contnrs, MCFuncProc, symbolhandler,
   multilineinputqueryunit, lua, lualib, lauxlib, registry, resolve;
 
 type

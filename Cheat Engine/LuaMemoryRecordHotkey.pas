@@ -5,7 +5,7 @@ unit LuaMemoryRecordHotkey;
 interface
 
 uses
-  Classes, SysUtils, lua, lualib, lauxlib, CEFuncProc;
+  Classes, SysUtils, lua, lualib, lauxlib, MCFuncProc;
 
 procedure initializeMemoryRecordHotkey;
 

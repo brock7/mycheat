@@ -10,7 +10,7 @@ A shared object will be used for communicating states and data
 interface
 
 uses
-  windows, Classes, SysUtils, sharedMemory, forms, graphics, cefuncproc,
+  windows, Classes, SysUtils, sharedMemory, forms, graphics, MCFuncProc,
   newkernelhandler, controls, Clipbrd, strutils, LuaHandler, RemoteMemoryManager,
   math, syncobjs;
 

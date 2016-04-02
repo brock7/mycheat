@@ -6,7 +6,7 @@ interface
 
 uses
   jwawindows, windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ExtCtrls, CEFuncProc,CEDebugger, ComCtrls, ImgList,
+  StdCtrls, ExtCtrls, MCFuncProc,CEDebugger, ComCtrls, ImgList,
   filehandler, Menus, LResources,{tlhelp32,}vmxfunctions, NewKernelHandler, debugHelper{, KIcon};
 
 type tprocesslistlong = class(tthread)

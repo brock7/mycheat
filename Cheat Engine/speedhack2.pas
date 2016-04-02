@@ -4,7 +4,7 @@ unit speedhack2;
 
 interface
 
-uses Classes,LCLIntf, SysUtils, NewKernelHandler,CEFuncProc, symbolhandler,
+uses Classes,LCLIntf, SysUtils, NewKernelHandler,MCFuncProc, symbolhandler,
      autoassembler, dialogs,Clipbrd;
 
 type TSpeedhack=class
@@ -228,7 +228,7 @@ begin
   end;
 
   setspeed(1);
-  fprocessid:=cefuncproc.processid;
+  fprocessid:=MCFuncProc.processid;
 end;
 
 destructor TSpeedhack.destroy;
@@ -236,7 +236,7 @@ var script: tstringlist;
     i: integer;
     x: dword;
 begin
-  if fprocessid=cefuncproc.ProcessID then
+  if fprocessid=MCFuncProc.ProcessID then
   begin
 
     try

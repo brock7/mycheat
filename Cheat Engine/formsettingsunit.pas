@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLProc, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls,registry, Menus,ComCtrls,CEFuncProc,ExtCtrls,{tlhelp32,}CheckLst,
+  StdCtrls,registry, Menus,ComCtrls,MCFuncProc,ExtCtrls,{tlhelp32,}CheckLst,
   Buttons, LResources, frameHotkeyConfigUnit, math,
 
   kerneldebugger,plugin,NewKernelHandler,CEDebugger,hotkeyhandler, debugHelper,

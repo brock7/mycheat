@@ -5,7 +5,7 @@ unit DisassemblerArm;
 interface
 
 uses
-  windows, Classes, SysUtils{$ifndef ARMDEV}, newkernelhandler, cefuncproc{$endif}, LastDisassembleData;
+  windows, Classes, SysUtils{$ifndef ARMDEV}, newkernelhandler, MCFuncProc{$endif}, LastDisassembleData;
 
 const ArmConditions: array [0..15] of string=('EQ','NE','CS', 'CC', 'MI', 'PL', 'VS', 'VC', 'HI', 'LS', 'GE', 'LT', 'GT', 'LE', '','NV');
 const DataProcessingOpcodes: array [0..15] of string=('AND','EOR','SUB', 'RSB', 'ADD', 'ADC', 'SBC', 'RSC', 'TST', 'TEQ', 'CMP', 'CMN', 'ORR', 'MOV', 'BIC','MVN');

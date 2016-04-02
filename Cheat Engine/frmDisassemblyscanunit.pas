@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs,disassembler,{$ifndef net}NewKernelHandler,{$endif}CEFuncProc, ExtCtrls, StdCtrls,
+  Dialogs,disassembler,{$ifndef net}NewKernelHandler,{$endif}MCFuncProc, ExtCtrls, StdCtrls,
   ComCtrls, LResources, LCLProc, Menus, strutils, OldRegExpr, RegExpr;
 
 type

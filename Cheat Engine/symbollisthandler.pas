@@ -105,7 +105,7 @@ type
 
 implementation
 
-uses CEFuncProc, symbolhandler;
+uses MCFuncProc, symbolhandler;
 
 
 

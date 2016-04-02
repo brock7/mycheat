@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs,CEFuncProc,imagehlp, StdCtrls, ComCtrls, ExtCtrls, ActnList,
+  Dialogs,MCFuncProc,imagehlp, StdCtrls, ComCtrls, ExtCtrls, ActnList,
   Menus, LResources,symbolhandler;
 
 type tenumthread=class(tthread)

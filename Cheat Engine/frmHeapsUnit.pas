@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls, ComCtrls,{tlhelp32,}CEFuncProc, frmMemoryAllocHandlerUnit, LResources;
+  Dialogs, StdCtrls, ExtCtrls, ComCtrls,{tlhelp32,}MCFuncProc, frmMemoryAllocHandlerUnit, LResources;
 
 type TFillHeapList=class(tthread)
   private

@@ -7,7 +7,7 @@ interface
 uses
   jwawindows, windows, Classes, SysUtils, Controls, menus, lua, lualib, lauxlib, LuaHandler,
   LuaCaller, pluginexports, forms, dialogs, ceguicomponents, XMLWrite, XMLRead,
-  Graphics, DOM, cefuncproc, newkernelhandler;
+  Graphics, DOM, MCFuncProc, newkernelhandler;
 
 procedure initializeLuaForm;
 

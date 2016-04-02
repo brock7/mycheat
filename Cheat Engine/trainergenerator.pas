@@ -7,7 +7,7 @@ interface
 uses
   windows, Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics,
   Dialogs, ceguicomponents, lclintf, StdCtrls, EditBtn, ExtCtrls, ExtDlgs,
-  ComCtrls, Buttons, Menus, ExtraTrainerComponents, cefuncproc, HotkeyHandler,
+  ComCtrls, Buttons, Menus, ExtraTrainerComponents, MCFuncProc, HotkeyHandler,
   HotKeys, symbolhandler, luacaller, formdesignerunit, opensave, luafile,
   frmAdConfigUnit, cesupport, IconStuff, memoryrecordunit, frmSelectionlistunit,
   mainunit2, lua, luahandler;

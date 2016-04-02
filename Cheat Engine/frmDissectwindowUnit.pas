@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, ComCtrls,StdCtrls,CEFuncProc, ExtCtrls, LResources, Menus;
+  Dialogs, ComCtrls,StdCtrls,MCFuncProc, ExtCtrls, LResources, Menus;
 
 type TCETimerhookdata=record
   processed: boolean;

@@ -7,7 +7,7 @@ interface
 uses
   jwawindows, windows, LCLProc, LCLIntf, Messages, SysUtils, Classes, Graphics,
   Controls, Forms, Dialogs, frmMemoryAllocHandlerUnit, math, StdCtrls, Spin,
-  ExtCtrls,CEFuncProc,symbolhandler,Clipbrd, Menus,plugin,CEDebugger,KernelDebugger,
+  ExtCtrls,MCFuncProc,symbolhandler,Clipbrd, Menus,plugin,CEDebugger,KernelDebugger,
   Assemblerunit,disassembler,addressparser, Buttons,imagehlp, Contnrs,
   disassemblerviewunit, peinfofunctions ,dissectcodethread,stacktrace2,
   NewKernelHandler, ComCtrls, LResources, byteinterpreter, StrUtils, hexviewunit,

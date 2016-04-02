@@ -11,7 +11,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, CEFuncProc, NewKernelHandler, Buttons, StdCtrls, ExtCtrls,
+  Dialogs, MCFuncProc, NewKernelHandler, Buttons, StdCtrls, ExtCtrls,
   ComCtrls, LResources, symbolhandler, PEInfoFunctions;
 
 type

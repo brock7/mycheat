@@ -110,7 +110,7 @@ resourcestring
 
 implementation
 
-uses CEFuncProc, CEDebugger,debughelper, debugeventhandler,
+uses MCFuncProc, CEDebugger,debughelper, debugeventhandler,
      MemoryBrowserFormUnit,
      {$ifdef net}unit2,ceclient,{$else}MainUnit,kerneldebugger,{$endif}
      AdvancedOptionsUnit ,formFoundcodeListExtraUnit,MainUnit2, ProcessHandlerUnit;

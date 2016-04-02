@@ -6,7 +6,7 @@ interface
 
 uses
   windows, Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs,
-  ExtCtrls, StdCtrls, ComCtrls, Menus, memdisplay, newkernelhandler, cefuncproc,
+  ExtCtrls, StdCtrls, ComCtrls, Menus, memdisplay, newkernelhandler, MCFuncProc,
   syncobjs, math, savedscanhandler, foundlisthelper, CustomTypeHandler,
   symbolhandler, inputboxtopunit;
 

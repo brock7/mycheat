@@ -25,7 +25,7 @@ interface
 
 uses
   windows, LCLIntf, LMessages, Messages, SysUtils, Variants, Classes, Graphics, Controls,
-  Forms, Dialogs, Menus, StdCtrls, ExtCtrls, ComCtrls,CEFuncProc,NewKernelHandler,
+  Forms, Dialogs, Menus, StdCtrls, ExtCtrls, ComCtrls,MCFuncProc,NewKernelHandler,
   symbolhandler, {XMLDoc, XMLIntf,} byteinterpreter, dom, xmlread, xmlwrite,
   LResources, registry, scrollTreeView;
 

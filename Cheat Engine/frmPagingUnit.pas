@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ComCtrls, ExtCtrls, Menus,newkernelhandler,cefuncproc;
+  StdCtrls, ComCtrls, ExtCtrls, Menus,newkernelhandler,MCFuncProc;
 
 type TPageData=record
   level: integer;

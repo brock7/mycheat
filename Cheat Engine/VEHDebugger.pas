@@ -5,7 +5,7 @@ unit VEHDebugger;
 interface
 
 uses
-  jwaNtStatus, Windows, Classes, SysUtils,symbolhandler,VEHDebugSharedMem,cefuncproc,
+  jwaNtStatus, Windows, Classes, SysUtils,symbolhandler,VEHDebugSharedMem,MCFuncProc,
   autoassembler,newkernelhandler,DebuggerInterface, Clipbrd;
 
 type

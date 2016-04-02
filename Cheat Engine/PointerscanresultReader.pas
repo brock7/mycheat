@@ -7,7 +7,7 @@ The TPointerscanresultReader will read the results from the pointerfile and pres
 }
 interface
 
-uses windows, LCLIntf, sysutils, classes, CEFuncProc, NewKernelHandler, symbolhandler, math;
+uses windows, LCLIntf, sysutils, classes, MCFuncProc, NewKernelHandler, symbolhandler, math;
 
 function GetFileSizeEx(hFile:HANDLE; FileSize:PQWord):BOOL; stdcall; external 'kernel32.dll' name 'GetFileSizeEx';
 

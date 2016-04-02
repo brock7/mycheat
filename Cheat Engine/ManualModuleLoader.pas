@@ -8,7 +8,7 @@ This routine will examine a module and then load it into memory, taking care of 
 
 interface
 
-uses windows, LCLIntf, classes, sysutils, imagehlp, dialogs, PEInfoFunctions,CEFuncProc,
+uses windows, LCLIntf, classes, sysutils, imagehlp, dialogs, PEInfoFunctions,MCFuncProc,
      NewKernelHandler, symbolhandler, dbk32functions, vmxfunctions;
 
 type TModuleLoader=class

@@ -1,8 +1,8 @@
-unit CEFuncProc;
+unit MCFuncProc;
 
 {$MODE Delphi}
 
-//This version of CEFuncProc has been COPIED to the server dir
+//This version of MCFuncProc has been COPIED to the server dir
 //MyCheat regular WONT look at this
 
 interface
@@ -740,9 +740,9 @@ resourcestring
   rsRightArrow = 'Right Arrow';
   rsDownArrow = 'Down Arrow';
   rsSelect = 'Select';
-  rsPrint = 'Print';
-  rsExecute = 'Execute';
-  rsPrintScreen = 'Print Screen';
+  rs_Print = 'Print';
+  rs_Execute = 'Execute';
+  rs_PrintScreen = 'Print Screen';
   rsInsert = 'Insert';
   rsDeleteKey = 'Delete '; //added a space so the translator will leave it alone for th delete line
   rsHelp = 'Help';
@@ -755,13 +755,13 @@ resourcestring
   rsGetProcAddressNotFound = 'GetProcAddress not found';
   rsLoadLibraryANotFound = 'LoadLibraryA not found';
   rsFailedToAllocateMemory = 'Failed to allocate memory';
-  rsFailedToInjectTheDllLoader = 'FAILED TO *INJECT THE *DLL *LOADER';
-  rsFailedToExecuteTheDllLoader = 'FAILED TO EXECUTE THE *DLL *LOADER';
-  rsTheInjectionThreadTookLongerThan10SecondsToExecute = 'THE *INJECTION THREAD TOOK LONGER THAN 10 SECONDS TO EXECUTE. *INJECTION ROUTINE NOT FREED';
-  rsFailedInjectingTheDLL = 'Failed injecting the DLL';
-  rsFailedExecutingTheFunctionOfTheDll = 'Failed executing the function of the dll';
-  rsUnknownErrorDuringInjection = 'UNKNOWN ERROR DURING *INJECTION';
-  rsICanTGetTheProcessListYouArePropablyUsingWindowsNT = 'I CAN''T GET THE *PROCESS LIST. YOU ARE PROPABLY USING WINDOWS NT. USE THE WINDOW LIST INSTEAD!';
+  rs_Failed_To_Inject_The_Dll_Loader = 'FAILED TO *INJECT THE *DLL *LOADER';
+  rs_Failed_To_Execute_The_Dll_Loader = 'FAILED TO EXECUTE THE *DLL *LOADER';
+  rs_The_Injection_Thread_Took_Longer_Than_10_Seconds_To_Execute = 'THE *INJECTION THREAD TOOK LONGER THAN 10 SECONDS TO EXECUTE. *INJECTION ROUTINE NOT FREED';
+  rs_Failed_Injecting_The_DLL = 'FAILED *INJECTING THE DLL';
+  rs_Failed_Executing_The_Function_Of_The_Dll = 'FAILED *EXECUTING THE FUNCTION OF THE *DLL';
+  rs_Unknown_Error_During_Injection = 'UNKNOWN ERROR DURING *INJECTION';
+  rs_I_CanT_Get_The_Process_List_You_Are_Propably_Using_Windows_NT = 'I CAN''T GET THE *PROCESS LIST. YOU ARE PROPABLY USING WINDOWS NT. USE THE WINDOW LIST INSTEAD!';
   rsNoKernel32DllLoaded = 'No kernel32.dll loaded';
   rsSeparator = 'Separator';
   rsInvalidInteger = 'Invalid integer';
@@ -889,9 +889,9 @@ begin
         VK_RIGHT	: newstr:=rsRightArrow;
         VK_DOWN	: newstr:=rsDownArrow;
         VK_SELECT	: newstr:=rsSelect;
-        VK_PRINT	: newstr:=rsPrint;
-        VK_EXECUTE	: newstr:=rsExecute;
-        VK_SNAPSHOT	: newstr:=rsPrintScreen;
+        VK_PRINT	: newstr:=rs_Print;
+        VK_EXECUTE	: newstr:=rs_Execute;
+        VK_SNAPSHOT	: newstr:=rs_PrintScreen;
         VK_INSERT	: newstr:=rsInsert;
         VK_DELETE	: newstr:=rsDeleteKey;
         VK_HELP	: newstr:=rsHelp;
@@ -1316,7 +1316,7 @@ begin
 
       //call the routine
 
-      if not writeprocessmemory(processhandle, injectionlocation, @inject[0], position2, x) then raise exception.Create(rsFailedToInjectTheDllLoader);
+      if not writeprocessmemory(processhandle, injectionlocation, @inject[0], position2, x) then raise exception.Create(rs_Failed_To_Inject_The_Dll_Loader);
 
       {$ifndef standalonetrainer}
       {$ifndef net}
@@ -1345,7 +1345,7 @@ begin
 
       begin
         threadhandle:=createremotethread(processhandle,nil,0,pointer(startaddress),nil,0,tid);
-        if threadhandle=0 then raise exception.Create(rsFailedToExecuteTheDllLoader);
+        if threadhandle=0 then raise exception.Create(rs_Failed_To_Execute_The_Dll_Loader);
 
         counter:=10000 div 10;
         while (waitforsingleobject(threadhandle,10)=WAIT_TIMEOUT) and (counter>0) do
@@ -1359,15 +1359,15 @@ begin
         closehandle(threadhandle);
 
         if (counter=0) then
-          raise exception.Create(rsTheInjectionThreadTookLongerThan10SecondsToExecute);
+          raise exception.Create(rs_The_Injection_Thread_Took_Longer_Than_10_Seconds_To_Execute);
 
         if getexitcodethread(threadhandle,res) then
         begin
           case res of
             1: ;//success
-            2: raise exception.Create(rsFailedInjectingTheDLL);
-            3: raise exception.Create(rsFailedExecutingTheFunctionOfTheDll);
-            else raise exception.Create(rsUnknownErrorDuringInjection);
+            2: raise exception.Create(rs_Failed_Injecting_The_DLL);
+            3: raise exception.Create(rs_failed_executing_the_function_of_the_dll);
+            else raise exception.Create(rs_Unknown_Error_During_Injection);
           end;
         end; //else unsure, did it work or not , or is it crashing?
 
@@ -1602,9 +1602,9 @@ begin
     VK_RIGHT	: result:=rsRightArrow;
     VK_DOWN	: result:=rsDownArrow;
     VK_SELECT	: result:=rsSelect;
-    VK_PRINT	: result:=rsPrint;
-    VK_EXECUTE	: result:=rsExecute;
-    VK_SNAPSHOT	: result:=rsPrintScreen;
+    VK_PRINT	: result:=rs_Print;
+    VK_EXECUTE	: result:=rs_Execute;
+    VK_SNAPSHOT	: result:=rs_PrintScreen;
     VK_INSERT	: result:=rsInsert;
     VK_DELETE	: result:=rsDeleteKey;
     VK_HELP	: result:=rsHelp;
@@ -2580,7 +2580,7 @@ begin
     end;
 
     closehandle(snaphandle);
-  end else raise exception.Create(rsICanTGetTheProcessListYouArePropablyUsingWindowsNT);
+  end else raise exception.Create(rs_I_CanT_Get_The_Process_List_You_Are_Propably_Using_Windows_NT);
 end;
 
 procedure GetWindowList(ProcessList: TListBox; showInvisible: boolean=true);

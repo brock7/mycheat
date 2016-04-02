@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  Sockets, resolve, CEFuncProc;
+  Sockets, resolve, MCFuncProc;
 
 type
 

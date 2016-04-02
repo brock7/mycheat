@@ -5,7 +5,7 @@ unit NetworkDebuggerInterface;
 interface
 
 uses
-  jwawindows, windows, Classes, SysUtils,cefuncproc, newkernelhandler,
+  jwawindows, windows, Classes, SysUtils,MCFuncProc, newkernelhandler,
   DebuggerInterface, networkInterface, networkInterfaceApi, contnrs;
 
 type

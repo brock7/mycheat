@@ -5,7 +5,7 @@ unit autoassembler;
 interface
 
 uses jwawindows, windows, Assemblerunit, classes, LCLIntf,symbolhandler,
-     sysutils,dialogs,controls, CEFuncProc, NewKernelHandler ,plugin,
+     sysutils,dialogs,controls, MCFuncProc, NewKernelHandler ,plugin,
      ProcessHandlerUnit, lua, lualib, lauxlib;
 
 
@@ -1115,7 +1115,7 @@ begin
   if targetself then
   begin
     //get this function to use the symbolhandler that's pointing to CE itself and the self processid/handle
-    oldhandle:=cefuncproc.ProcessHandle;
+    oldhandle:=MCFuncProc.ProcessHandle;
     processid:=getcurrentprocessid;
     processhandle:=getcurrentprocess;
     oldsymhandler:=symhandler;
@@ -1124,8 +1124,8 @@ begin
   end
   else
   begin
-    processid:=cefuncproc.ProcessID;
-    processhandle:=cefuncproc.ProcessHandle;
+    processid:=MCFuncProc.ProcessID;
+    processhandle:=MCFuncProc.ProcessHandle;
   end;
 
   symhandler.waitforsymbolsloaded(true);

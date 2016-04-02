@@ -5,7 +5,7 @@ unit CEDebugger;
 
 interface
 
-uses windows, Classes,LCLIntf,sysutils,CEFuncProc,Messages,forms,SyncObjs,
+uses windows, Classes,LCLIntf,sysutils,MCFuncProc,Messages,forms,SyncObjs,
      dialogs,controls,Graphics,NewKernelHandler,symbolhandler,StrUtils,
      ComCtrls ,Assemblerunit,addressparser, debughelper;
 

@@ -6,7 +6,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls,CEFuncProc,ComCtrls, ExtCtrls, LResources, memscan;
+  Dialogs, StdCtrls,MCFuncProc,ComCtrls, ExtCtrls, LResources, memscan;
 
 const wm_fw_scandone=wm_user+1;
 type

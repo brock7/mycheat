@@ -5,7 +5,7 @@ unit elfsymbols;
 interface
 
 uses
-  Classes, SysUtils, elftypes, elfconsts, networkInterface, cefuncproc, newkernelhandler;
+  Classes, SysUtils, elftypes, elfconsts, networkInterface, MCFuncProc, newkernelhandler;
 
 function EnumElfSymbols(modulename: string; modulebase: ptruint; callback: TNetworkEnumSymCallback): boolean;
 

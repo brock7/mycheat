@@ -6,7 +6,7 @@ interface
 
 uses
   windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs,NewKernelHandler, CEFuncProc, ComCtrls,imagehlp,CEDebugger, KernelDebugger,
+  Dialogs,NewKernelHandler, MCFuncProc, ComCtrls,imagehlp,CEDebugger, KernelDebugger,
   Menus, LResources, debughelper, symbolhandler;
 
 type

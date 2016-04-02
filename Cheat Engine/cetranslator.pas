@@ -67,7 +67,7 @@ procedure doTranslation;
 implementation
 
 uses
-  Menus, CEFuncProc;
+  Menus, MCFuncProc;
 
 type
   TPersistentAccess = class(TPersistent);

@@ -10,7 +10,7 @@ uses
   windows, LCLIntf, LResources, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, ExtCtrls, ComCtrls, syncobjs,syncobjs2, Menus, math,
   frmRescanPointerUnit, pointervaluelist, rescanhelper,
-  virtualmemory, symbolhandler,MainUnit,disassembler,CEFuncProc,NewKernelHandler,
+  virtualmemory, symbolhandler,MainUnit,disassembler,MCFuncProc,NewKernelHandler,
   valuefinder, PointerscanresultReader, maps, zstream, WinSock2, Sockets,
   registry, PageMap, CELazySocket, PointerscanNetworkCommands, resolve;
 

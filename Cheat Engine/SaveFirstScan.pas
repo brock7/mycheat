@@ -5,7 +5,7 @@ unit SaveFirstScan;
 
 interface
 
-uses windows, LCLIntf, classes, CEFuncProc;
+uses windows, LCLIntf, classes, MCFuncProc;
 
 type TSaveFirstScanThread=class(tthread)
   private

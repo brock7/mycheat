@@ -1,4 +1,4 @@
-msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or not"
+msgid "Does not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDoes not affect the standalone trainer because that one is protected by defaultDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDon't care if it's executable or notDON'T CARE IF IT'S *EXECUTABLE OR NOT"
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: aboutunit.rsareyousureyouwanttolaunchdbvm
@@ -484,6 +484,7 @@ msgid "Ctrl"
 msgstr ""
 
 #: cefuncproc.rsdeletekey
+msgctxt "cefuncproc.rsdeletekey"
 msgid "Delete "
 msgstr ""
 
@@ -507,32 +508,13 @@ msgctxt "cefuncproc.rsesc"
 msgid "Esc"
 msgstr ""
 
-#: cefuncproc.rsexecute
-msgctxt "cefuncproc.rsexecute"
-msgid "Execute"
-msgstr ""
-
-#: cefuncproc.rsfailedexecutingthefunctionofthedll
-msgid "Failed executing the function of the dll"
-msgstr ""
-
-#: cefuncproc.rsfailedinjectingthedll
-msgid "Failed injecting the DLL"
-msgstr ""
-
 #: cefuncproc.rsfailedtoallocatememory
+msgctxt "cefuncproc.rsfailedtoallocatememory"
 msgid "Failed to allocate memory"
 msgstr ""
 
-#: cefuncproc.rsfailedtoexecutethedllloader
-msgid "FAILED TO EXECUTE THE *DLL *LOADER"
-msgstr ""
-
-#: cefuncproc.rsfailedtoinjectthedllloader
-msgid "FAILED TO *INJECT THE *DLL *LOADER"
-msgstr ""
-
 #: cefuncproc.rsgetprocaddressnotfound
+msgctxt "cefuncproc.rsgetprocaddressnotfound"
 msgid "GetProcAddress not found"
 msgstr ""
 
@@ -546,16 +528,13 @@ msgctxt "cefuncproc.rshome"
 msgid "Home"
 msgstr ""
 
-#: cefuncproc.rsicantgettheprocesslistyouarepropablyusingwindowsnt
-msgid "I CAN'T GET THE *PROCESS LIST. YOU ARE PROPABLY USING WINDOWS NT. USE THE WINDOW LIST INSTEAD!"
-msgstr ""
-
 #: cefuncproc.rsinsert
 msgctxt "cefuncproc.rsinsert"
 msgid "Insert"
 msgstr ""
 
 #: cefuncproc.rsinvalidinteger
+msgctxt "cefuncproc.rsinvalidinteger"
 msgid "Invalid integer"
 msgstr ""
 
@@ -565,6 +544,7 @@ msgid "Left Arrow"
 msgstr ""
 
 #: cefuncproc.rsleftmb
+msgctxt "cefuncproc.rsleftmb"
 msgid "Left MB"
 msgstr ""
 
@@ -574,22 +554,27 @@ msgid "Left Windows key"
 msgstr ""
 
 #: cefuncproc.rsloadlibraryanotfound
+msgctxt "cefuncproc.rsloadlibraryanotfound"
 msgid "LoadLibraryA not found"
 msgstr ""
 
 #: cefuncproc.rsmiddlemb
+msgctxt "cefuncproc.rsmiddlemb"
 msgid "Middle MB"
 msgstr ""
 
 #: cefuncproc.rsnokernel32dllloaded
+msgctxt "cefuncproc.rsnokernel32dllloaded"
 msgid "No kernel32.dll loaded"
 msgstr ""
 
 #: cefuncproc.rsnotconvertable
+msgctxt "cefuncproc.rsnotconvertable"
 msgid "Not convertable"
 msgstr ""
 
 #: cefuncproc.rsnotsupportedinthisversion
+msgctxt "cefuncproc.rsnotsupportedinthisversion"
 msgid "not supported in this version"
 msgstr ""
 
@@ -618,22 +603,13 @@ msgctxt "cefuncproc.rspause"
 msgid "Pause"
 msgstr ""
 
-#: cefuncproc.rsprint
-msgctxt "cefuncproc.rsprint"
-msgid "Print"
-msgstr ""
-
-#: cefuncproc.rsprintscreen
-msgctxt "cefuncproc.rsprintscreen"
-msgid "Print Screen"
-msgstr ""
-
 #: cefuncproc.rsrightarrow
 msgctxt "cefuncproc.rsrightarrow"
 msgid "Right Arrow"
 msgstr ""
 
 #: cefuncproc.rsrightmb
+msgctxt "cefuncproc.rsrightmb"
 msgid "Right MB"
 msgstr ""
 
@@ -672,17 +648,59 @@ msgctxt "cefuncproc.rstab"
 msgid "Tab"
 msgstr ""
 
-#: cefuncproc.rstheinjectionthreadtooklongerthan10secondstoexecute
-msgid "THE *INJECTION THREAD TOOK LONGER THAN 10 SECONDS TO EXECUTE. *INJECTION ROUTINE NOT FREED"
-msgstr ""
-
-#: cefuncproc.rsunknownerrorduringinjection
-msgid "UNKNOWN ERROR DURING *INJECTION"
-msgstr ""
-
 #: cefuncproc.rsuparrow
 msgctxt "cefuncproc.rsuparrow"
 msgid "Up Arrow"
+msgstr ""
+
+#: cefuncproc.rs_execute
+msgctxt "cefuncproc.rs_execute"
+msgid "Execute"
+msgstr ""
+
+#: cefuncproc.rs_failed_executing_the_function_of_the_dll
+msgctxt "cefuncproc.rs_failed_executing_the_function_of_the_dll"
+msgid "FAILED *EXECUTING THE FUNCTION OF THE *DLL"
+msgstr ""
+
+#: cefuncproc.rs_failed_injecting_the_dll
+msgctxt "cefuncproc.rs_failed_injecting_the_dll"
+msgid "FAILED *INJECTING THE DLL"
+msgstr ""
+
+#: cefuncproc.rs_failed_to_execute_the_dll_loader
+msgctxt "cefuncproc.rs_failed_to_execute_the_dll_loader"
+msgid "FAILED TO EXECUTE THE *DLL *LOADER"
+msgstr ""
+
+#: cefuncproc.rs_failed_to_inject_the_dll_loader
+msgctxt "cefuncproc.rs_failed_to_inject_the_dll_loader"
+msgid "FAILED TO *INJECT THE *DLL *LOADER"
+msgstr ""
+
+#: cefuncproc.rs_i_cant_get_the_process_list_you_are_propably_using_windows_nt
+msgctxt "cefuncproc.rs_i_cant_get_the_process_list_you_are_propably_using_windows_nt"
+msgid "I CAN'T GET THE *PROCESS LIST. YOU ARE PROPABLY USING WINDOWS NT. USE THE WINDOW LIST INSTEAD!"
+msgstr ""
+
+#: cefuncproc.rs_print
+msgctxt "cefuncproc.rs_print"
+msgid "Print"
+msgstr ""
+
+#: cefuncproc.rs_printscreen
+msgctxt "cefuncproc.rs_printscreen"
+msgid "Print Screen"
+msgstr ""
+
+#: cefuncproc.rs_the_injection_thread_took_longer_than_10_seconds_to_execute
+msgctxt "cefuncproc.rs_the_injection_thread_took_longer_than_10_seconds_to_execute"
+msgid "THE *INJECTION THREAD TOOK LONGER THAN 10 SECONDS TO EXECUTE. *INJECTION ROUTINE NOT FREED"
+msgstr ""
+
+#: cefuncproc.rs_unknown_error_during_injection
+msgctxt "cefuncproc.rs_unknown_error_during_injection"
+msgid "UNKNOWN ERROR DURING *INJECTION"
 msgstr ""
 
 #: changeoffsetunit.rsthisisnotanvalidvalue
@@ -2862,6 +2880,261 @@ msgstr ""
 
 #: mainunit2.strvaluebetween
 msgid "Value between..."
+msgstr ""
+
+#: mcfuncproc.rsalt
+msgctxt "mcfuncproc.rsalt"
+msgid "Alt"
+msgstr ""
+
+#: mcfuncproc.rsapplicationskey
+msgctxt "mcfuncproc.rsapplicationskey"
+msgid "Applications key"
+msgstr ""
+
+#: mcfuncproc.rsbackspace
+msgctxt "mcfuncproc.rsbackspace"
+msgid "Backspace"
+msgstr ""
+
+#: mcfuncproc.rsbreak
+msgctxt "mcfuncproc.rsbreak"
+msgid "Break"
+msgstr ""
+
+#: mcfuncproc.rscapslock
+msgctxt "mcfuncproc.rscapslock"
+msgid "Caps Lock"
+msgstr ""
+
+#: mcfuncproc.rsclear
+msgctxt "mcfuncproc.rsclear"
+msgid "Clear"
+msgstr ""
+
+#: mcfuncproc.rsctrl
+msgctxt "mcfuncproc.rsctrl"
+msgid "Ctrl"
+msgstr ""
+
+#: mcfuncproc.rsdeletekey
+msgctxt "mcfuncproc.rsdeletekey"
+msgid "Delete "
+msgstr ""
+
+#: mcfuncproc.rsdownarrow
+msgctxt "mcfuncproc.rsdownarrow"
+msgid "Down Arrow"
+msgstr ""
+
+#: mcfuncproc.rsend
+msgctxt "mcfuncproc.rsend"
+msgid "End"
+msgstr ""
+
+#: mcfuncproc.rsenter
+msgctxt "mcfuncproc.rsenter"
+msgid "Enter"
+msgstr ""
+
+#: mcfuncproc.rsesc
+msgctxt "mcfuncproc.rsesc"
+msgid "Esc"
+msgstr ""
+
+#: mcfuncproc.rsfailedtoallocatememory
+msgctxt "mcfuncproc.rsfailedtoallocatememory"
+msgid "Failed to allocate memory"
+msgstr ""
+
+#: mcfuncproc.rsgetprocaddressnotfound
+msgctxt "mcfuncproc.rsgetprocaddressnotfound"
+msgid "GetProcAddress not found"
+msgstr ""
+
+#: mcfuncproc.rshelp
+msgctxt "mcfuncproc.rshelp"
+msgid "Help"
+msgstr ""
+
+#: mcfuncproc.rshome
+msgctxt "mcfuncproc.rshome"
+msgid "Home"
+msgstr ""
+
+#: mcfuncproc.rsinsert
+msgctxt "mcfuncproc.rsinsert"
+msgid "Insert"
+msgstr ""
+
+#: mcfuncproc.rsinvalidinteger
+msgctxt "mcfuncproc.rsinvalidinteger"
+msgid "Invalid integer"
+msgstr ""
+
+#: mcfuncproc.rsleftarrow
+msgctxt "mcfuncproc.rsleftarrow"
+msgid "Left Arrow"
+msgstr ""
+
+#: mcfuncproc.rsleftmb
+msgctxt "mcfuncproc.rsleftmb"
+msgid "Left MB"
+msgstr ""
+
+#: mcfuncproc.rsleftwindowskey
+msgctxt "mcfuncproc.rsleftwindowskey"
+msgid "Left Windows key"
+msgstr ""
+
+#: mcfuncproc.rsloadlibraryanotfound
+msgctxt "mcfuncproc.rsloadlibraryanotfound"
+msgid "LoadLibraryA not found"
+msgstr ""
+
+#: mcfuncproc.rsmiddlemb
+msgctxt "mcfuncproc.rsmiddlemb"
+msgid "Middle MB"
+msgstr ""
+
+#: mcfuncproc.rsnokernel32dllloaded
+msgctxt "mcfuncproc.rsnokernel32dllloaded"
+msgid "No kernel32.dll loaded"
+msgstr ""
+
+#: mcfuncproc.rsnotconvertable
+msgctxt "mcfuncproc.rsnotconvertable"
+msgid "Not convertable"
+msgstr ""
+
+#: mcfuncproc.rsnotsupportedinthisversion
+msgctxt "mcfuncproc.rsnotsupportedinthisversion"
+msgid "not supported in this version"
+msgstr ""
+
+#: mcfuncproc.rsnumeric
+msgctxt "mcfuncproc.rsnumeric"
+msgid "numeric"
+msgstr ""
+
+#: mcfuncproc.rsnumlock
+msgctxt "mcfuncproc.rsnumlock"
+msgid "Num Lock"
+msgstr ""
+
+#: mcfuncproc.rspagedown
+msgctxt "mcfuncproc.rspagedown"
+msgid "Page Down"
+msgstr ""
+
+#: mcfuncproc.rspageup
+msgctxt "mcfuncproc.rspageup"
+msgid "Page Up"
+msgstr ""
+
+#: mcfuncproc.rspause
+msgctxt "mcfuncproc.rspause"
+msgid "Pause"
+msgstr ""
+
+#: mcfuncproc.rsrightarrow
+msgctxt "mcfuncproc.rsrightarrow"
+msgid "Right Arrow"
+msgstr ""
+
+#: mcfuncproc.rsrightmb
+msgctxt "mcfuncproc.rsrightmb"
+msgid "Right MB"
+msgstr ""
+
+#: mcfuncproc.rsrightwindowskey
+msgctxt "mcfuncproc.rsrightwindowskey"
+msgid "Right Windows key"
+msgstr ""
+
+#: mcfuncproc.rsscrolllock
+msgctxt "mcfuncproc.rsscrolllock"
+msgid "Scroll Lock"
+msgstr ""
+
+#: mcfuncproc.rsselect
+msgctxt "mcfuncproc.rsselect"
+msgid "Select"
+msgstr ""
+
+#: mcfuncproc.rsseparator
+msgctxt "mcfuncproc.rsseparator"
+msgid "Separator"
+msgstr ""
+
+#: mcfuncproc.rsshift
+msgctxt "mcfuncproc.rsshift"
+msgid "Shift"
+msgstr ""
+
+#: mcfuncproc.rsspacebar
+msgctxt "mcfuncproc.rsspacebar"
+msgid "Space bar"
+msgstr ""
+
+#: mcfuncproc.rstab
+msgctxt "mcfuncproc.rstab"
+msgid "Tab"
+msgstr ""
+
+#: mcfuncproc.rsuparrow
+msgctxt "mcfuncproc.rsuparrow"
+msgid "Up Arrow"
+msgstr ""
+
+#: mcfuncproc.rs_execute
+msgctxt "mcfuncproc.rs_execute"
+msgid "Execute"
+msgstr ""
+
+#: mcfuncproc.rs_failed_executing_the_function_of_the_dll
+msgctxt "mcfuncproc.rs_failed_executing_the_function_of_the_dll"
+msgid "FAILED *EXECUTING THE FUNCTION OF THE *DLL"
+msgstr ""
+
+#: mcfuncproc.rs_failed_injecting_the_dll
+msgctxt "mcfuncproc.rs_failed_injecting_the_dll"
+msgid "FAILED *INJECTING THE DLL"
+msgstr ""
+
+#: mcfuncproc.rs_failed_to_execute_the_dll_loader
+msgctxt "mcfuncproc.rs_failed_to_execute_the_dll_loader"
+msgid "FAILED TO EXECUTE THE *DLL *LOADER"
+msgstr ""
+
+#: mcfuncproc.rs_failed_to_inject_the_dll_loader
+msgctxt "mcfuncproc.rs_failed_to_inject_the_dll_loader"
+msgid "FAILED TO *INJECT THE *DLL *LOADER"
+msgstr ""
+
+#: mcfuncproc.rs_i_cant_get_the_process_list_you_are_propably_using_windows_nt
+msgctxt "mcfuncproc.rs_i_cant_get_the_process_list_you_are_propably_using_windows_nt"
+msgid "I CAN'T GET THE *PROCESS LIST. YOU ARE PROPABLY USING WINDOWS NT. USE THE WINDOW LIST INSTEAD!"
+msgstr ""
+
+#: mcfuncproc.rs_print
+msgctxt "mcfuncproc.rs_print"
+msgid "Print"
+msgstr ""
+
+#: mcfuncproc.rs_printscreen
+msgctxt "mcfuncproc.rs_printscreen"
+msgid "Print Screen"
+msgstr ""
+
+#: mcfuncproc.rs_the_injection_thread_took_longer_than_10_seconds_to_execute
+msgctxt "mcfuncproc.rs_the_injection_thread_took_longer_than_10_seconds_to_execute"
+msgid "THE *INJECTION THREAD TOOK LONGER THAN 10 SECONDS TO EXECUTE. *INJECTION ROUTINE NOT FREED"
+msgstr ""
+
+#: mcfuncproc.rs_unknown_error_during_injection
+msgctxt "mcfuncproc.rs_unknown_error_during_injection"
+msgid "UNKNOWN ERROR DURING *INJECTION"
 msgstr ""
 
 #: memorybrowserformunit.rs0or1
@@ -10581,7 +10854,7 @@ msgid "Disassemble this memory region"
 msgstr ""
 
 #: tmainform.btnaddaddressmanually.caption
-msgid "Add Address Manually"
+msgid "Add *Address Manually"
 msgstr ""
 
 #: tmainform.btnmemoryview.caption
@@ -10652,7 +10925,7 @@ msgid "Fast Scan"
 msgstr ""
 
 #: tmainform.cbfastscan.hint
-msgid "Speeds up the scan and decreases useless results by skipping unaligned memory, or only scans addresses ending with specific digits"
+msgid "SPEEDS *UP *THE *SCAN AND DECREASES *USELESS *RESULTS *BY SKIPPING UNALIGNED *MEMORY, OR ONLY SCANS *ADDRESSES ENDING *WITH SPECIFIC DIGITS"
 msgstr ""
 
 #: tmainform.cbhexadecimal.caption
@@ -10665,7 +10938,7 @@ msgid "When checked the value you type in is hexadecimal"
 msgstr ""
 
 #: tmainform.cbpausewhilescanning.caption
-msgid "Pause the game while scanning"
+msgid "*PAUSE *THE GAME WHILE *SCANNING"
 msgstr ""
 
 #: tmainform.cbspeedhack.caption
@@ -11304,7 +11577,7 @@ msgid "Alignment"
 msgstr ""
 
 #: tmainform.rbfsmaligned.hint
-msgid "When set and fastscan is enabled will scan the memory address if it is dividable by the given value"
+msgid "WHEN* SET AND *FASTSCAN IS *ENABLED WILL SCAN *THE MEMORY ADDRESS *IF IT IS DIVIDABLE BY THE GIVEN VALUE"
 msgstr ""
 
 #: tmainform.rbfsmlastdigts.caption
@@ -11312,7 +11585,7 @@ msgid "Last Digits"
 msgstr ""
 
 #: tmainform.rbfsmlastdigts.hint
-msgid "When set and fastscan is enabled will only scan and return addresses that end with the given digits"
+msgid "WHEN SET AND *FASTSCAN IS ENABLED *WILL ONLY SCAN *AND RETURN ADDRESSES *THAT END WITH THE GIVEN DIGITS"
 msgstr ""
 
 #: tmainform.removeselectedaddresses1.caption
@@ -11338,7 +11611,7 @@ msgid "Save As..."
 msgstr ""
 
 #: tmainform.sbopenprocess.hint
-msgid "Select a process to open"
+msgid "SELECT A P*ROCESS TO OPEN"
 msgstr ""
 
 #: tmainform.scantext.caption
@@ -11386,7 +11659,7 @@ msgid "Delete all addresses from the list"
 msgstr ""
 
 #: tmainform.speedbutton3.hint
-msgid "Copy all selected items to the address list"
+msgid "Copy all selected items to the *address list"
 msgstr ""
 
 #: tmainform.type1.caption
@@ -11404,7 +11677,7 @@ msgid "Value"
 msgstr ""
 
 #: tmemorybrowser.addthisaddresstothelist1.caption
-msgid "Add this address to the list"
+msgid "Add this *address to the list"
 msgstr ""
 
 #: tmemorybrowser.aflabel.caption

@@ -11,7 +11,7 @@ todo: Try a tree/map thing.
 
 interface
 
-uses windows, LCLIntf, dialogs, SysUtils, classes, ComCtrls, CEFuncProc, NewKernelHandler,
+uses windows, LCLIntf, dialogs, SysUtils, classes, ComCtrls, MCFuncProc, NewKernelHandler,
      symbolhandler, math,bigmemallochandler, maps;
 
 type

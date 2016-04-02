@@ -8,7 +8,7 @@ interface
 
 uses
   LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ExtCtrls, LResources, MemoryRecordUnit, cefuncproc, customtypehandler;
+  StdCtrls, ExtCtrls, LResources, MemoryRecordUnit, MCFuncProc, customtypehandler;
 
 type
   TTypeForm = class(TForm)

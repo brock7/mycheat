@@ -7,7 +7,7 @@ interface
 uses
   windows, LCLIntf, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Buttons, ExtCtrls, StdCtrls, frmFloatingPointPanelUnit, NewKernelHandler,
-  cefuncproc, LResources,Clipbrd, frmStackViewunit;
+  MCFuncProc, LResources,Clipbrd, frmStackViewunit;
 
 type
 

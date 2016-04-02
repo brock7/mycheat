@@ -14,7 +14,7 @@ correct address if it's a pointer, etc...
 interface
 
 uses
-  Classes, SysUtils, controls, stdctrls, comctrls, MemoryRecordUnit, symbolhandler, cefuncproc,newkernelhandler, addresslist;
+  Classes, SysUtils, controls, stdctrls, comctrls, MemoryRecordUnit, symbolhandler, mcfuncproc,newkernelhandler, addresslist;
     {
 
 type TAddresslistHandler=class

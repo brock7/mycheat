@@ -6,7 +6,7 @@ interface
 
 uses
   jwawindows, windows, LCLIntf, Messages, SysUtils, Classes, Graphics, Controls, Forms,
-  Dialogs, ComCtrls, Menus, StdCtrls, LResources,cefuncproc, CEDebugger, debugHelper,
+  Dialogs, ComCtrls, Menus, StdCtrls, LResources,MCFuncProc, CEDebugger, debugHelper,
   newkernelhandler, networkInterface, networkInterfaceApi;
 
 
