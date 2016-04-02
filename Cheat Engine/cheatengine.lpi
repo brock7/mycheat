@@ -24,7 +24,7 @@
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="6"/>
       <MinorVersionNr Value="4"/>
-      <BuildNr Value="4097"/>
+      <BuildNr Value="4100"/>
       <Language Value=""/>
       <CharSet Value=""/>
       <StringTable CompanyName="MyCheat" FileDescription="MyCheat" ProductVersion="6.4"/>
@@ -257,7 +257,8 @@
         <Filename Value="cheatengine.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="8"/>
-        <CursorPos X="10" Y="6"/>
+        <TopLine Value="189"/>
+        <CursorPos X="3" Y="198"/>
         <UsageCount Value="211"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -300,7 +301,7 @@
       </Unit3>
       <Unit4>
         <Filename Value="CEFuncProc.pas"/>
-        <IsVisibleTab Value="True"/>
+        <IsPartOfProject Value="True"/>
         <EditorIndex Value="32"/>
         <TopLine Value="877"/>
         <CursorPos X="38" Y="894"/>
@@ -1654,9 +1655,10 @@
       <Unit142>
         <Filename Value="LuaHandler.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="5"/>
-        <TopLine Value="5368"/>
-        <CursorPos Y="5376"/>
+        <TopLine Value="5858"/>
+        <CursorPos X="52" Y="5866"/>
         <ExtraEditorCount Value="1"/>
         <ExtraEditor1>
           <EditorIndex Value="31"/>
@@ -1886,8 +1888,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="CETranslator"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="69"/>
-        <CursorPos X="102" Y="89"/>
+        <TopLine Value="296"/>
+        <CursorPos X="46" Y="305"/>
         <UsageCount Value="205"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -3342,123 +3344,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1368" Column="66" TopLine="1340"/>
+        <Caret Line="1370" Column="70" TopLine="1342"/>
       </Position1>
       <Position2>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1369" Column="82" TopLine="1341"/>
+        <Caret Line="763" Column="32" TopLine="746"/>
       </Position2>
       <Position3>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1370" Column="70" TopLine="1342"/>
+        <Caret Line="1358" Column="67" TopLine="1342"/>
       </Position3>
       <Position4>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1352" Column="79" TopLine="1337"/>
+        <Caret Line="1368" Column="66" TopLine="1359"/>
       </Position4>
       <Position5>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1370" Column="70" TopLine="1342"/>
+        <Caret Line="48" Column="69" TopLine="45"/>
       </Position5>
       <Position6>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="763" Column="32" TopLine="746"/>
+        <Caret Line="185" Column="17" TopLine="169"/>
       </Position6>
       <Position7>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1358" Column="67" TopLine="1342"/>
+        <Caret Line="667" Column="17" TopLine="651"/>
       </Position7>
       <Position8>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1368" Column="66" TopLine="1359"/>
+        <Caret Line="758" Column="52" TopLine="742"/>
       </Position8>
       <Position9>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="48" Column="69" TopLine="45"/>
+        <Caret Line="760" Column="138" TopLine="744"/>
       </Position9>
       <Position10>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="185" Column="17" TopLine="169"/>
+        <Caret Line="761" Column="17" TopLine="745"/>
       </Position10>
       <Position11>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="667" Column="17" TopLine="651"/>
+        <Caret Line="4" Column="52"/>
       </Position11>
       <Position12>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="758" Column="52" TopLine="742"/>
+        <Caret Line="761" Column="30" TopLine="745"/>
       </Position12>
       <Position13>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="760" Column="138" TopLine="744"/>
+        <Caret Line="1369" Column="82" TopLine="1360"/>
       </Position13>
       <Position14>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="761" Column="17" TopLine="745"/>
+        <Caret Line="762" Column="39" TopLine="753"/>
       </Position14>
       <Position15>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="4" Column="52"/>
+        <Caret Line="758" Column="31" TopLine="753"/>
       </Position15>
       <Position16>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="761" Column="30" TopLine="745"/>
+        <Caret Line="752" Column="5" TopLine="752"/>
       </Position16>
       <Position17>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1369" Column="82" TopLine="1360"/>
+        <Caret Line="759" Column="32" TopLine="752"/>
       </Position17>
       <Position18>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="762" Column="39" TopLine="753"/>
+        <Caret Line="758" Column="9" TopLine="751"/>
       </Position18>
       <Position19>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="758" Column="31" TopLine="753"/>
+        <Caret Line="1319" Column="156" TopLine="1304"/>
       </Position19>
       <Position20>
-        <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="752" Column="5" TopLine="752"/>
+        <Filename Value="cheatengine.lpr"/>
+        <Caret Line="196" Column="31" TopLine="177"/>
       </Position20>
       <Position21>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="759" Column="32" TopLine="752"/>
+        <Caret Line="762" Column="89" TopLine="748"/>
       </Position21>
       <Position22>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="758" Column="9" TopLine="751"/>
+        <Caret Line="892" Column="35" TopLine="877"/>
       </Position22>
       <Position23>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1319" Column="156" TopLine="1304"/>
+        <Caret Line="894" Column="38" TopLine="879"/>
       </Position23>
       <Position24>
-        <Filename Value="cheatengine.lpr"/>
-        <Caret Line="196" Column="31" TopLine="177"/>
+        <Filename Value="CEFuncProc.pas"/>
+        <Caret Line="1605" Column="31" TopLine="1590"/>
       </Position24>
       <Position25>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="762" Column="89" TopLine="748"/>
+        <Caret Line="1607" Column="34" TopLine="1592"/>
       </Position25>
       <Position26>
         <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="892" Column="35" TopLine="877"/>
+        <Caret Line="743" Column="11" TopLine="734"/>
       </Position26>
       <Position27>
-        <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="894" Column="38" TopLine="879"/>
+        <Filename Value="cheatengine.lpr"/>
+        <Caret Line="6" Column="10"/>
       </Position27>
       <Position28>
-        <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1605" Column="31" TopLine="1590"/>
+        <Filename Value="cetranslator.pas"/>
+        <Caret Line="89" Column="102" TopLine="69"/>
       </Position28>
       <Position29>
-        <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="1607" Column="34" TopLine="1592"/>
+        <Filename Value="cheatengine.lpr"/>
+        <Caret Line="198" Column="11" TopLine="36"/>
       </Position29>
       <Position30>
-        <Filename Value="CEFuncProc.pas"/>
-        <Caret Line="743" Column="11" TopLine="734"/>
+        <Filename Value="LuaHandler.pas"/>
+        <Caret Line="5376" TopLine="5368"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
